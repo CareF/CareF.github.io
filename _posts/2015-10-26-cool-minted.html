@@ -1,0 +1,48 @@
+---
+layout: post
+status: publish
+published: true
+title: 酷炫的 minted 宏包
+author:
+  display_name: CareF
+  login: caref
+  email: lm0329@126.com
+  url: ''
+author_login: caref
+author_email: lm0329@126.com
+wordpress_id: 162
+wordpress_url: http://www.lyuming94.com/?p=162
+date: '2015-10-26 21:47:37 -0400'
+date_gmt: '2015-10-26 13:47:37 -0400'
+categories:
+- Computer Tech
+tags: []
+comments: []
+---
+<p>listings 宏包很好用, 不过 minted 宏包更好用. 毕竟调用了 Python 来做 parser 和上色.</p>
+<h2>安装<&#47;h2></p>
+<p>根据宏包的文档, 需要 Python 的 Pygments (win 下)</p>
+<pre><code>pip install Pygments<br />
+<&#47;code><&#47;pre></p>
+<p>进行安装. 然后就能愉快的开始使用了</p>
+<h2>使用<&#47;h2></p>
+<p>直接上我调好的 Sublime Text snippet 吧:</p>
+<pre><code><snippet><br />
+    <content><![CDATA[\begin{listing}[!htp]<br />
+  ${5:\begin{minted\}[linenos, gobble=2, tabsize=4, style=xcode]{${3:C++}\}<br />
+  ${0:&#47;* A Sample for minted.. A new try*&#47;<br />
+    #include <stdio><br />
+    int main(){<br />
+      printf("Hello world!..\n");<br />
+      return 0;<br />
+    \}}<br />
+  \end{minted\}}<br />
+  ${4:% \inputminted[linenos, tabsize=4, style=xcode]{${3:C++}\}{temp.cpp\}}<br />
+  \caption{${1:listing}\label{lst:${2:${1&#47;\\\w+\{(.*?)\}|\\(.)|(\w+)|([^\w\\]+)&#47;(?4:_:\L$1$2$3)&#47;g}}}}<br />
+\end{listing}]]><&#47;content><br />
+    <tabTrigger>lst<&#47;tabTrigger><br />
+    <scope>text.tex.latex<&#47;scope><br />
+    <description>LaTeX minted listing<&#47;description><br />
+<&#47;snippet><br />
+<&#47;code><&#47;pre></p>
+<p>选 style 的时候看了若干, 默认的毕竟实在太鲜艳. emacs 和 vim 也类似.. 随后还是苹果的配色好啊... 不得不佩服苹果的设计水平</p>
