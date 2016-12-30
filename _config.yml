@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
     Physics and life. It's a notebook of what happens in my study and life. 
     我很幸运直到现在我还能随性在这条风景不错的路上慢慢信步
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.caref.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://caref.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:  xfzfflm
 github_username:   CareF
 facebook_username: Caref.lm
