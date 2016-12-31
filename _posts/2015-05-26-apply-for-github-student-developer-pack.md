@@ -44,6 +44,7 @@ comments:
 入口: [https:\\education.github.com\contact](https:\\education.github.com\contact)
 
 我发送的内容 (估计有语法错误我就是懒得查, 你来咬我啊!)
+
 >  I am a undergraduate student in Tsinghua University, Beijing, PRC. I am trying to apply for student developer pack, but found that my school email address cannot be identified as a valid school email address. So I have to upload a photo of my student ID card. Until now the status of my application is still "Pending" (I applied on May 15, 2015). I guess I need to contact you about the application. I appreciate it a lot if you can help to check my application!
 
 当然留了学校邮箱, 然后等着... 记一笔之后以后更新结果
@@ -51,6 +52,7 @@ comments:
 -------
 
 两个多小时之后学校邮箱收到回信, 果然手动效率就是高:
+
 >  Hi CareF,
 >
 >  Thanks for bearing with us while we took care of the backlog of academic discount requests.
@@ -69,9 +71,11 @@ comments:
 2015\5\27凌晨
 
 然后现在遇到另一件蛋疼的事情: DO 不认 Github 的 Promo code, 称
+
 >  Incorrect Promo Code!Sorry, this promo is not available for your account at this time.<br />
 
 简单搜索了一下貌似是因为之前用了别人的推荐链接拿了十刀... 于是再去撕, 到 DO 的 support 开工单
+
 >  Excuse me, I just got my Github student pack which include a $100 promo code for DigitalOcean, but when I try to use it, it says "Incorrect Promo Code!Sorry, this promo is not available for your account at this time." I wonder how can I get the $100? Thanks a lot!
 
 坐等回应...
@@ -79,6 +83,7 @@ comments:
 ------
 
 回应很快
+
 > Hi there,
 > Thank you for contacting us regarding this promo. We would be glad to evaluate the eligibility for the account to use this promo.  
 > In order to have the account reviewed, please send the following from your school-issued email address:  
@@ -101,6 +106,7 @@ comments:
 -------
 
 2015\5\27 一早起来已经拿到这100刀, 效率赞一个!
+
 > You have been granted a credit on DigitalOcean! Booyah!  
 > Your balance has been updated and can be viewed at:  
 > https:\\www.digitalocean.com\billing
