@@ -40,8 +40,9 @@ comments:
   date_gmt: '2015-09-03 17:09:15 -0400'
   content: 不知道。不妨试一试？我觉得在邮件里说明情况应该可以。祝好运
 ---
-半年多前 GitHub 出了一个看上去超级好的[学生优惠包](https:\\github.com\blog\1900-the-best-developer-tools-now-free-for-students), 那时候没抓紧时间赶紧去弄来, 现在申请似乎变麻烦了: 天朝的 edu 邮箱似乎不能自动通过验证, 我十来天前上传学生卡照片提交的申请到现在还没收到反馈 (阿擦我去加拿大的 W-1 签证都下来了...). 看网上说要去撕(bi-), 于是乎:
+半年多前 GitHub 出了一个看上去超级好的[学生优惠包](https:\\github.com\blog\1900-the-best-developer-tools-now-free-for-students), 那时候没抓紧时间赶紧去弄来, 现在申请似乎变麻烦了: 天朝的 edu 邮箱似乎不能自动通过验证, 我十来天前上传学生卡照片提交的申请到现在还没收到反馈 (阿擦我去加拿大的 W-1 签证都下来了...). 看网上说要去撕(bi-), 于是乎:  
 入口: [https:\\education.github.com\contact](https:\\education.github.com\contact)
+
 我发送的内容 (估计有语法错误我就是懒得查, 你来咬我啊!)
 >  I am a undergraduate student in Tsinghua University, Beijing, PRC. I am trying to apply for student developer pack, but found that my school email address cannot be identified as a valid school email address. So I have to upload a photo of my student ID card. Until now the status of my application is still "Pending" (I applied on May 15, 2015). I guess I need to contact you about the application. I appreciate it a lot if you can help to check my application!
 
