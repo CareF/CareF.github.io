@@ -34,11 +34,18 @@ comments:
   date_gmt: '2016-06-12 12:16:03 -0400'
   content: 稍后放 TUNA 录的很羞耻的录像 (羞羞
 ---
-<p>受大鹰邀请, 给<a href="https:&#47;&#47;tuna.moe&#47;">TUNA<&#47;a> tunight 做了一期量子信息的科普...</p>
-<p>我的科普能力果然比较捉鸡...</p>
-<p>这里就把 slides 贴一下吧:</p>
-<p><a href="http:&#47;&#47;caref.xyz&#47;wp-content&#47;uploads&#47;2016&#47;06&#47;QuantumInforForCSer.pdf">下载PDF<&#47;a></p>
-<p>[gallery ids="180,181,182,183,184,185,186,187,188,189,190,191,192,193"]</p>
-<hr &#47;>
-<p>还有一个很羞耻的录像</p>
-<p><iframe width="560" height="315" src="https:&#47;&#47;www.youtube.com&#47;embed&#47;pFxCD1ANbCU" frameborder="0" allowfullscreen><&#47;iframe></p>
+受大鹰邀请, 给[TUNA](https://tuna.moe/) tunight 做了一期量子信息的科普... 
+
+我的科普能力果然比较捉鸡... 
+
+这里就把 slides 贴一下吧: 
+
+[下载PDF](https://github.com/CareF/QuantumInfoForCSer/raw/master/QuantumInforForCSer.pdf)
+
+![Quantum Information for TUNA]({{ site.url }}/figure/2016-06/quantum-information-for-tuna/QIforTUNA.png)
+
+----
+
+还有一个很羞耻的录像
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pFxCD1ANbCU" frameborder="0" allowfullscreen></iframe>

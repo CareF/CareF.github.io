@@ -19,5 +19,6 @@ categories:
 tags: []
 comments: []
 ---
-<p>读别人的代码时候遇到这个关键字... 网上简单查了<a href="http:&#47;&#47;pyzh.readthedocs.org&#47;en&#47;latest&#47;the-python-yield-keyword-explained.html">一下<&#47;a></p>
-<p>先把坑留着之后慢慢填</p>
+读别人的代码时候遇到这个关键字... 网上简单查了[一下](http:\\pyzh.readthedocs.org\en\latest\the-python-yield-keyword-explained.html)
+
+先把坑留着之后慢慢填

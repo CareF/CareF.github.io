@@ -19,8 +19,6 @@ categories:
 tags: []
 comments: []
 ---
-<p>每次登录时看到相关提醒</p>
-<blockquote><p>
-  编辑&#47;etc&#47;motd内容<br />
-  每次用户登录时,&#47;etc&#47;motd文件的内容会显示在用户的终端<br />
-<&#47;blockquote></p>
+每次登录时看到相关提醒
+* 编辑 /etc/motd 内容
+* 每次用户登录时, /etc/motd 文件的内容会显示在用户的终端
