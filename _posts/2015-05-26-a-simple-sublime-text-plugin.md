@@ -35,17 +35,6 @@ comments:
   date: '2015-07-05 03:57:55 -0400'
   date_gmt: '2015-07-04 19:57:55 -0400'
   content: "[&#8230;] CareF发表在《如何写一个简单的 Sublime Text 插件》 [&#8230;]"
-- id: 82
-  author: CareF
-  author_email: lm0329@126.com
-  author_url: ''
-  date: '2015-07-16 05:32:36 -0400'
-  date_gmt: '2015-07-15 21:32:36 -0400'
-  content: "补充一句, ST2 和 ST3 对于 import 的路径有所不同, ST2 在直接按照相对路径 import 就好, ST3 需要加相对路径:
-    \n    if sublime.version() &lt; '3000':\n        # we are on ST2 and Python 2.X\n
-    \       # _ST3 = False\n        from tex_package_recognizer import GetPackagenameInline\n
-    \   else:\n        # _ST3 = True\n        from .tex_package_recognizer import
-    GetPackagenameInline"
 ---
 Sublime Text 做文本编辑器一直用得很爽, 现在要用到的 C/C++ 代码, Python 和 $latex \LaTeX$ 文档都在上面写了. $latex \LaTeX$ 在 Sublime Text 上使用过程中仅剩的一点不爽在于没法简单地打开宏包的文档 (参见 TeXWork 的 帮助-doc 功能). 当然前不久我才知道 shell 命令 "texdoc [packagename]" 可以实现. 但写文档的似乎再开 shell 未免不优雅. 于是决定学一学怎么写插件, 顺便熟练一下 Python.
 
@@ -60,15 +49,15 @@ GitHub地址: [https://github.com/CareF/Show-Texdoc](https://github.com/CareF/Sh
 (以下涉及系统路径均基于 Windows, $latex \LaTeX$ 发行版用的是 TeXLive, 手头没有别的发行版测试)
 
 首先在 %appdata%\Sublime Text 3(2)\Packages 文件夹下新建放置插件的文件夹, 在 Sublime 中 Tools-New Plugin... 创建一个插件根文件保存到该文件夹. 新的文件如
-<!-- <pre><code> -->
+
+    #!/usr/bin/python
     import sublime, sublime_plugin
 
     class ExampleCommand(sublime_plugin.TextCommand):
         def run(self, edit):
             self.view.insert(edit, 0, "Hello, World!")
-<!-- </code></pre> -->
 
-其中 ExampleCommand 会被 Sublime 识别为名为 example 的命令 (如果有多个大写会被自动分词并添加下划线). 这一段代码的执行效果是在文档开头添加 Hello, World. 测试方法是按 C+` 然后输入命令 "view.run_command('example')"
+其中 ExampleCommand 会被 Sublime 识别为名为 example 的命令 (如果有多个大写会被自动分词并添加下划线). 这一段代码的执行效果是在文档开头添加 Hello, World. 测试方法是按 C+\` 然后输入命令 "view.run_command('example')"
 
 更具体的可以查询[手册](http://www.sublimetext.com/docs/3/api_reference.html#sublime_plugin.ApplicationCommand). 
 
@@ -119,3 +108,16 @@ GitHub地址: [https://github.com/CareF/Show-Texdoc](https://github.com/CareF/Sh
 
 回头再添加功能, 预计要包括从自动识别 tex 后缀, 分析文中包含的宏包类型, 选中宏包名用快捷键查询, 如何发布到插件库中等. 代码部分都有实现思路但 API 需要查. 先就这样. 
 
+------
+
+补充一句, ST2 和 ST3 对于 import 的路径有所不同, ST2 在直接按照相对路
+径 import 就好, ST3 需要加相对路径:
+
+    #!/usr/bin/python
+    if sublime.version() < ‘3000’:
+        # we are on ST2 and Python 2.X
+        # _ST3 = False
+        from tex_package_recognizer import GetPackagenameInline
+    else:
+        # _ST3 = True
+        from .tex_package_recognizer import GetPackagenameInline
