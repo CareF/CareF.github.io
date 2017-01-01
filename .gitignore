@@ -2,4 +2,16 @@ _site
 .sass-cache
 .jekyll-metadata
 .swp
+*.gem
+*.sublime-project
+*.sublime-workspace
+.bundle
+.DS_Store
+.jekyll-metadata
+_asset_bundler_cache
+codekit-config.json
+example/_site
+Gemfile.lock
+node_modules
+npm-debug.log*
 runserve
