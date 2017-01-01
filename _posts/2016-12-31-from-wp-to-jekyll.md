@@ -3,6 +3,7 @@ layout: post
 title:  "从 WordPress 搬到 Jekyll 了"
 date:   2016-12-31 15:41:00 -0500
 categories: 记录
+comments: true
 ---
 之前一直觉得 WordPress 太庞大, 自己只用了很小一部分功能. 恰逢
 DigitalOcean 的赠送余额到期, 想着把博客搬迁一下. 然后被人安利了 GitHub
@@ -30,6 +31,9 @@ Page 和 Jekyll, 于是学习一下如何使用 Jekyll 顺便把博客搬迁过�
 用这个工具迁移 WordPress 的一个问题是导入的日志都是 html 格式的, 会出
 现一些奇怪的转义符解释错误.. 手动把 html 转成 markdown, 顺便复习一下
 markdown 的用法..
+
+## 套用模板 ##
+TBD
 
 ## 撰写文章 ##
 基本上就是 markdown, 除了开头要有一个 ["YAML 头信息"](http://jekyllcn.com/docs/posts/). 
