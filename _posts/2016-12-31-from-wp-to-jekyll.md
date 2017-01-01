@@ -32,15 +32,35 @@ Page 和 Jekyll, 于是学习一下如何使用 Jekyll 顺便把博客搬迁过�
 现一些奇怪的转义符解释错误.. 手动把 html 转成 markdown, 顺便复习一下
 markdown 的用法..
 
-## 套用模板 ##
-TBD
-
 ## 撰写文章 ##
 基本上就是 markdown, 除了开头要有一个 ["YAML 头信息"](http://jekyllcn.com/docs/posts/). 
 
 TBD: 从 WordPress 转入的文章, 头信息内容很丰富, 包含了评论信息, 另外作
 者一栏内容更是繁多, 而且默认情况下似乎识别错误. 我猜测是要搭配某些模板
 使用的. 
+
+## 套用模板 ##
+经过一番选择和折腾, 最后选择了 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/Misa)
+作为模板. 这个模板看起来还是很成熟的, 如果不是为了 GitHub Page, 甚至已
+经进入了 Ruby 的官方仓库而不需要 fork. 
+
+一个教训是应该先看好模板再做迁移工作的.. 为了把模板和之前已经做好的部
+分统一, 多非了好多心思. 我现在的使用策略是先把模板添加为远程分支, 然后
+merge 时用 `--allow-unrelated-histories` 强行合并然后再手动调整. 
+
+TBD (还有许多细节来不及调整.. 先睡觉去了)
+
+## 套用模板 ##
+经过一番选择和折腾, 最后选择了 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/Misa)
+作为模板. 这个模板看起来还是很成熟的, 如果不是为了 GitHub Page, 甚至已
+经进入了 Ruby 的官方仓库而不需要 fork. 
+
+一个教训是应该先看好模板再做迁移工作的.. 为了把模板和之前已经做好的部
+分统一, 多非了好多心思. 我现在的使用策略是先把模板添加为远程分支, 然后
+merge 时用 `--allow-unrelated-histories` 强行合并然后再手动调整. 
+
+TBD
+
 
 ## DisQus 评论系统 ##
 TBD
