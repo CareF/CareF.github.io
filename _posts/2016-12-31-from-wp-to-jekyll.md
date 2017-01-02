@@ -74,7 +74,7 @@ Minimal Mistakes 的[手册](https://mmistakes.github.io/minimal-mistakes/docs/q
 来实现 $$\mathrm\LaTeX$$ 支持了.
 
 然而这么做在本地直接就能看到数学符号, 推到 GitHub 上则不行. 
-参考了这篇[博文](http://www.christopherpoole.net/using-mathjax-on-githubpages.html)
+参考了这篇[博文](http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/)
 之后一方面重做了代码分离, 一方面补充了对于数学模式的提示符号, 
 于是解决问题. (P.S. 默认的 markdown 解析没有问题, 不需要改) 
 
