@@ -5,7 +5,7 @@ categories:
 - Computer Tech
 tags: [Sublime Text]
 ---
-Sublime Text 做文本编辑器一直用得很爽, 现在要用到的 C/C++ 代码, Python 和 $$\mathrm{\LaTeX}$$ 文档都在上面写了. $$\mathrm{\LaTeX}$$ 在 Sublime Text 上使用过程中仅剩的一点不爽在于没法简单地打开宏包的文档 (参见 TeXWork 的 帮助-doc 功能). 当然前不久我才知道 shell 命令 "texdoc [packagename]" 可以实现. 但写文档的似乎再开 shell 未免不优雅. 于是决定学一学怎么写插件, 顺便熟练一下 Python.
+Sublime Text 做文本编辑器一直用得很爽, 现在要用到的 C/C++ 代码, Python 和 $$\mathrm{\LaTeX}$$ 文档都在上面写了. $$\mathrm{\LaTeX}$$ 在 Sublime Text 上使用过程中仅剩的一点不爽在于没法简单地打开宏包的文档 (参见 TeXWork 的 帮助-doc 功能). 当然前不久我才知道 shell 命令 "texdoc [packagename]" 可以实现. 但写文档的时候再开 shell 未免不优雅. 于是决定学一学怎么写插件, 顺便熟练一下 Python.
 
 (以上动机都是扯淡)
 
