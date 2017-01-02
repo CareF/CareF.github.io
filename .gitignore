@@ -1,7 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
-.swp
+*.swp
+*.swo
 *.gem
 *.sublime-project
 *.sublime-workspace
