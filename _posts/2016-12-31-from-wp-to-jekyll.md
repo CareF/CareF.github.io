@@ -69,6 +69,14 @@ Minimal Mistakes 的[手册](https://mmistakes.github.io/minimal-mistakes/docs/q
 然而之前从 WordPress 转过来的评论就全部丢了... 丢了就丢了吧.. 
 
 ## 添加 LaTeX 支持 ## 
-TBD
+数学支持只需要把相关 [Js 代码](https://jekyllrb.com/docs/extras/) 
+插入到 `_layout/default` 即可. 而后在日志中就可以用 `$$ blah $$` 
+来实现 $$\mathrm\LaTeX$$ 支持了.
+
+然而这么做在本地直接就能看到数学符号, 推到 GitHub 上则不行. 
+参考了这篇[博文](http://www.christopherpoole.net/using-mathjax-on-githubpages.html)
+之后一方面重做了代码分离, 一方面补充了对于数学模式的提示符号, 
+于是解决问题. (P.S. 默认的 markdown 解析没有问题, 不需要改) 
+
 
 ## 搬迁域名 ##
