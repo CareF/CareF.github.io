@@ -6,9 +6,10 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    {% if page.use_math %}
+      {% include head/mathsupport.html %}
+    {% endif %}
   </head>
-
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
