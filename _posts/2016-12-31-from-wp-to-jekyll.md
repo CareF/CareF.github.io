@@ -82,8 +82,7 @@ Minimal Mistakes 的[手册](https://mmistakes.github.io/minimal-mistakes/docs/q
 
 ## 搬迁域名 ##
 我之前域名一直用的 [DNSPod](https://www.dnspod.cn/) 做的解析, 
-现在只要把解析的记录类型改成 CNAME, 填写定向到
-[caref.github.io](https://caref.github.io) 即可. 
+解析相关要求参见 GitHub Pages 的[帮助文档](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/)
 
 当然, 修改完之后还要去改 DisQus 的记录以及 `_config.yml` 文件.  
 
