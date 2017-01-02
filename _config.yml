@@ -6,21 +6,21 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
+locale                   : "zh-CN"
 title                    : "CareF.Lm's notebook"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "CareF"
 description              : "Physics and life. It's a notebook of what happens in my study and life. "
 url                      : "https://caref.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mmistakes/minimal-mistakes" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "CareF/caref.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/HarmonicOscillator.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+      shortname          : "caref-lms-notebook"# https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -48,6 +48,8 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
+# TBD: 2017.1.1,
+# -https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
@@ -60,7 +62,7 @@ facebook:
   username               : "CareF.lm"
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/LM.png  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -69,6 +71,7 @@ social:
   links: # An array of links to social media profiles
 
 # Analytics
+# TBD: 2017.1.1
 analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
   google:
@@ -78,23 +81,23 @@ analytics:
 # Site Author
 author:
   name             : "CareF"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Killua-avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A wondering physics student."
   location         : "Princeton"
   email            : "CareF.lm@gmail.com"
-  uri              :
+  uri              : # "http://www.caref.xyz"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "CareF.lm"
   foursquare       :
-  github           :
-  google_plus      :
+  github           : "CareF"
+  google_plus      : # "%E5%90%95%E9%93%ADCareF"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "%E9%93%AD-%E5%90%95-582a54b9?trk=hp-identity-name"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -105,6 +108,7 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  # zhihu            : "https://www.zhihu.com/people/CareF" # zhihu TBD: 2017.1.1, https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile for further info
 
 
 # Reading Files
@@ -112,6 +116,8 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - "*.swp"
+  - "*.swo"
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
@@ -137,6 +143,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - template
 keep_files:
   - .git
   - .svn
@@ -169,10 +176,23 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+# Defaults YAML head info
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -231,16 +251,3 @@ compress_html:
     envs: development
 
 
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
