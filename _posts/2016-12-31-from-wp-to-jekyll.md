@@ -70,3 +70,5 @@ Minimal Mistakes 的[手册](https://mmistakes.github.io/minimal-mistakes/docs/q
 
 ## 添加 LaTeX 支持 ## 
 TBD
+
+## 搬迁域名 ##

@@ -5,7 +5,7 @@ categories:
 - Computer Tech
 tags: [Sublime Text]
 ---
-Sublime Text 做文本编辑器一直用得很爽, 现在要用到的 C/C++ 代码, Python 和 $latex \LaTeX$ 文档都在上面写了. $latex \LaTeX$ 在 Sublime Text 上使用过程中仅剩的一点不爽在于没法简单地打开宏包的文档 (参见 TeXWork 的 帮助-doc 功能). 当然前不久我才知道 shell 命令 "texdoc [packagename]" 可以实现. 但写文档的似乎再开 shell 未免不优雅. 于是决定学一学怎么写插件, 顺便熟练一下 Python.
+Sublime Text 做文本编辑器一直用得很爽, 现在要用到的 C/C++ 代码, Python 和 $$\mathrm{\LaTeX}$$ 文档都在上面写了. $$\mathrm{\LaTeX}$$ 在 Sublime Text 上使用过程中仅剩的一点不爽在于没法简单地打开宏包的文档 (参见 TeXWork 的 帮助-doc 功能). 当然前不久我才知道 shell 命令 "texdoc [packagename]" 可以实现. 但写文档的似乎再开 shell 未免不优雅. 于是决定学一学怎么写插件, 顺便熟练一下 Python.
 
 (以上动机都是扯淡)
 
@@ -15,7 +15,7 @@ GitHub地址: [https://github.com/CareF/Show-Texdoc](https://github.com/CareF/Sh
 
 ----
 
-(以下涉及系统路径均基于 Windows, $latex \LaTeX$ 发行版用的是 TeXLive, 手头没有别的发行版测试)
+(以下涉及系统路径均基于 Windows, $$\mathrm{\LaTeX}$$ 发行版用的是 TeXLive, 手头没有别的发行版测试)
 
 首先在 %appdata%\Sublime Text 3(2)\Packages 文件夹下新建放置插件的文件夹, 在 Sublime 中 Tools-New Plugin... 创建一个插件根文件保存到该文件夹. 新的文件如
 

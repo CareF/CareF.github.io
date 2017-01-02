@@ -8,7 +8,7 @@ tags: [data processing, algorithm]
 ---
 最早在邓公的数据结构书上看到, 当时只是觉得很有趣, 没想到竟然会要用上, 于是来记一笔:
 
-先说用途: Heat Bath Algorithmic Cooling 中, 有一个步骤是把 [latex] n [\latex] 个 qubit 扔到热库中变成热平衡. 此时得到的密度矩阵矩阵是对角的, 对角元 [latex] (1+\varepsilon)^i(1-\varepsilon)^{n-i} [\latex] 其中 [latex] i [\latex] 为对应的态中处于基态的 qubit 数目: 恰好为矩阵行数\列数在二进制表示下 0 的数目.
+先说用途: Heat Bath Algorithmic Cooling 中, 有一个步骤是把 $$ n $$ 个 qubit 扔到热库中变成热平衡. 此时得到的密度矩阵矩阵是对角的, 对角元 $$ (1+\varepsilon)^i(1-\varepsilon)^{n-i} $$ 其中 $$ i $$ 为对应的态中处于基态的 qubit 数目: 恰好为矩阵行数\列数在二进制表示下 0 的数目.
 
 算法有个名称叫做 Hamming weight, 以下程序摘抄自 Wiki
 
