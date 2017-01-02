@@ -3,6 +3,7 @@ _site
 .jekyll-metadata
 *.swp
 *.swo
+*.swn
 *.gem
 *.sublime-project
 *.sublime-workspace
