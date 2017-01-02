@@ -76,7 +76,18 @@ Minimal Mistakes 的[手册](https://mmistakes.github.io/minimal-mistakes/docs/q
 然而这么做在本地直接就能看到数学符号, 推到 GitHub 上则不行. 
 参考了这篇[博文](http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/)
 之后一方面重做了代码分离, 一方面补充了对于数学模式的提示符号, 
+并且补充了在 `_config.yml` 中对于 YAML 默认项的数学符号支持, 
 于是解决问题. (P.S. 默认的 markdown 解析没有问题, 不需要改) 
 
 
 ## 搬迁域名 ##
+我之前域名一直用的 [DNSPod](https://www.dnspod.cn/) 做的解析, 
+现在只要把解析的记录类型改成 CNAME, 填写定向到
+[caref.github.io](https://caref.github.io) 即可. 
+
+当然, 修改完之后还要去改 DisQus 的记录以及 `_config.yml` 文件.  
+
+## TBD ## 
+- 修改 CV 并且整合到整个框架中
+- 封面图
+
