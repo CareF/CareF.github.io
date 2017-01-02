@@ -6,6 +6,8 @@ main:
     url: /year-archive/
   - title: "About"
     url: /about/
+  - title: "Categories" 
+    url: /categories/ 
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
