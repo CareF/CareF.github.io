@@ -108,7 +108,7 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-  # zhihu            : "https://www.zhihu.com/people/CareF" # zhihu TBD: 2017.1.1, https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile for further info
+  zhihu            : "CareF" # zhihu TBD: 2017.1.1, https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile for further info
 
 
 # Reading Files
