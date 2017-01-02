@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "从 WordPress 搬到 Jekyll 了"
 date:   2016-12-31 15:41:00 -0500
 categories: 记录
@@ -53,6 +53,12 @@ merge (参考[这里](http://blog.csdn.net/gouboft/article/details/8450696)).
 Minimal Mistakes 的[手册](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 非常的棒, 按照手册一步步来就能调整得不错. 只有 category 和 tag 的功能
 实现没有详细解释. 不过参考一下它的 demo, 也不太难. 
+
+### 添加知乎 ###
+默认的 Minimal Mistakes 的作者社交网络链接不含知乎.. 要[手动添加](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile)
+.. 添加时引入了一个新的问题: 模板中使用的[Font Awesome icon](http://fontawesome.io/icons/)
+中并没有知乎... 于是只好先去阿里家的[iconfont](http://iconfont.cn/plus)
+找到知乎的图标, 然后自己添加 CSS.. 
 
 TBD (还有许多细节来不及调整.. 先睡觉去了)
 

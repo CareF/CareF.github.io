@@ -176,20 +176,6 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-# Defaults YAML head info
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
@@ -250,4 +236,17 @@ compress_html:
   ignore:
     envs: development
 
+# Defaults YAML head info
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
