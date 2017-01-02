@@ -37,9 +37,8 @@ markdown 的用法..
 ## 撰写文章 ##
 基本上就是 markdown, 除了开头要有一个 ["YAML 头信息"](http://jekyllcn.com/docs/posts/). 
 
-TBD: 从 WordPress 转入的文章, 头信息内容很丰富, 包含了评论信息, 另外作
-者一栏内容更是繁多, 而且默认情况下似乎识别错误. 我猜测是要搭配某些模板
-使用的. 
+从 WordPress 转入的文章, 头信息内容很丰富, 包含了评论信息, 另外作
+者一栏内容更是繁多, 后面既然确定了模板, 还要根据模板要求更改. 
 
 ## 套用模板 ##
 经过一番选择和折腾, 最后选择了 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/Misa)
@@ -62,12 +61,12 @@ Minimal Mistakes 的[手册](https://mmistakes.github.io/minimal-mistakes/docs/q
 中并没有知乎... 于是只好先去阿里家的[iconfont](http://iconfont.cn/plus)
 找到知乎的图标, 然后自己添加 CSS.. 
 
-TBD (还有许多细节来不及调整.. 先睡觉去了)
-
-
 ## [DisQus](https://disqus.com/) 评论系统 ##
 加入评论系统比想象的简单多了, 按照 Minimal Mistakes 的 `_config.yml`
 文件的设置, 注册 DisQus, 按照[要求](https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-)
 注册页面并填写 shortname 即可. 
 
 然而之前从 WordPress 转过来的评论就全部丢了... 丢了就丢了吧.. 
+
+## 添加 LaTeX 支持 ## 
+TBD
