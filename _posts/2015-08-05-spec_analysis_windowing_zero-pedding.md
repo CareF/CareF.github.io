@@ -1,23 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: 频谱分析之加窗, 补0
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 130
-wordpress_url: http://www.lyuming94.com/?p=130
 date: '2015-08-05 02:15:48 -0400'
-date_gmt: '2015-08-04 18:15:48 -0400'
 categories:
 - Phys
-tags: []
-comments: []
+tags: [data processing]
 ---
 某实验的实验数据 (复数) 理论来说是三个频率复振动的叠加 (当然更准确的情况还有频率附近的分布, 噪音等. 下面忽略这些). 对数据做 fft 之后也能较好的观察到 3 个峰, 峰的移动和大小随参数的变换和理论定性都符合挺好. 希望能有一个办法从中较准确地定量提取出峰位置和峰值的信息, 然而由于数据长度不足会遇到困难: 数据长度不足所以频谱上的分辨率不够高, 有时候对于获取峰的频率分辨率是够了, 但是当需要知道峰值的时候, 假如峰正好落在频率取样 ([latex] 2\pi n \T [\latex]) 中间的时候误差会非常大 (似乎叫做栅栏效应). 而拟合方法对于周期数据的稳定性堪忧, 也没有找到很好通用的处理复数的方法, 傅里叶级数拟合只能处理倍频并不好用. (这里看的人不多我就吐槽一下吧... 这个数据处理学姐本来写的程序竟然是把实部和虚部交错排列到一个 MATLAB 数组中, 然后用内置的拟合工具暴力拟合... 程序写得简直不忍直视...)
 

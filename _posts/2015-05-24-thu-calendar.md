@@ -1,23 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: 清华2015-2016学年度校历
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 24
-wordpress_url: http://www.lyuming94.com/?p=24
 date: '2015-05-24 20:13:28 -0400'
-date_gmt: '2015-05-24 12:13:28 -0400'
 categories:
-- 记录
-tags: []
-comments: []
+- Diary
+tags: [THU]
 ---
 从 info 上搬运过来, 方便以后查看...
 

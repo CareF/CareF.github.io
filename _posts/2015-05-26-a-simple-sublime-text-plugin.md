@@ -1,40 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: 如何写一个简单的 Sublime Text 插件
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 41
-wordpress_url: http://www.lyuming94.com/?p=41
 date: '2015-05-26 00:44:10 -0400'
-date_gmt: '2015-05-25 16:44:10 -0400'
 categories:
 - Computer Tech
-tags: []
-comments:
-- id: 71
-  author: CareF
-  author_email: lm0329@126.com
-  author_url: ''
-  date: '2015-07-04 23:25:34 -0400'
-  date_gmt: '2015-07-04 15:25:34 -0400'
-  content: |-
-    目前的进度是完成了文档中提到的宏包识别, 获取全部已经安装的宏包信息等.
-
-    现在这个插件的可定制性还很差.. 有空再慢慢添加
-- id: 72
-  author: 给 Sublime 的 Package Control 贡献自己写的插件
-  author_email: ''
-  author_url: http://107.170.205.7/index.php/2015/07/05/upload-my-sublime-package/
-  date: '2015-07-05 03:57:55 -0400'
-  date_gmt: '2015-07-04 19:57:55 -0400'
-  content: "[&#8230;] CareF发表在《如何写一个简单的 Sublime Text 插件》 [&#8230;]"
+tags: [Sublime Text]
 ---
 Sublime Text 做文本编辑器一直用得很爽, 现在要用到的 C/C++ 代码, Python 和 $latex \LaTeX$ 文档都在上面写了. $latex \LaTeX$ 在 Sublime Text 上使用过程中仅剩的一点不爽在于没法简单地打开宏包的文档 (参见 TeXWork 的 帮助-doc 功能). 当然前不久我才知道 shell 命令 "texdoc [packagename]" 可以实现. 但写文档的似乎再开 shell 未免不优雅. 于是决定学一学怎么写插件, 顺便熟练一下 Python.
 
@@ -121,3 +90,9 @@ GitHub地址: [https://github.com/CareF/Show-Texdoc](https://github.com/CareF/Sh
     else:
         # _ST3 = True
         from .tex_package_recognizer import GetPackagenameInline
+
+------
+2015-07-05
+
+[给 Sublime 的 Package Control 贡献自己写的插件]({{ site.url }}/computer%20tech/upload-my-sublime-package/)
+

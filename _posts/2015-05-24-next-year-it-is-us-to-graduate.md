@@ -1,52 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: 想想一年后站在学生节结束的毕联舞台上的就是我们了
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 22
-wordpress_url: http://www.lyuming94.com/?p=22
 date: '2015-05-24 02:47:16 -0400'
-date_gmt: '2015-05-23 18:47:16 -0400'
 categories:
-- 心情
-tags: []
-comments:
-- id: 4
-  author: CareF
-  author_email: lm0329@126.com
-  author_url: ''
-  date: '2015-05-24 02:50:24 -0400'
-  date_gmt: '2015-05-23 18:50:24 -0400'
-  content: 决定退出学生会了就不干了, 其实也并不需要我. 但这次学生节我不知道为什么我决定我还是想做点事情. 看看我能不能去争取一下科协主席? 还是有很多事情能做的,
-    比如接管系里面向新生的 colloquium, 建立稳定的技术组什么的,,,
-- id: 6
-  author: GAO
-  author_email: gaojieru063@126.com
-  author_url: ''
-  date: '2015-05-27 18:00:33 -0400'
-  date_gmt: '2015-05-27 10:00:33 -0400'
-  content: 生活的丰满不妨碍内心的虚空，什么能填补心灵的孤独每个人都不同。也许一辈子都填补不上呢？还是祝福一下吧。
-- id: 7
-  author: CareF
-  author_email: lm0329@126.com
-  author_url: ''
-  date: '2015-05-28 00:53:51 -0400'
-  date_gmt: '2015-05-27 16:53:51 -0400'
-  content: 略有点好奇, 这位是? (邮箱名没见过, 无法想象这儿竟然会有我不认识的人过来看...
-- id: 8
-  author: GAO
-  author_email: gaojieru063@126.com
-  author_url: ''
-  date: '2015-05-30 09:03:11 -0400'
-  date_gmt: '2015-05-30 01:03:11 -0400'
-  content: 我认识你你不认识我而已，没关系。一直都觉得你很棒，加油。
+- Diary
+tags: [物理系]
 ---
 第一次彻底以观众的心态来看学生节. 其实就不参与到筹备来说并没有什么感觉. 最大的感触在于想到明年要毕业的就是我们了. 想想还剩一年, 有很多遗憾来不及去实现, 也没必要去实现了.
 学业学术暂且不提, 之后有没有书读那么沉重的话题也不想多聊, 这次看毕联莫名其妙突然悲从中来, 感觉自己在系里好像参与了很多做了很多事情, 但总有一部分空虚没被填满; 感觉和很多人都有交情但没有铁杆. 本来觉得最大的遗憾是这个, 回到寝室说自己突然想喝酒, 想醉一醉. 毕竟还是室友最亲, 当下说一起出去撸串喝酒.

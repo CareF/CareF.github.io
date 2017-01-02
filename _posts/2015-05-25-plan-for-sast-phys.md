@@ -1,23 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: "科协工作计划"
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 31
-wordpress_url: http://www.lyuming94.com/?p=31
 date: '2015-05-25 12:44:19 -0400'
-date_gmt: '2015-05-25 04:44:19 -0400'
 categories:
-- 未分类
-tags: []
-comments: []
+- Diary 
+tags: [物理系]
 ---
 我果然还是闲不住, 决定去接科协主席的活干 (政治正确的说法叫去竞选? 其实大家都懂的). 以下是计划, 更新ing
 

@@ -1,44 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: 搭建工作完成, 也算是有真正的个人网站了
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 10
-wordpress_url: http://www.lyuming94.com/?p=10
 date: '2015-05-23 00:07:39 -0400'
-date_gmt: '2015-05-22 16:07:39 -0400'
 categories:
 - Computer Tech
-tags: []
-comments:
-- id: 2
-  author: Liang Yan
-  author_email: phycept@gmail.com
-  author_url: ''
-  date: '2015-05-23 01:29:27 -0400'
-  date_gmt: '2015-05-22 17:29:27 -0400'
-  content: 一个月前还在想怎么拿到那笔钱，已经放弃了，成功了教我
-- id: 3
-  author: CareF
-  author_email: lm0329@126.com
-  author_url: ''
-  date: '2015-05-23 10:11:01 -0400'
-  date_gmt: '2015-05-23 02:11:01 -0400'
-  content: 我只是上传了学生卡照片... 据说是能通过的还在等
-- id: 5
-  author: CareF
-  author_email: lm0329@126.com
-  author_url: ''
-  date: '2015-05-26 22:11:44 -0400'
-  date_gmt: '2015-05-26 14:11:44 -0400'
-  content: 已经成功, 见http:&#47;&#47;107.170.205.7&#47;index.php&#47;2015&#47;05&#47;26&#47;apply-for-github-student-developer-pack&#47;
+tags: [VPS, WordPress, Linux]
 ---
 服务器搭建在 DigitalOcean 上. 选择 DO 的主要原因是 GitHub 有 DO 的 100 刀学生优惠.. 虽然现在还没拿到这笔钱: 开始得晚了不能靠学校邮箱完成学生身份认定真是遗憾... 看网上的说法是上传学生证照片验证虽然慢一点但其实还是可以拿到的?
 

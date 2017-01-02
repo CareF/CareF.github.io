@@ -1,23 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: Python 的 map 并行计算
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 170
-wordpress_url: http://www.lyuming94.com/?p=170
 date: '2016-02-26 11:38:10 -0500'
-date_gmt: '2016-02-26 03:38:10 -0500'
 categories:
 - Computer Tech
-tags: []
-comments: []
+tags: [Python, parallel]
 ---
 年前玩数模美赛的时候做的模型挖了一个大坑: 多结点非线性非马尔科夫的传播模型... 到最后一天发现考察参数依赖关系的时候运算能力跟不上了. 想起科协新的服务器有24核, 拿来做并行计算想必是极好的, 学习了一下Python有很好上手的并行化包 (简直庆幸上手时候用的Python...), 在这里做个记录:
 

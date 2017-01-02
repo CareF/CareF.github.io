@@ -1,23 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: 我又一次在尝试装Linux的时候把Windows的启动项搞坏了...
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 106
-wordpress_url: http://www.lyuming94.com/?p=106
 date: '2015-06-21 16:04:28 -0400'
-date_gmt: '2015-06-21 08:04:28 -0400'
 categories:
 - Computer Tech
-tags: []
-comments: []
+tags: [Linux]
 ---
 我彻底放弃试 Arch 了, 这次试的是 Debian.. 然后结果还不如最早之前用 Ubuntu, 至少那时候 Ubuntu 成功建好了自家的启动项, 并且替换 EFI 文件之后还能切回到 Windows...
 

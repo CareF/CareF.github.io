@@ -1,24 +1,10 @@
 ---
-layout: post
-status: publish
-published: true
 title: 数二进制表示中有多少1的算法
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 120
-wordpress_url: http://www.lyuming94.com/?p=120
 date: '2015-07-17 11:39:00 -0400'
-date_gmt: '2015-07-17 03:39:00 -0400'
 categories:
 - Computer Tech
 - Phys
-tags: []
-comments: []
+tags: [data processing, algorithm]
 ---
 最早在邓公的数据结构书上看到, 当时只是觉得很有趣, 没想到竟然会要用上, 于是来记一笔:
 

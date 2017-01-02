@@ -2,7 +2,9 @@
 layout: single
 title:  "从 WordPress 搬到 Jekyll 了"
 date:   2016-12-31 15:41:00 -0500
-categories: 记录
+categories:
+- Computer Tech
+tags: [GitHub, Jekyll]
 comments: true
 ---
 之前一直觉得 WordPress 太庞大, 自己只用了很小一部分功能. 恰逢

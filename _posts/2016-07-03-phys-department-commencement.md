@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: 物理系毕业典礼上的学生代表发言
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 198
-wordpress_url: http://caref.xyz/?p=198
 date: '2016-07-03 19:41:49 -0400'
-date_gmt: '2016-07-03 11:41:49 -0400'
 categories:
-- 记录
-tags: []
-comments: []
+- Diary
+tags: [THU, 物理系]
 ---
 里面说的一些东西, 不敢说都能做到, 自勉为主. 由于半脱稿, 和实际发言在字词上应该是有出入的. 大家看看就好~
 

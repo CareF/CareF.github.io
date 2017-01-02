@@ -1,44 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: 申请 GitHub Student Developer Pack, 已经迟了如何去撕
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 58
-wordpress_url: http://www.lyuming94.com/?p=58
 date: '2015-05-26 16:36:12 -0400'
-date_gmt: '2015-05-26 08:36:12 -0400'
 categories:
-- 记录
-tags: []
-comments:
-- id: 48
-  author: Liang Yan
-  author_email: phycept@gmail.com
-  author_url: ''
-  date: '2015-06-28 19:44:19 -0400'
-  date_gmt: '2015-06-28 11:44:19 -0400'
-  content: 666, 我说怎么过了一个月还在pending
-- id: 83
-  author: Kid
-  author_email: fanksid@163.com
-  author_url: ''
-  date: '2015-09-03 23:43:04 -0400'
-  date_gmt: '2015-09-03 15:43:04 -0400'
-  content: 第一次通过校园邮件申的时候多写了一年，被拒了，现在要去扫描学生证提交材料...如果第一次和第二次申请信息不一样，会不会仍然被拒？
-- id: 84
-  author: CareF
-  author_email: lm0329@126.com
-  author_url: ''
-  date: '2015-09-04 01:09:15 -0400'
-  date_gmt: '2015-09-03 17:09:15 -0400'
-  content: 不知道。不妨试一试？我觉得在邮件里说明情况应该可以。祝好运
+- Diary 
+tags: [GitHub]
 ---
 半年多前 GitHub 出了一个看上去超级好的[学生优惠包](https:\\github.com\blog\1900-the-best-developer-tools-now-free-for-students), 那时候没抓紧时间赶紧去弄来, 现在申请似乎变麻烦了: 天朝的 edu 邮箱似乎不能自动通过验证, 我十来天前上传学生卡照片提交的申请到现在还没收到反馈 (阿擦我去加拿大的 W-1 签证都下来了...). 看网上说要去撕(bi-), 于是乎:  
 入口: [https:\\education.github.com\contact](https:\\education.github.com\contact)

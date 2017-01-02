@@ -1,58 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: 科协主席就职演讲
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 92
-wordpress_url: http://www.lyuming94.com/?p=92
 date: '2015-06-05 01:05:33 -0400'
-date_gmt: '2015-06-04 17:05:33 -0400'
 categories:
-- 记录
-tags: []
-comments:
-- id: 14
-  author: GAO
-  author_email: gaojieru063@126.com
-  author_url: ''
-  date: '2015-06-05 01:22:23 -0400'
-  date_gmt: '2015-06-04 17:22:23 -0400'
-  content: 需要做的不少、、拭目以待
-- id: 15
-  author: CareF
-  author_email: lm0329@126.com
-  author_url: ''
-  date: '2015-06-05 01:33:28 -0400'
-  date_gmt: '2015-06-04 17:33:28 -0400'
-  content: 回复简直快! 我都无法想象竟然有人会在深夜来关注这个博客... 不行你究竟是谁? 在南开认识我的人来关注这儿总让我有种不好的感觉
-- id: 16
-  author: GAO
-  author_email: gaojieru063@126.com
-  author_url: ''
-  date: '2015-06-05 10:11:24 -0400'
-  date_gmt: '2015-06-05 02:11:24 -0400'
-  content: 睡前随手都刷一遍，太关注身份就没办法交流了、并且也没什么身份。。就是看过您比赛，听过您的一些事，以及这个网页写的简洁舒服。
-- id: 19
-  author: StrayWarrior
-  author_email: i@straywarrior.com
-  author_url: ''
-  date: '2015-06-09 14:02:23 -0400'
-  date_gmt: '2015-06-09 06:02:23 -0400'
-  content: 膜一发彪哥...
-- id: 20
-  author: CareF
-  author_email: lm0329@126.com
-  author_url: ''
-  date: '2015-06-09 14:03:36 -0400'
-  date_gmt: '2015-06-09 06:03:36 -0400'
-  content: 天爷见笑了!
+- Diary
+tags: [物理系]
 ---
 各位老师, 各位同学:
 

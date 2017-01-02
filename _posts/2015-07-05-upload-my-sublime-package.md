@@ -1,25 +1,11 @@
 ---
-layout: post
-status: publish
-published: true
 title: 给 Sublime 的 Package Control 贡献自己写的插件
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 113
-wordpress_url: http://www.lyuming94.com/?p=113
 date: '2015-07-05 00:50:45 -0400'
-date_gmt: '2015-07-04 16:50:45 -0400'
 categories:
 - Computer Tech
-tags: []
-comments: []
+tags: [Sublime Text]
 ---
-之前到了[如何写一个简单的 Sublime Text 插件]({{ site.url }}/computer%20tech/2015/07/05/upload-my-sublime-package.html)..
+之前到了[如何写一个简单的 Sublime Text 插件]({{ site.url }}/computer%20tech/a-simple-sublime-text-plugin/)..
 
 现在把功能简单完善了一下之后考虑上传到 Package Control 上. 简单查了一
 下上传的[方法](https:\\packagecontrol.io\docs\submitting_a_package).

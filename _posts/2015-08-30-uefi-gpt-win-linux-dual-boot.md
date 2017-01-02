@@ -1,23 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: UEFI\GPT 结构的 Win+Linux 双系统
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 142
-wordpress_url: http://www.lyuming94.com/?p=142
 date: '2015-08-30 06:42:22 -0400'
-date_gmt: '2015-08-29 22:42:22 -0400'
 categories:
 - Computer Tech
-tags: []
-comments: []
+tags: [Linux]
 ---
 为了能安装这样的双系统之前折腾过 N+1 次, 从 Ubuntu 到 Debian 到 Fedora 通通失败了... 这次在 Arch 上竟然成功... 记录一笔.
 

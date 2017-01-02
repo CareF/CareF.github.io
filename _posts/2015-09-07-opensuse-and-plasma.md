@@ -1,23 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: openSUSE+plasma5记录
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 152
-wordpress_url: http://www.lyuming94.com/?p=152
 date: '2015-09-07 09:36:46 -0400'
-date_gmt: '2015-09-07 01:36:46 -0400'
 categories:
 - Computer Tech
-tags: []
-comments: []
+tags: [Linux]
 ---
 先把 SSD 优化过程记下来:
 

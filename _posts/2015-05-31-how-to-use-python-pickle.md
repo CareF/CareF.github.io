@@ -1,30 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: 使用 pickle 保存 Python 的对象
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 80
-wordpress_url: http://www.lyuming94.com/?p=80
 date: '2015-05-31 16:03:06 -0400'
-date_gmt: '2015-05-31 08:03:06 -0400'
 categories:
 - Computer Tech
-tags: []
-comments:
-- id: 70
-  author: CareF
-  author_email: lm0329@126.com
-  author_url: ''
-  date: '2015-07-04 20:00:11 -0400'
-  date_gmt: '2015-07-04 12:00:11 -0400'
-  content: P.S. file 在 Python3 中被废弃, 今后都用 open. 就喜欢 Python 这种不该有的就扔掉的逻辑!
+tags: [Python]
 ---
 用 pickle 保存 Python 中的类, 尤其是自己写的类. 代码其实很简单: 
 
@@ -41,4 +20,9 @@ comments:
 
 注意的是, 不压缩的时候输入输出不必使用二进制 ('b'), 但压缩时必须用二进制, 否则读取出错.
 
-网上说 cPickle 由于用 C 实现效率更高, 在 Python3 中改为 _pickle, 并且在 pickle 中直接掉用 _pickle (就该这样嘛!)
+网上说 cPickle 由于用 C 实现效率更高, 在 Python3 中改为 \_pickle, 并且在 pickle 中直接掉用 \_pickle (就该这样嘛!)
+
+-----
+2015-07-04
+
+P.S. file 在 Python3 中被废弃, 今后都用 open. 就喜欢 Python 这种不该有的就扔掉的逻辑!

@@ -1,23 +1,9 @@
 ---
-layout: post
-status: publish
-published: true
 title: 酷炫的 minted 宏包
-author:
-  display_name: CareF
-  login: caref
-  email: lm0329@126.com
-  url: ''
-author_login: caref
-author_email: lm0329@126.com
-wordpress_id: 162
-wordpress_url: http://www.lyuming94.com/?p=162
 date: '2015-10-26 21:47:37 -0400'
-date_gmt: '2015-10-26 13:47:37 -0400'
 categories:
 - Computer Tech
-tags: []
-comments: []
+tags: [LaTeX, Python]
 ---
 listings 宏包很好用, 不过 minted 宏包更好用. 毕竟调用了 Python 来做 parser 和上色.
 
