@@ -46,21 +46,20 @@ TBD: 从 WordPress 转入的文章, 头信息内容很丰富, 包含了评论信
 
 一个教训是应该先看好模板再做迁移工作的.. 为了把模板和之前已经做好的部
 分统一, 多非了好多心思. 我现在的使用策略是先把模板添加为远程分支, 然后
-merge 时用 `--allow-unrelated-histories` 强行合并然后再手动调整. 
+merge (参考[这里](http://blog.csdn.net/gouboft/article/details/8450696)). 
+注意现在 git 已经禁用无关项目 merge, 需要用 `--allow-unrelated-histories` 
+选项强行合并然后再手动调整. 
+
+Minimal Mistakes 的[手册](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+非常的棒, 按照手册一步步来就能调整得不错. 只有 category 和 tag 的功能
+实现没有详细解释. 不过参考一下它的 demo, 也不太难. 
 
 TBD (还有许多细节来不及调整.. 先睡觉去了)
 
-## 套用模板 ##
-经过一番选择和折腾, 最后选择了 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/Misa)
-作为模板. 这个模板看起来还是很成熟的, 如果不是为了 GitHub Page, 甚至已
-经进入了 Ruby 的官方仓库而不需要 fork. 
 
-一个教训是应该先看好模板再做迁移工作的.. 为了把模板和之前已经做好的部
-分统一, 多非了好多心思. 我现在的使用策略是先把模板添加为远程分支, 然后
-merge 时用 `--allow-unrelated-histories` 强行合并然后再手动调整. 
+## [DisQus](https://disqus.com/) 评论系统 ##
+加入评论系统比想象的简单多了, 按照 Minimal Mistakes 的 `_config.yml`
+文件的设置, 注册 DisQus, 按照[要求](https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-)
+注册页面并填写 shortname 即可. 
 
-TBD
-
-
-## DisQus 评论系统 ##
-TBD
+然而之前从 WordPress 转过来的评论就全部丢了... 丢了就丢了吧.. 
