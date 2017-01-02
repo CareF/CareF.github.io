@@ -8,6 +8,8 @@ main:
     url: /about/
   - title: "Categories" 
     url: /categories/ 
+  - title: "CV"
+    url: /CV/myCV.html
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
