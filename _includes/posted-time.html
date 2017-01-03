@@ -1,0 +1,11 @@
+{% if post.date %}
+  {% assign time = post.date %}
+{% elsif page.date %}
+  {% assign time = page.date %}
+{% endif %}
+
+{% if site.locale == "zh-CN" %}
+  {{ time | date:"%Y 年 %m 月 %d 日" }}
+{% else %}
+  {{ time | date_to_long_string }}
+{% endif %}
