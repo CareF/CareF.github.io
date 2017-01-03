@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "CareF"
   avatar           : "/assets/images/Killua-avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A wondering physics student."
+  bio              : "A wandering physics student."
   location         : "Princeton"
   email            : "CareF.lm@gmail.com"
   uri              : # "http://www.caref.xyz"
