@@ -17,7 +17,7 @@ Amazon 并不提供 IPv6 地址.. 我现在还得依靠 IPv6 连接回清华啊.
 [tunnelbroker.net](http://tunnelbroker.net/) 提供免费的 IPv6 Tunnel
 Broker. 注册完成之后添加 Tunnel (`Create Regular Tunnel`), 需要输入
 VPS 的 IP 地址, 并且选择合适的隧道位置. 创建完成之后就能看到分配的
-IPv6 地址, 而且是很奢华的 /64 即 $2^64$ 个地址. 此外, 在 `Example
+IPv6 地址, 而且是很奢华的 /64 即 $2^{64}$ 个地址. 此外, 在 `Example
 Configuration` 中 tunnelbroker.net 还很贴心地给了设置方法样例. 
 
 值得一提的是, AWS 的默认安全策略非常保守.. 需要在安全组中允许相应流量
