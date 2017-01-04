@@ -33,6 +33,7 @@ tutorial](http://vim-latex.sourceforge.net/documentation/latex-suite-quickstart/
 有一个问题是如何选择编译器. 看起来 vim-latex 并不支持. 搜索之下找到了这篇
 [文章](http://www.jianshu.com/p/6ecb64bd4436). 
 经过几番努力和尝试, 我还是没能在 Vim 内成功解决以下目标: 
+
 - 调用 latexmk 进行编译
 - 产生 PDF 文件并显示
 - 正向/反向搜索
