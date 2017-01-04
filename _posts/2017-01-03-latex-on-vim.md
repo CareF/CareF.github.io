@@ -11,13 +11,13 @@ comments: true
 然而生活就像是人生就像一盒巧克力, 对吧. 我把我的 Vim 配置放在
 [这里](https://github.com/CareF/vim-config). 
 
-首先[this](http://coolshell.cn/articles/5426.html) 
+首先[这里](http://coolshell.cn/articles/5426.html)习惯一下基本用法, 然后
 感谢大鹰的[博文](https://bigeagle.me/2015/05/vim-config/)给了我一个出发点. 
 在熟悉了 Vim 中控制光标移动的基本操作之后, 跟着大鹰的脚步很快就有应该大体上能
 用的编辑器环境了. 熟悉之后就要着手搭建自己的使用环境, 我这里就从 LaTeX 着手. 
 
-## 教程 ## 
-我这里使用的插件是 `vim-latex/vim-latex`, 它有很详细的[官方手册](http://vim-latex.sourceforge.net/documentation/latex-suite/). 
+## 不要用vim-latex... ## 
+我一开始使用的插件是 `vim-latex/vim-latex`, 它有很详细的[官方手册](http://vim-latex.sourceforge.net/documentation/latex-suite/). 
 
 安装方法非常简单, 跟着大鹰的文章, 装上 vim-plug 之后, 插入
 ```vimrc
@@ -39,7 +39,7 @@ tutorial](http://vim-latex.sourceforge.net/documentation/latex-suite-quickstart/
 - 正向/反向搜索
 
 咨询一些朋友之后意识到... 貌似并没有什么简单的办法... 所以我经过一番挣扎之后
-~~并没有~~ 我决定回头考完试转投 Emacs.. 
+~~并没有~~ 我改用[vimtex](https://github.com/lervag/vimtex).. 
 
-完...
-
+## vimtex ##
+TBD
