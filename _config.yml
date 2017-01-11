@@ -83,7 +83,7 @@ author:
   name             : "CareF"
   avatar           : "/assets/images/Killua-avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A wandering physics student."
-  location         : "Princeton"
+  location         : "Princeton, NJ"
   email            : "CareF.lm@gmail.com"
   uri              : # "http://www.caref.xyz"
   bitbucket        :
@@ -97,7 +97,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "%E9%93%AD-%E5%90%95-582a54b9?trk=hp-identity-name"
+  linkedin         : # "%E9%93%AD-%E5%90%95-582a54b9?trk=hp-identity-name"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
