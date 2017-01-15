@@ -40,7 +40,7 @@ Python:
 
 ```python
 fin = open('a.text', 'r') #事先删掉了空格和换行
-s = f.read()
+s = fin.read()
 n = int(s, 16)
 fout = open('nuchi.mp4', 'wb')
 fout.write(n.to_bytes((len(s)-1)//2, 'big'))
