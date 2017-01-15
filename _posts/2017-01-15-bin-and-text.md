@@ -46,6 +46,6 @@ fout = open('nuchi.mp4', 'wb')
 fout.write(n.to_bytes((len(s)-1)//2, 'big'))
 ```
 
-注意的是, 2 个十六进制数是一个字节 (byte), 上述 s 字符串会有一个 \n 
+注意的是, 2个 16进制数是一个字节 (byte), 上述 s 字符串会有一个 \n 
 
 P.S. 破 Chrome 在我回答知乎的时候卡死了... 不得不上 Firefox. 毕竟火狐能克制蛤蟆
