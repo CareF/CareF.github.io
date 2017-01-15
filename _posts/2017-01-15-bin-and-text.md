@@ -38,7 +38,7 @@ vim -b nuchi.mp4
 反之要把 16进制数的字符串变回二进制文件, 手里没有趁手的工具, 于是随手用的
 Python: 
 
-```Python
+```python
 fin = open('a.text', 'r') #事先删掉了空格和换行
 s = f.read()
 n = int(s, 16)
