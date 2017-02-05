@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 物理系毕业典礼上的学生代表发言
 date: '2016-07-03 19:41:49 -0400'
 categories:
