@@ -20,7 +20,7 @@ ferromagnetic atomic chains on a superconductor”. In: Science
 马拉约那费米子是服从费米统计, 并且反粒子是自身的费米子.
 在凝聚态体系中的数学表达式即为产生算符等于湮灭算符 $\gamma_i = \gamma_i^\dagger $ 
 (凝聚态含义下的反粒子即空穴, 其产生算符即正粒子的湮灭算符), 
-当然它是费米子, 还要加入反对易关系 $ \{\gamma_i, \gamma_j\} = 2\delta_{ij}$. 
+当然它是费米子, 还要加入反对易关系 $ \\{\gamma_i, \gamma_j\\} = 2\delta_{ij}$. 
 这样的费米子表现出一些有趣的性质, 包括
 
 1. 粒子数算符 $\gamma^\dagger\gamma $ 没有意义, 因为是常数; 
@@ -44,16 +44,20 @@ $
 ## Kiteav 模型
 这是一个 (可能是) 最简单的能表现出马拉约那零能模的模型.
 一维超导体的紧束缚模型哈密顿量如: 
+
 $$
 H = -\mu\sum_{i=1}^N c_i^\dagger c_i - \sum_{i=1}^{N-1} (t c_i^\dagger
 c_{i+1} + \Delta c_i c_{i+1} + \mathrm{H.c})
 $$
+
 其中 $\Delta$ 项是相互作用项的平均场近似. 特别的, 对于 $\mu=0$, $t=\Delta$
 的情形, 这个哈密顿量可以简单对角化为
+
 $$
 H = -\mathrm i t \sum_{i=1}^{N-1}\gamma_{i,2}\gamma_{i+1,1} =
 2t\sum_{i=1}^{N-1}\tilde c_i\tilde c_i
 $$
+
 其中狄拉克费米子准粒子的激发 $\tilde c_i=(\gamma_{i+1, 1}+\mathrm i\gamma_{i,
 2})/2$. 
 
