@@ -13,7 +13,7 @@ comments: true
 几天前学院免费放票给大家看电影, 于是不看白不看呗.
 当时也没多想怎么就看了一场美式的主旋律电影了. 
 
-<center>![poster](https://img3.doubanio.com/view/photo/photo/public/p2408791085.jpg)</center>
+![poster](https://img3.doubanio.com/view/photo/photo/public/p2408791085.jpg)
 
 ## 剧情概要
 > 影片讲述1962年，汉森饰演的非裔美国数学家与斯宾瑟和梦奈两位“同事”组成智囊团，为宇航员约翰·格伦成功绕地球轨道飞行做出贡献。 (From [豆瓣](https://movie.douban.com/subject/26615208/)
