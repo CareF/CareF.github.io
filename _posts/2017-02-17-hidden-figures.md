@@ -13,7 +13,7 @@ comments: true
 几天前学院免费放票给大家看电影, 于是不看白不看呗.
 当时也没多想怎么就看了一场美式的主旋律电影了. 
 
-![poster](https://img3.doubanio.com/view/photo/photo/public/p2408791085.jpg)
+![poster]({{  __site__  }}/figure/2017-02/HiddenFiguresPoster.jpg)
 
 这片子据说网上评价甚好, 不论中美.. 但我这是来吐槽的
 
