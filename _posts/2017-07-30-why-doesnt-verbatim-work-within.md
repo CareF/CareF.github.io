@@ -32,15 +32,15 @@ Knuth 说这类东西如何适时使用需要特别小心，因为类别码一�
 或者更有帮助一些的 '\verb illegal in command argument'。
 在 `\begin{verbatim}...\end{verbatim}` 中也有类似的问题：
 
-	\ifthenelse{\boolean{foo}}{%
-	\begin{verbatim}
-	foobar
-	\end{verbatim}
-	}{%
-	\begin{verbatim}
-	barfoo
-	\end{verbatim}
-	}
+    \ifthenelse{\boolean{foo}}{% raw %}{%{% endraw %}
+    \begin{verbatim}
+    foobar
+    \end{verbatim}
+    }{% raw %}{%{% endraw %}
+    \begin{verbatim}
+    barfoo
+    \end{verbatim}
+    }
 
 报错如 'File ended while scanning use of \@xverbatim'，
 因为 `\begin{verbatim}` 找不到匹配的 `\end{verbatim}`。
@@ -109,5 +109,7 @@ Knuth 说这类东西如何适时使用需要特别小心，因为类别码一�
 
 - 还可以考虑把 verbatim 的内容放在外部文件中。。
 
+-------
+P.S. Jekyll 在输出上面代码段中的 `{% raw %}{%{% endraw %}` 时报错。。因为错把它当成 Jekyll 的转义字符了。。解决方法是用 `{% raw %}{%{% endraw %} raw {% raw %}%}{% endraw %}{% raw %}{%{%{% endraw %} endraw {% raw %}%}{% endraw %}` 来对它做转义。。 太愚蠢了。。
 
 
