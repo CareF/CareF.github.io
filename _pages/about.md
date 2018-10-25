@@ -5,8 +5,6 @@ excerpt: "Physics and life."
 modified: 2017-01-01T02:57:03-05:00
 ---
 
-{% include base_path %}
-
 从五道口到王子屯, 我是一个大概以为知道自己在干什么的博士生: 
 专业量子, 爱好信息, 于是做点量子信息... 
 

@@ -15,7 +15,6 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-<<<<<<< HEAD
 locale                   : "zh-CN"
 title                    : "CareF.Lm's notebook"
 title_separator          : "|"
@@ -25,25 +24,10 @@ url                      : "http://www.caref.xyz" # the base hostname & protocol
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "CareF/caref.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/HarmonicOscillator.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-=======
-locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
->>>>>>> theme
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 100
 comments:
-<<<<<<< HEAD
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-=======
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
->>>>>>> theme
   disqus:
       shortname          : "caref-lms-notebook"# https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -120,58 +104,30 @@ analytics:
 
 # Site Author
 author:
-<<<<<<< HEAD
   name             : "CareF"
   avatar           : "/assets/images/Killua-avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A wandering physics student."
   location         : "Princeton, NJ"
-  email            : "CareF.lm@gmail.com"
-  uri              : # "http://www.caref.xyz"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         : "CareF.lm"
-  foursquare       :
-  github           : "CareF"
-  google_plus      : # "%E5%90%95%E9%93%ADCareF"
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : # "%E9%93%AD-%E5%90%95-582a54b9?trk=hp-identity-name"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          : "xfzfflm"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-  zhihu            : "CareF" # zhihu TBD: 2017.1.1, https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile for further info
-=======
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:CareF.lm@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/xfzfflm"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/CareF.lm"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/CareF"
+    - label: "zhihu"
+      # icon: "fab fa-fw fa-zhihu"
+      icon: "fa fa-fw icon-matuwang-zhihufangxingdianji"
+      url: "https://www.zhihu.com/people/CareF"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -197,7 +153,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
->>>>>>> theme
 
 
 # Reading Files
