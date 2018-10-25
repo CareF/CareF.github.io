@@ -94,7 +94,7 @@ C 天生不是面向对象的语言. 虽然可以在 C 上进行面向对象思�
 	        self.kwargs = kwargs 
 	        self.c = cband_new(*args, **kwargs)
 	    def __del__(self): 
-	        cZBband_free(self.c)
+	        cband_free(self.c)
 
 然后通过 `Band.c` 调用 `cBand`. 实际操作中还可以通过修改上述代码来实现 C 中的
 "重载" 的 Python 接口. 
