@@ -124,7 +124,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/CareF"
-    - label: "zhihu"
+    - label: "Zhihu"
       # icon: "fab fa-fw fa-zhihu"
       icon: "fa fa-fw icon-matuwang-zhihufangxingdianji"
       url: "https://www.zhihu.com/people/CareF"
