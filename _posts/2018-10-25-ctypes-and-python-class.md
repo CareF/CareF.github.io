@@ -34,7 +34,8 @@ ctypes 最简陋的用法是 `clib = ctypes.CDLL('xxxx.so/dll')` 不过出于科
 C 库被调用的时候是不进行类型检查的. 这样进行调用的时候往往很不安全,
 所以还会在 Python 中显式的定义参数和返回值的类型: 
 
-	clib.Numerov.argtypes = [c_double, c_int, c_double, c_double, c_double, _doubleArray, _doubleArray, _doubleArray]
+	clib.Numerov.argtypes = [c_double, c_int, c_double, c_double, c_double,
+	                         _doubleArray, _doubleArray, _doubleArray]
 	clib.Numerov.restype = c_double
 
 比如上面这个例子当中, 我定义了 `Numerov` 函数的类型. 其中 `_doubleArray`
