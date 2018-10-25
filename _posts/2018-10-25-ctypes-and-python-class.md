@@ -40,7 +40,8 @@ C 库被调用的时候是不进行类型检查的. 这样进行调用的时候�
 比如上面这个例子当中, 我定义了 `Numerov` 函数的类型. 其中 `_doubleArray`
 是利用 numpy 的轮子.
 
-	_doubleArray = np.ctypeslib.ndpointer(dtype=np.float64, ndim=1, flags="C_CONTIGUOUS")
+	_doubleArray = np.ctypeslib.ndpointer(dtype=np.float64,
+	                   ndim=1, flags="C_CONTIGUOUS")
 
 这么做的好处是, 调用 `clib.Numerov` 时不再需要对 numpy 数组进行显式的类型转换,
 并且 Python 会对类型进行检查. 其中 flags 参数是个很 tricky 的问题: numpy
@@ -52,16 +53,16 @@ C 库被调用的时候是不进行类型检查的. 这样进行调用的时候�
 代码中对齐的类:
 
 	class cBand(Structure):
-		_fields_ = [("update", c_void_p),
-					("N", c_int),
-					("Eg", POINTER(c_double))]
+	    _fields_ = [("update", c_void_p),
+	                ("N", c_int),
+	                ("Eg", POINTER(c_double))]
 
 对应 C 代码
 
 	struct BAND{
-		numpyint *update (BAND *, double, double *, double *);
-		numpyint N;
-		double *Eg;
+	    numpyint *update (BAND *, double, double *, double *);
+	    numpyint N;
+	    double *Eg;
 	}; 
 
 而后才能才能正确的处理以结构体为参数或者返回值的 C 函数. 
@@ -84,15 +85,15 @@ C 天生不是面向对象的语言. 虽然可以在 C 上进行面向对象思�
 解决方案是这样设计一个类: 
 
 	class Band(object):
-		"""Python interface for a cBand"""
-		def __init__(self, *args, **kwargs):
-			super(Band, self).__init__()
-			# Make refs of parameters of band so it's not garbage collected 
-			self.args = args
-			self.kwargs = kwargs 
-			self.c = cband_new(*args, **kwargs)
-		def __del__(self):
-			cZBband_free(self.c)
+	    """Python interface for a cBand"""
+	    def __init__(self, *args, **kwargs):
+	        super(Band, self).__init__()
+	        # Make refs of parameters of band so it's not garbage collected 
+	        self.args = args
+	        self.kwargs = kwargs 
+	        self.c = cband_new(*args, **kwargs)
+	    def __del__(self): 
+	        cZBband_free(self.c)
 
 然后通过 `Band.c` 调用 `cBand`. 实际操作中还可以通过修改上述代码来实现 C 中的
 "重载" 的 Python 接口. 
