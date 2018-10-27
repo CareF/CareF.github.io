@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "CareF"
   avatar           : "/assets/images/Killua-avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A wandering physics student."
+  bio              : "A PhD student, a curious learner, a let-it-be geek"
   location         : "Princeton, NJ"
   links:
     - label: "Email"
@@ -114,10 +114,10 @@ author:
       url: mailto:CareF.lm@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "http://www.caref.xyz"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/xfzfflm"
+      # url: "https://twitter.com/xfzfflm"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/CareF.lm"
