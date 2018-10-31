@@ -9,7 +9,7 @@ main:
   - title: "Categories" 
     url: /categories/ 
   - title: "CV"
-    url: /CV/myCV.html
+    url: /CV/cv.pdf
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

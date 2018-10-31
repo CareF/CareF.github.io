@@ -1,0 +1,3 @@
+[submodule "CV"]
+	path = CV
+	url = git@github.com:CareF/CV.git
