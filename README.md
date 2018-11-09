@@ -1,6 +1,6 @@
 # Blog for CareF: Physics and my life
 
-Blog: http://www.caref.xyz/
+Blog: http://blog.caref.xyz/
 
 # License 
 
