@@ -32,10 +32,10 @@ deb http://ftp.debian.org/debian stretch-backports main
 在 Nginx 相关配置文件中添加一下内容: 
 
 ```
-listen 443 ssl default_server;
-listen [::]:443 ssl default_server;
+listen 443 ssl;
+listen [::]:443 ssl;
 ssl_certificate /etc/letsencrypt/live/[domain]/fullchain.pem;
 ssl_certificate_key /etc/letsencrypt/live/[domain]/privkey.pem;
 ```
 
-而后 `sudo nginx -s reload` 就可以用 http 了. 
+而后 `sudo nginx -s reload` 就可以用 HTTPS 了. 
