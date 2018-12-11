@@ -165,6 +165,7 @@ exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - tags
+  - .travis.yml
   - vendor
   - .asset-cache
   - .bundle
@@ -184,7 +185,7 @@ exclude:
   - node_modules
   - package.json
   - Rakefile
-  - README
+  - README.md
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
