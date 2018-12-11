@@ -164,6 +164,7 @@ exclude:
   - "*.swo"
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - tags
   - vendor
   - .asset-cache
   - .bundle
