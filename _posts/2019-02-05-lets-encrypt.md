@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "笔记: 通过 Let's Encrypt 添加个人服务器的 HTTPS 支持"
-date:   2018-11-27
+title:  "笔记: 通过 Let's Encrypt 添加个人服务器的 HTTPS 支持[更新]Unicode bug"
+date:   2019-02-05
 categories:
 - Computer Tech
 tags: [web]
@@ -39,3 +39,10 @@ ssl_certificate_key /etc/letsencrypt/live/[domain]/privkey.pem;
 ```
 
 而后 `sudo nginx -s reload` 就可以用 HTTPS 了. 
+
+
+### 2019-02-05 更新: 注释中有非 ACSII 字符的 bug ###
+
+如果 nginx 的设置文件中有非 ACSII 字符, 即便字符在注释中, 仍然会导致 `certbot` 崩溃. 
+以及有 [issue](https://github.com/certbot/certbot/issues/5592) 提及这件事, 
+但尚未来得及修复 (有些年头了这个bug...). 目前的 work-around 是避免使用 Unicode 字符. 
