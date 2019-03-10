@@ -106,3 +106,5 @@ location @test {
 
 功能上检验了 GitHub 提供的 HMAC ([密钥散列消息认证码](https://en.wikipedia.org/wiki/HMAC)) 签名验证, 
 验证通过后, 对于新增的 tag, 调用外部 bash 脚本更新 AUR 上的信息. 
+目前我发布在 AUR 上的 指示 Arch 更新信息的 deepin-dock [插件](https://aur.archlinux.org/packages/deepin-dock-plugin-arch-update/)
+已经使用这套方法自动更新了. 
