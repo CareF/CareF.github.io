@@ -42,7 +42,7 @@ $P(\alpha')$ 表示 $\alpha' \le \alpha < \alpha' + \delta$ 的范围内,
 在 $O(\delta^2)$ 的余项下有近似
 
 $$
-\sum_\alpha P(\alpha) = \frac 1\delta \int_0^1\mathrm d \alpha
+\sum_\alpha P(\alpha) f(\alpha) = \frac 1\delta \int_0^1\mathrm d \alpha f(\alpha)
 $$
 
 于是统计容斥原理的结果是 (为方便计算概率, 定义容斥原理中涉及的角度为 
