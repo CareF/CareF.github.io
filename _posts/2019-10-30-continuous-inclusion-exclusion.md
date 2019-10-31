@@ -36,7 +36,10 @@ $\alpha \le \theta \le \alpha + \pi$ 上计算概率, 然后用容斥原理计�
 以下计算为了方便, 把 $0\sim 2\pi$ 角度映射到 $0\sim 1$, 
 并且所有角度位置相关的量都是模 $1$ 的. 
 
-为了把问题变回 (准) 离散问题, 假定把圆周分成 $\delta \to 0$ 的小扇, 于是有
+为了把问题变回 (准) 离散问题, 假定把圆周分成 $\delta \to 0$ 的小扇,
+$P(\alpha')$ 表示 $\alpha' \le \alpha < \alpha+\delta$ 的范围内, 
+一共有 $1/\delta$ 个扇形. 当 $\delta \ll 1$ 时, 
+在 $O(\delta^2)$ 的余项下有近似
 
 $$
 \sum_\alpha P(\alpha) = \frac 1\delta \int_0^1\mathrm d \alpha
@@ -65,3 +68,8 @@ P(A) &= \frac 1\delta \int_0^1\mathrm d \alpha \frac 1{2^N}
 $$
 
 注意到 $\delta\to 0^+$ 时后两项都是 $0$, 于是得到和前面一样的结果 $P(A) = N/2^{N-1}$. 
+
+这个过程中出现了 $1/\delta \to \infty$ 的无穷大, 但最终会被消除. 
+其原因应该是连续变量实际上会在算 "交集" 的时候把提高一个量纲维度, 
+而这个维度本身意义是不明确的, 需要用 $1/\delta$ 来消除. 
+这个思维似乎和重整化有异曲同工. 
