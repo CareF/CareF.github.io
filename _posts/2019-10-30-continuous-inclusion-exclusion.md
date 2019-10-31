@@ -42,25 +42,25 @@ $P(\alpha')$ 表示 $\alpha' \le \alpha < \alpha' + \delta$ 的范围内,
 在 $O(\delta^2)$ 的余项下有近似
 
 $$
-\sum_\alpha P(\alpha) f(\alpha) = 
-\frac 1\delta \int_0^1\mathrm d \alpha\, f(\alpha)
+\sum_\alpha = 
+\frac 1\delta \int_0^1\mathrm d \alpha
 $$
 
-记 $A_\alpha = \\{\theta_i|\alpha\le\theta_i\le\alpha+\pi$. 
+记 $A_\alpha = \\{\theta_i|\alpha\le\theta_i\le\alpha+\pi\\}$. 
 于是统计容斥原理的结果是 (为方便计算概率, 定义容斥原理中涉及的角度为 
-$\alpha, \alpha_1 = \alpha+\tau_1, \alpha_2 = \alpha+\tau_1+\tau_2, 
-\cdots$): 
+$\alpha, \alpha_1, \alpha_2, \cdots$, 定义
+$\tau_i$ 表示 $\alpha,\alpha_1, \cdots, \alpha_i$ 的交集角度): 
 
 $$
 \begin{align*}
-P(A) &= \sum_\alpha P(\alpha)P(A_\alpha) - \sum_{\alpha, \alpha_1} 
-P(\alpha)P(\alpha_1)P(A_{\alpha}\land A_{\alpha_1}) +  \\
-&\qquad \sum_{\alpha, \alpha_1, \alpha_2} P(\alpha)P(\alpha_1)P(\alpha_2)
+P(A) &= \sum_\alpha P(A_\alpha) - \sum_{\alpha, \alpha_1} 
+P(A_{\alpha}\land A_{\alpha_1}) +  \\
+&\qquad \sum_{\alpha, \alpha_1, \alpha_2}
 P(A_{\alpha}\land A_{\alpha_1} \land A_{\alpha_2}) - \cdots \\
 &= \frac 1\delta \int_0^1\mathrm d \alpha \frac 1{2^N}
 - \frac 1{\delta^2}
-\int_0^1\mathrm d\alpha\int_0^{1/2}\mathrm d\tau_1 \,\tau_1^N \\
-&\qquad + \frac 1{\delta^3}
+\int_0^1\mathrm d\alpha\int_0^{1/2}\mathrm d\tau_1 \,\tau_1^N + \\
+&\qquad \frac 1{\delta^3}
 \int_0^1\mathrm d\alpha\int_0^{1/2}\mathrm d\tau_1 
 \int_0^{\tau_1}\mathrm d \tau_2 \,\tau_2^N - \cdots \\
 &= \sum_{n=0}^\infty 
