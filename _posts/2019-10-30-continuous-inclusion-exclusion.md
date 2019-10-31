@@ -21,7 +21,7 @@ P(A_n) = \prod_{i\neq n}P(\theta_n < \theta_i <\theta_n+\pi)
 = \frac{1}{2^{N-1}}
 $$
 
-而 $A_n$ 是互斥事件并且覆盖全概率空间 $\lor_n A_n = \Omega$, 所以
+而 $A_n$ 是互斥事件并且覆盖全部$A$: $\lor_n A_n = A$, 所以
 
 $$
 P(A) = \sum_n P(A_n) = \frac{N}{2^{N-1}}
