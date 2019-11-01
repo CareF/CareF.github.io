@@ -21,7 +21,7 @@ P(A_n) = \prod_{i\neq n}P(\theta_n < \theta_i <\theta_n+\pi)
 = \frac{1}{2^{N-1}}
 $$
 
-而 $A_n$ 是互斥事件并且覆盖全部$A$: $\lor_n A_n = A$, 所以
+而 $A_n$ 是互斥事件并且覆盖全部$A$: $\bigcup_n A_n = A$, 所以
 
 $$
 P(A) = \sum_n P(A_n) = \frac{N}{2^{N-1}}
@@ -55,9 +55,9 @@ $\tau_i$ 表示 $\alpha,\alpha_1, \cdots, \alpha_i$ 的交集角度):
 $$
 \begin{align*}
 P(A) &= \sum_\alpha P(A_\alpha) - \sum_{\alpha, \alpha_1} 
-P(A_{\alpha}\land A_{\alpha_1}) +  \\
+P(A_{\alpha}\cap A_{\alpha_1}) +  \\
 &\qquad \sum_{\alpha, \alpha_1, \alpha_2}
-P(A_{\alpha}\land A_{\alpha_1} \land A_{\alpha_2}) - \cdots \\
+P(A_{\alpha}\cap A_{\alpha_1} \cap A_{\alpha_2}) - \cdots \\
 &= \frac 1\delta \int_0^1\mathrm d \alpha \frac 1{2^N}
 - \frac 1{\delta^2}
 \int_0^1\mathrm d\alpha\int_0^{1/2}\mathrm d\tau_1 \,\tau_1^N + \\
@@ -81,3 +81,20 @@ $$
 其原因应该是连续变量实际上会在算 "交集" 的时候提高一个维度, 
 而这个维度本身意义是不明确的, 需要用 $1/\delta$ 来消除. 
 这个思维似乎和重整化有异曲同工. 
+
+=============
+2019-11-01 更新
+
+对于一般的, 
+
+$$
+P\left(\bigcap_i A_{\alpha_i}\right) = f(\alpha_i) \Rightarrow
+P(\exists \alpha, A_{\alpha}) = ?
+$$
+
+并不总是能找到解法. 一个例子是 $x$ 是 $[0,1]$ 上的均匀分布,
+$A_\alpha = \\{x = \alpha\\}$, 
+$P(A_\alpha) = 0$, 但 $P(\exists \alpha,  A_\alpha) \neq 0$. 
+上面的方法可行要求 $A_\alpha$ 的性质足够好. 
+
+感谢 C. Mao 的讨论! 
