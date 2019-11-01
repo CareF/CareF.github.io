@@ -37,9 +37,10 @@ $\alpha \le \theta \le \alpha + \pi$ 上计算概率, 然后用容斥原理计�
 并且所有角度位置相关的量都是模 $1$ 的. 
 
 为了把问题变回 (准) 离散问题, 假定把圆周分成 $\delta \to 0$ 的小扇,
-$P(\alpha')$ 表示 $\alpha' \le \alpha < \alpha' + \delta$ 的范围内, 
-一共有 $1/\delta$ 个扇形. 当 $\delta \ll 1$ 时, 
-在 $O(\delta^2)$ 的余项下有近似
+一共有 $1/\delta$ 个扇形. 
+以下所有 $\alpha$ 都表示 $\alpha' \le \alpha < \alpha' + \delta$ 
+范围内在 $\delta\to 0$ 条件下的情况. 
+当 $\delta \ll 1$ 时, 在 $O(\delta^2)$ 的余项下有近似
 
 $$
 \sum_\alpha = 
