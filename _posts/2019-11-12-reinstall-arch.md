@@ -9,8 +9,9 @@ tags:
 comments: true
 ---
 
-从双系统到完全在 Linux 下工作快三年了, 眼看着各种小毛病渐渐解决. 
-之前以为这个系统会是临时用用的, 现在看起啦会用的越来越长久. 
+从双系统到完全在 Linux 下工作快三年了, 眼看着各种小毛病渐渐被更新解决. 
+之前以为这个系统只会是临时使用而已, 现在看起来已经成为我的主要工作平台, 
+会用得越来越长久. 
 刚开始的时候做的分区太局促, 于是为了调整分区, 顺便重做了一下系统. 
 写个记录留作未来的参考. 
 
@@ -19,20 +20,23 @@ comments: true
 这台小黑随我三年了: `20FBCTO1WW ThinkPad X1 Carbon 4th`. 
 买的时候以为可以自己加内存而选了默认 8G, 有点后悔. 另外为了性能选配的 NVMe SSD 
 的散热似乎略超出了设计散热能力, 硬盘 IO 强度大的时候风扇就呼呼呼. 
-在 Win10 下, 因为后台更新会是个很大的问题, 每次开机都要响几分钟才能消停. 
+在 Win10 下, 因为后台更新这会是个很大的问题, 每次开机都要响几分钟才能消停. 
 Linux 下相对可控一点. 
 
 ![重做之后的分区]({{ site.url }}/figure/2019-11/arch/filesys.png) 
 
-有使用经验之后重做的分区应该就不那么局促了. 占空间的电影之类移动到了 SD 卡上. 
+有使用经验之后重做的分区应该就不那么局促了. 
+root 最主要的空间占用是 TeXLive, MATLAB 和 Mathematica. 
+占空间的电影之类移动到了 SD 卡上. 
 root 本来想做 128G 的, 调整了几次都没成功, `parted`逼死强迫症... 
 还是 Windows 的分区工具指哪儿打哪儿利索. 
 
 说到 SD 卡, 之前 Kernel 有个老 Bug, 容量大于一定值的卡就无法加载, 
 `dmesg` 会显示 `mmc0: error -110 whilst initialising SD card`. 
-这个问题值到前不久 Linux 5.2.14 才解决. 
+这个问题直到前不久 Linux 5.2.14 才解决. 
 
-同样被近期 Kernel 解决的问题还有之前一直以来会在启动时的警告 (在 `linux-lts` 中任存在): 
+同样被近期 Kernel 解决的问题还有之前一直以来会在启动时的警告 
+(在 Arch 的 `linux-lts` (4.19) 中仍存在): 
 ```
 Warning: Possibly missing firmware wd719x
 Warning: Possibly missing firmware aic94xx
@@ -46,7 +50,8 @@ Warning: Possibly missing firmware aic94xx
 
 ### 安装 ###
 
-按照[Arch Wiki Installation Guide](https://wiki.archlinux.org/index.php/Installation_guide_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))按部就班安装即可. 
+按照 [Arch Wiki Installation Guide](https://wiki.archlinux.org/index.php/Installation_guide_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) 
+按部就班安装即可. 
 基本上不会遇到什么坑. 我在家搭的 NUC 小服务器上试了 `system-boot` 作为 bootloader, 
 但笔记本上双系统还是用 GRUB 功能丰富一些. 
 
@@ -124,11 +129,11 @@ vm.vfs_cache_pressure=50
 一直以来我都觉得 Linux 的许多理念之争导致了它没有好用的桌面系统. 
 
 Arch 最吸引我的地方, 倒不只是许多人喜欢的 KISS 原则, 而是在 KISS 原则上的实用主义. 
-体现在桌面系统上, 各类主流的 WM/DE 大多不让人满意, 
+相比之下大多数桌面系统都理念先于实用, 从而导致各类主流的 WM/DE 大多不让人满意, 
 
 - Xfce 甚至更激进的自称极简的系统
 ([我的一次尝试]({{ site.url }}/computer%20tech/to-xfce4/)) 
-原教旨地追求 stupid simple 的结果是丢失了易用和精致
+原教旨地追求 stupid simple 的结果是丢失了易用和精致.
 为了美观我可以花一点业余时间去调整, 但连基本的系统提示音都那么简陋甚至没有设置项就有点难看了. 
 
 - KDE, 与之形成鲜明对比的, 完全不知道 simple 是什么意思, 
@@ -172,12 +177,12 @@ webkit_theme        = material2
 ### AUR ###
 
 `yaourt` 已死, 我现在用 [`yay`](https://github.com/Jguer/yay). 
-默认的设置项里 `buildDir` 尽然不是 `/tmp` 就很不合理. 在 `~/.config/yay` 里修改. 
+默认的设置项里 `buildDir` 竟然不是 `/tmp` 就很不合理. 在 `~/.config/yay` 里修改. 
 
 ### pacman Hook ###
 
 自己折腾的时候总有些 hack, 搭配 hack 时要做一些安装的时候的自动处理. 
-`pacma` 的 hook 位于 `/etc/pacman.d/hooks/`. 下面这个例子是自动删除缓存的. 
+`pacman` 的 hook 位于 `/etc/pacman.d/hooks/`. 下面这个例子是自动删除缓存的. 
 ```
 [Trigger]
 Operation = Upgrade
@@ -190,15 +195,17 @@ When = PostTransaction
 Exec = /usr/bin/paccache -rv
 ```
 
-![neofetch 比 screenfetch 好用]({{ site.url }}/figure/2019-11/arch/neofetch.png) 
-
 除此之外, 我在 `.bashrc` 里调用 [`neofetch`](https://github.com/dylanaraps/neofetch) 生成欢迎页, 但希望在 deepin-terminal 的雷神模式下避免
+
 ```
 # bashrc
 if [[ $(tty) == /dev/pts*  && $(whoami) == lm  && -z "$QUAKE" ]]; then
     neofetch
 fi
 ```
+
+![neofetch 比 screenfetch 好用]({{ site.url }}/figure/2019-11/arch/neofetch.png) 
+
 需要 hack 一下以使 bash 知道 ([讨论见这里](https://github.com/linuxdeepin/developer-center/issues/929)). 于是引入这样的 hook: 
 ```
 [Trigger]
