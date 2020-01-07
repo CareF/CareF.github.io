@@ -9,6 +9,7 @@ _site
 *.sublime-workspace
 .bundle
 .DS_Store
+.jekyll-cache
 .jekyll-metadata
 _asset_bundler_cache
 codekit-config.json
@@ -17,3 +18,4 @@ Gemfile.lock
 node_modules
 npm-debug.log*
 runserve
+vendor/bundle
