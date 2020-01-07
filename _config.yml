@@ -18,12 +18,15 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "zh-CN"
 title                    : "CareF.Lm's notebook"
 title_separator          : "|"
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "CareF"
 description              : "Physics and life. It's a notebook of what happens in my study and life. "
 url                      : "https://blog.caref.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "CareF/caref.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/HarmonicOscillator.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 100
 comments:
@@ -37,6 +40,9 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -245,7 +251,7 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Outputting
 permalink: /:categories/:title/
@@ -260,7 +266,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
   - jekyll-remote-theme
 
@@ -270,7 +275,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
 
@@ -282,8 +286,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -304,7 +308,7 @@ tag_archive:
 
 
 # HTML Compression
-# - http://jch.penibelst.de/
+# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
