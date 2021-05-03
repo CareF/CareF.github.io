@@ -185,13 +185,18 @@ def toTable(filename):
     result = ''
     fig = "{{{{ __site__ }}}}/figure/2021-05/hunter/spell/{0}.png"
     fighosted = "https://www.caref.xyz/figures/hunter_spell/{0}.png"
-    line = """|[![]({4})]({4})  | **NO.{0} {1}** <br> {2} <br> {3} |\n"""
+    # line = """|[![]({5})]({4})  | **NO.{0} {1}** <br> {2} <br> {3} |\n"""
+    line = """    <tr>
+        <td><a href="{4}"><img src="{5}" alt="" /></a></td>
+        <td><strong>NO.{0} {1}</strong> <br /> {2} <br /> {3} </td>
+    </tr>
+"""
     for card in data:
         result += line.format(card['number'], card['name_CN'], card['rank'], 
                               card['effect_CN'],
                               # card['picURL']
-                              # fig.format(card['number'])
-                              fighosted.format(card['number'])
+                              fighosted.format(card['number']),
+                              fig.format(card['number'])
                               )
     return result
 
