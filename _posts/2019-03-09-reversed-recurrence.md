@@ -3,7 +3,6 @@ layout: single
 title:  "数值方法中初值不敏感的逆向递推"
 date:   2019-03-09
 categories:
-- Computer Tech
 - Math
 tags: [math]
 comments: true

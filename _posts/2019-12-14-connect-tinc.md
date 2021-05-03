@@ -1,9 +1,9 @@
 ---
 layout: single
 title:  "使用 iptables mangle 表连接两个 tinc IPv6 私网"
-date:   2019-12-15
+date:   2019-12-14
 categories:
-- Computer Science
+- Computer Tech
 tags: [network]
 comments: true
 ---

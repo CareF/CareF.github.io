@@ -2,8 +2,7 @@
 title: 数二进制表示中有多少1的算法
 date: '2015-07-17 11:39:00 -0400'
 categories:
-- Computer Tech
-- Phys
+- Math
 tags: [data processing, algorithm]
 ---
 最早在邓公的数据结构书上看到, 当时只是觉得很有趣, 没想到竟然会要用上, 于是来记一笔:

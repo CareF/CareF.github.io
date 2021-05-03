@@ -3,7 +3,7 @@ layout: single
 title:  "从 WordPress 搬到 Jekyll 了"
 date:   2016-12-31 15:41:00 -0500
 categories:
-- Computer Tech
+- Diary
 tags: [GitHub, Jekyll]
 comments: true
 ---

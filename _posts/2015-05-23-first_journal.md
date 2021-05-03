@@ -2,7 +2,7 @@
 title: 搭建工作完成, 也算是有真正的个人网站了
 date: '2015-05-23 00:07:39 -0400'
 categories:
-- Computer Tech
+- Diary
 tags: [VPS, WordPress, Linux]
 ---
 服务器搭建在 DigitalOcean 上. 选择 DO 的主要原因是 GitHub 有 DO 的 100 刀学生优惠.. 虽然现在还没拿到这笔钱: 开始得晚了不能靠学校邮箱完成学生身份认定真是遗憾... 看网上的说法是上传学生证照片验证虽然慢一点但其实还是可以拿到的?
