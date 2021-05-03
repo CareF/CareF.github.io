@@ -2,7 +2,6 @@
 title: 给 TUNA 的量子信息科普
 date: '2016-06-12 16:04:38 -0400'
 categories:
-- Computer Tech
 - Phys
 tags: [TUNA, Quantum Information]
 ---

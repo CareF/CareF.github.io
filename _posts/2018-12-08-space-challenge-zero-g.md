@@ -3,7 +3,7 @@ layout: single
 title:  "失重飞机笔记: 挑战吧太空观察记录"
 date:   2018-12-08
 categories:
-- Physics
+- Phys
 tags: [web]
 comments: true
 ---

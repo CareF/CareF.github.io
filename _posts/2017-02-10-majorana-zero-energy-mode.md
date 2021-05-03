@@ -4,7 +4,6 @@ title: "Majorana 零能模"
 date:  2017-02-10 21:38:28
 categories:
   - Phys
-  - Reading Report
 tags:
   - Topological Phase
   - Condensed Matter
