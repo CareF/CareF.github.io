@@ -98,7 +98,7 @@ analytics:
 author:
   name             : "CareF"
   avatar           : "/assets/images/Killua-avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A PhD student, a curious learner, a let-it-be geek"
+  bio              : "Currently a programmer, learnt about quantum, semiconductor and laser, Princeton PhD in Electrical and Computer Engineering"
   location         : "Princeton, NJ"
   links:
     - label: "Email"
