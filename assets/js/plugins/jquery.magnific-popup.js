@@ -353,7 +353,15 @@
       $('html').css(windowStyles);
 
       // add everything to DOM
-      mfp.bgOverlay.add(mfp.wrap).prependTo( mfp.st.prependTo || $(document.body) );
+      var prependToEl = mfp.st.prependTo;
+      if(typeof prependToEl === 'string') {
+        prependToEl = $.find(prependToEl);
+      }
+      prependToEl = $(prependToEl);
+      if(!prependToEl.length) {
+        prependToEl = $(document.body);
+      }
+      mfp.bgOverlay.add(mfp.wrap).prependTo(prependToEl);
 
       // Save last focused element
       mfp._lastFocusedEl = document.activeElement;
