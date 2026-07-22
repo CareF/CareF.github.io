@@ -353,13 +353,17 @@
       $('html').css(windowStyles);
 
       // add everything to DOM
-      var prependToEl = mfp.st.prependTo;
-      if(typeof prependToEl === 'string') {
-        prependToEl = $.find(prependToEl);
-      }
-      prependToEl = $(prependToEl);
-      if(!prependToEl.length) {
-        prependToEl = $(document.body);
+      var prependToEl = document.body;
+      var prependToOption = mfp.st.prependTo;
+      if(typeof prependToOption === 'string') {
+        var prependToMatches = $.find(prependToOption);
+        if(prependToMatches.length) {
+          prependToEl = prependToMatches[0];
+        }
+      } else if(prependToOption && prependToOption.jquery && prependToOption.length) {
+        prependToEl = prependToOption[0];
+      } else if(prependToOption && prependToOption.nodeType) {
+        prependToEl = prependToOption;
       }
       mfp.bgOverlay.add(mfp.wrap).prependTo(prependToEl);
 
