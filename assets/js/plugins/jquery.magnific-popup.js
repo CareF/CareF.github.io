@@ -353,7 +353,19 @@
       $('html').css(windowStyles);
 
       // add everything to DOM
-      mfp.bgOverlay.add(mfp.wrap).prependTo( mfp.st.prependTo || $(document.body) );
+      var prependToEl = document.body;
+      var prependToOption = mfp.st.prependTo;
+      if(typeof prependToOption === 'string') {
+        var prependToMatches = $.find(prependToOption);
+        if(prependToMatches.length) {
+          prependToEl = prependToMatches[0];
+        }
+      } else if(prependToOption && prependToOption.jquery && prependToOption.length) {
+        prependToEl = prependToOption[0];
+      } else if(prependToOption && prependToOption.nodeType) {
+        prependToEl = prependToOption;
+      }
+      mfp.bgOverlay.add(mfp.wrap).prependTo(prependToEl);
 
       // Save last focused element
       mfp._lastFocusedEl = document.activeElement;
