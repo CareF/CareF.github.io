@@ -2,6 +2,8 @@
   Thanks for creating a Pull Request! Before you submit, please make sure
   you've done the following:
 
+  - DO NOT submit your own website content.
+    This repository is for the Minimal Mistakes Jekyll theme only.
   - Read the contributing document at https://github.com/mmistakes/minimal-mistakes#contributing
 -->
 
@@ -22,10 +24,5 @@
 ## Context
 
 <!--
-  Is this related to any GitHub issue(s)?
--->
-
-<!--
-  Please delete this comment if you confirm that you want to submit this Pull Request.
-  CHECK_PR_DID_NOT_CONFIRM
+  Is this related to any GitHub issue?
 -->
