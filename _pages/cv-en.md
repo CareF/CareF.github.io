@@ -9,8 +9,9 @@ author_profile: true
 
 ## Ming Lyu
 
-Electrical engineer and programmer with a background in quantum physics,
-semiconductor devices, lasers, and scientific computing.
+Associate professor and engineer working on semiconductor lasers, with prior
+experience in autonomous-driving algorithms, toolchains, and software
+engineering.
 
 - Email: [me@mail.caref.xyz](mailto:me@mail.caref.xyz)
 - GitHub: [CareF](https://github.com/CareF)
@@ -24,37 +25,56 @@ GaAs quantum cascade devices.
 
 ### Tsinghua University
 
-B.S. in Physics with honors, 2016, with a minor in Computer Science and
-Technology. Selected honors include the Chi-Sun Yeh Award, Beijing Honored
-Graduate, Outstanding Student Leader, and Outstanding Student Scholarships.
+B.S. in Physics, 2016, with a minor in Computer Science and Technology.
+Recipient of the Chi-Sun Yeh Award and recognition as a Beijing Outstanding
+Graduate.
 
 ## Research interests
 
-- Semiconductor and quantum cascade devices
+- Quantum cascade lasers
+- Photonic crystal devices
 - Infrared and laser optics
-- Quantum information
-- Numerical methods and scientific computing
 
 ## Professional experience
 
-### Google - Software Engineer Intern
+### A University
 
-**May-August 2020**
+**Associate Professor · Semiconductor Lasers**
 
-Worked with the Platform and Ecosystem team on host-independent performance
-testing and contributed to the Flutter community.
+September 2024 - Present
 
-### Princeton University - Teaching Assistant
+### NIO
 
-**2017-2020**
+**Autonomous Driving Algorithm Expert · Autonomous Driving Toolchain Team Lead**
 
-Teaching assistant for numerical algorithms, electromagnetic field theory and
-physical optics, electronic and photonic devices, and foundations of
-engineering.
+July 2023 - September 2024
 
-### Institute for Quantum Computing - Research Assistant
+### Qingtian Smart Truck Co. (startup)
 
-**July-September 2015**
+**Founding Team Member · Senior Algorithm Engineer and Architect**
 
-Conducted research at the University of Waterloo's Institute for Quantum
-Computing on electron spin resonance for quantum computing and simulation.
+November 2021 - May 2023
+
+### Pony.ai
+
+**Software and Algorithm Engineer**
+
+May 2021 - November 2021
+
+### Google
+
+**Software Engineer Intern**
+
+May 2020 - August 2020
+
+### Princeton University
+
+**Teaching Assistant**
+
+2017 - 2020
+
+### Institute for Quantum Computing, University of Waterloo
+
+**Research Assistant**
+
+July 2015 - September 2015
