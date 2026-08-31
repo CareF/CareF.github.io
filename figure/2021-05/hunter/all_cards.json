@@ -1,0 +1,2081 @@
+[
+  {
+    "type": "Game Master Card",
+    "number": "-003",
+    "name": "Eliminate",
+    "name_JP": "排除",
+    "rank": "N/A-N/A",
+    "effect": "Allows caster to transport any elements that illegally enter Greed Island to a random location of the Azian Continent.",
+    "effect_JP": "Ｇ・Ｉに不当な方法で侵入した者すべてをアイジエン大陸のどこかへ飛ばす。",
+    "effect_EN": "Send everyone who trespasses on Greed Island through wrongful means somewhere on the Azian Continent.",
+    "obtain": "Only obtainable by a Game Master.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/b/b0/Elliminate_%28G.I_card%29.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "000",
+    "name": "Ruler's Blessing",
+    "name_JP": "支配者の祝福",
+    "rank": "SS-1",
+    "effect": "A castle given as a prize for winning the contest, town with population 10,000 included. Its residents will live according to whatever laws and commands you issue.",
+    "effect_JP": "クイズ優勝のほうびとして城が与えられる。人口１万人の城下町のおまけ付き。この町の人々はあなたの作る法律や指令に従い生活する。",
+    "effect_EN": "Castle is given as a reward for winning quiz. Bonus is a city with 10,000 population. People of this town live in accordance to directives and rules you set.",
+    "obtain": "This card is awarded by <a href=\"/wiki/List\" title=\"List\">List</a> and <a href=\"/wiki/Dwun\" title=\"Dwun\">Dwun</a> to a player who is invited to the game's capital city, <a href=\"/wiki/Limeiro\" title=\"Limeiro\">Limeiro</a>. This is the last card for a player to obtain.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/5/54/Ruler%27s_Blessing_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "001",
+    "name": "Patch of Forest",
+    "name_JP": "一坪の密林",
+    "rank": "SS-3",
+    "effect": "The entrance to the giant forest called the \"Mountain God's Garden\" where many unique endemic species live. They are all tame and friendly.",
+    "effect_JP": "「山神の庭」と呼ばれる巨大な森への入り口。この森にしかいない固有種のみが数多く生息する。どの動物も人によくなつく。",
+    "effect_EN": "An entrance to the huge forest known as the \"Garden of Yamagami\". The forest is inhabited by many species of animal, which can all become emotionally attached to humans.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/e/e5/Patch_of_Forest_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "002",
+    "name": "Plot of Beach",
+    "name_JP": "一坪の海岸線",
+    "rank": "SS-3",
+    "effect": "The entrance to a cave called \"Poseidon's Cavern.\" The cave changes its path at each visit, confusing intruders.",
+    "effect_JP": "「海神の棲み家」と呼ばれる海底洞窟への入り口。この洞窟は入る度に中の姿を変え侵入者を迷わせる。",
+    "effect_EN": "The entrance to the undersea cave called \"Corner of the Sea-Gods House\". This cave baffles intruders by changing its appearance at each visit.",
+    "obtain": "By defeating <a href=\"/wiki/Razor\" title=\"Razor\">Razor</a> and the 14 devils. The NPC who started the quest then converts into the card.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/b/be/Patch_of_Shore_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "003",
+    "name": "Pitcher of Eternal Water",
+    "name_JP": "湧き水の壺",
+    "rank": "A-17",
+    "effect": "A jar from which pure, clean water (1440 L per day) continually flows.",
+    "effect_JP": "常にきれいな水が湧き続ける壺。１日で1440リットルの水が湧き出る。",
+    "effect_EN": "The vase continuously gives clean water. It can give 1440 litres clean water a day.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/3/3d/Pitcher_of_Eternal_Water_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "004",
+    "name": "Skin Care Hot Springs",
+    "name_JP": "美肌温泉",
+    "rank": "A-15",
+    "effect": "A hot spring that cures you of any skin condition. Bathing in it for half an hour a day gives you skin as soft and smooth as a baby's.",
+    "effect_JP": "美肌に関する悩みを全て解決してくれる温泉。１日30分の入浴で赤ちゃんの様なスベスベの肌になる。",
+    "effect_EN": "A hot spring that solves the worries about beautiful skin. Take a bath 30 minutes a day to have skin as smooth like a baby.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/cf/Skin_Care_Hot_Springs_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "005",
+    "name": "Spirited Away Hollow",
+    "name_JP": "神隠しの洞",
+    "rank": "S-8",
+    "effect": "Enter and then exit this hollow and you will be transported to a desolate location within the country. Circumstances will allow you to return to where you started without you having to spend any money.",
+    "effect_JP": "この洞に入って出てくると、どこか人気のない場所に移動している。ただし国内限定。どこへ飛ばされても、何故か金を使うことなく洞へ帰って来ることが出来る。",
+    "effect_EN": "When you come out of this hollow, you are in a place with no population. Somewhere in the country. It is possible to return through without needing to spend any money for some reason.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/1/1d/Spirited_Away_Hollow_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "006",
+    "name": "Liquor Spring",
+    "name_JP": "酒生みの泉",
+    "rank": "A-15",
+    "effect": "Draw some of this spring's water and one hour later it will become a random alcoholic drink of exquisite taste and extraordinary quality.",
+    "effect_JP": "この泉の水を汲んで、１週間おいておくと酒に変わる。酒の種類はランダムだが、味は絶品。",
+    "effect_EN": "Add water to the fountain, and it will turn into liquor in one week. The type of liquor is random, but will be taste exquisite.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/a2/Liquor_Spring_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "007",
+    "name": "Pregnancy Stones",
+    "name_JP": "身重の石",
+    "rank": "S-10",
+    "effect": "Carry a stone (weighing 7 lb. each) for one month and you will get pregnant, even if you're male. You may choose the sex of the baby by the female or male stone.",
+    "effect_JP": "重さ３kgのこの石を、１ヶ月間肌身離さず持っていると、達成の１週間後に男女問わず必ず身籠る。男石と女石の２種類あり、生みたい性別の石を持つ。",
+    "effect_EN": "If held without releasing for one month, this 3KG stone will make the holder pregnant regardless of being male or female. There are two types of stones, for whether you want to see a male or female.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/cb/Pregnancy_Stones_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "008",
+    "name": "Mystery Pond",
+    "name_JP": "不思議ヶ池",
+    "rank": "S-10",
+    "effect": "Release one fish into this pond, and there will be one more fish of that type the next day. You can keep any combination of fish in this pond, even saltwater and freshwater fish together!",
+    "effect_JP": "この池に１匹魚を放すと次の日には１匹増えている。どんな水域に棲む魚でも生息・混泳が可能な池。",
+    "effect_EN": "Another fish will appear the next day after releasing a pet fish into this pond. The pond can keep together fish from any type of water.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/9/94/Mystery_Pond_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "009",
+    "name": "Tree of Plenty",
+    "name_JP": "豊作の樹",
+    "rank": "S-10",
+    "effect": "A tree that bears all sorts of fruit. No matter how much you harvest, it will be full again the next day. The type and number of fruit are random.",
+    "effect_JP": "ありとあらゆる果物が実る樹。どんなに収穫しても次の日には樹いっぱいに果物が成る。果物の種類と数はランダム。",
+    "effect_EN": "Every tree bears fruit. The fruit tree will be full again the next day when you harvest, no matter how. The type and number of fruit is random.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/0c/Tree_of_Plenty_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "010",
+    "name": "Golden Guidebook",
+    "name_JP": "黄金るるぶ",
+    "rank": "A-20",
+    "effect": "A travel guide that lists where and when you can meet people of the opposite sex who are your type.",
+    "effect_JP": "旅情報の雑誌。持ち主の好みの異性に出会える場所と時間を、数多く掲載している。",
+    "effect_EN": "A magazine of travel information. It has posted a number, place and time to meet the opposite sex of preference of the owner.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/9/97/Golden_Guidebook_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "011",
+    "name": "Golden Scales",
+    "name_JP": "黄金天秤",
+    "rank": "B-30",
+    "effect": "When faced with a two-option choice, these scales will tell you which is better for your future.",
+    "effect_JP": "「どっちをとるか？」という二者択一に迫られた時、あなたの将来にとって有効な方を選んでくれる天秤。",
+    "effect_EN": "\"Which one do you take?\" When the scales are faced with 2 choices, they will tip in favor of your future.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/6/6d/Golden_Scales_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "012",
+    "name": "Golden Dictionary",
+    "name_JP": "黄金辞典",
+    "rank": "S-10",
+    "effect": "Each day you will find a word glowing gold. You should learn those words because they will come in handy the next day.",
+    "effect_JP": "持ち主にとって得になる言葉を教えてくれる辞典。辞典を開き、黄金色に輝いている言葉を見つけてその意味を覚えておくと、次の日必ず役に立つ。",
+    "effect_EN": "The dictionary tells special words to the owner. Open the dictionary to find the meaning of the word. The words that appear gold, will always be useful the next day.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/6/60/Golden_Dictionary_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "013",
+    "name": "Luck Bankbook",
+    "name_JP": "幸運通帳",
+    "rank": "A-20",
+    "effect": "Refrain from using the little things of good luck in your daily life, and you can accumulate and convert them into cash.",
+    "effect_JP": "日々のささやかな幸運を使わずに、この通帳にためておくと、その運を金額に換算して引き出すことが出来る。",
+    "effect_EN": "Without using good luck everyday, this passbook allows you to draw out money.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/5/54/Luck_Bankbook_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "014",
+    "name": "Connection Severing Scissors",
+    "name_JP": "縁切り鋏",
+    "rank": "B-22",
+    "effect": "Cut a picture of someone you don't want to see with these scissors, and you will never see them again. Caution: It will take effect on everyone in the picture (except yourself).",
+    "effect_JP": "このハサミで会いたくない人の写真を切ると、その人と２度と会わずにすむようになる。その写真に映っている人全てに有効（本人を除く）なので、注意が必要。",
+    "effect_EN": "If you cut out people you don't want to meet twice off pictures, It becomes unnescessary to meet them again. It effects everyone in the picture (except the user), so care must be taken.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/5/5f/Connection_Severing_Scissors_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "015",
+    "name": "Fickle Genie",
+    "name_JP": "きまぐれ魔(ま)人(じん)",
+    "rank": "S-10",
+    "effect": "This genie will grant you three wishes, but you need to suggest 1000 potential, significantly different wishes and he will choose three from among them. (No cheating by asking for different increments of money.)",
+    "effect_JP": "３つの望みを叶えてくれる魔人。ただし、違う望みを1000コ挙げて、その中から魔人が勝手に選ぶ。（「100億くれ」、「101億くれ」など、金額を変えて望みを水増しするのは不可。）",
+    "effect_EN": "This <i>majin</i> will grant 3 wishes. However, citing 1000 different wishes you hope for, the genie will choose freely from them. (\"Give me 10 billion\" and changing its value, e.g. 10.1 bllion, is not possible.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/01/Fickle_Genie_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "016",
+    "name": "Fairy King's Advice",
+    "name_JP": "妖精王の忠告",
+    "rank": "S-6",
+    "effect": "The Fairy King offers you gentle, apt advice on what you lack or what you should fix. The annoying thing is he appears when he wants to.",
+    "effect_JP": "あなたに足りないもの、直したほうがいいところなどを優しく論じて的確なアドバイスを与えてくれる。たまに呼んでもいないのに現れることがあるのが、少しうっとうしい。",
+    "effect_EN": "Any knowledge you don't have enough of, he will give you good, exact advice to fix it. May appear occasionally and so can be annoying.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/9/95/Fairy_King%27s_Advice_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "017",
+    "name": "Angel's Breath",
+    "name_JP": "大(だい)天(てん)使(し)の息(い)吹(ぶき)",
+    "rank": "SS-3",
+    "effect": "She cures one person of all wounds and ills, restoring them to perfect health. She will only appear once.",
+    "effect_JP": "瀕死の重症、不治の病　なんでも一息で治してくれる天使。ただし姿を現してくれるのはたった１度だけ。",
+    "effect_EN": "She cures one person of all wounds and ills, restoring them to perfect health. She will only appear once.",
+    "obtain": "You can trade all 40 spell cards in at <a href=\"/wiki/Masadora\" title=\"Masadora\">Masadora</a> for this card. If the maximum card limit has already been reached, then you will be given a <a href=\"/wiki/Voucher_(G.I_card)\" title=\"Voucher (G.I card)\">Voucher</a> instead. This voucher will then transform into an \"Angel's Breath\" at the next available chance.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/a1/Breath_of_Archangel_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "018",
+    "name": "Imp's Wink",
+    "name_JP": "小悪魔のウインク",
+    "rank": "A-18",
+    "effect": "You will experience the most amazing ecstasy when she winks at you. She can appear multiple times. Be warned, it can get addictive.",
+    "effect_JP": "このウインクを受けた者はこの世のものとは思えない程の絶頂感を味わうことができる。何度でも現れてウインクしてくれるが中毒に注意。",
+    "effect_EN": "A person who has received this wink can taste the sense of climax not of this world. Can appear any number of time but attention to addiction.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/8/86/Imp%27s_Wink_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "019",
+    "name": "Poltergeist Pillow",
+    "name_JP": "遊魂枕",
+    "rank": "A-13",
+    "effect": "Sleep on this pillow and your astral form will be able to wander at will, but you will turn into a real ghost if you do not return to your body within 24 hours.",
+    "effect_JP": "この枕で寝ると幽体離脱が出来る。ただし24時間以内に体に戻らないと本当の幽霊になってしまう。",
+    "effect_EN": "It is possible for astral projection whilst sleeping on this pillow. However, it becomes a real ghost If you do not return to the body within 24 hours.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/e/ee/Poltergeist_Pillow_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "020",
+    "name": "Mood Clock",
+    "name_JP": "心度計",
+    "rank": "B-30",
+    "effect": "This clock sets your current state of mind. Turn it to noon and you will maintain perfect serenity. Thus you can adjust your emotions according to the situation.",
+    "effect_JP": "あなたの今の精神状態を測ってくれる時計。12時に合わせると平静な精神状態に戻る。TPOにあわせて自身の心をコントロールできる。 ",
+    "effect_EN": "A clock that will measure your overall mental state. You return to the undisturbed state of mind when at 12 o'clock. You can control your mind state by TPO",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/d1/Mood_Clock_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "021",
+    "name": "X-Ray Goggles",
+    "name_JP": "スケルトンメガネ",
+    "rank": "B-27",
+    "effect": "You can see through things. An adjustment dial allows you to set the x-ray depth. The only thing it cannot see through is a pack of spell cards from Masadora.",
+    "effect_JP": "物が透けて見えるメガネ。メモリで強弱の加減が出来る。唯一魔法都市の呪文カードの袋だけは透かすことが出来ない。 ",
+    "effect_EN": "Glasses look through things. You can strengthen or weaken to the view. Can only not see through a bag of spell cards from the magic city.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/a5/X-Ray_Goggles_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "022",
+    "name": "Toraemon",
+    "name_JP": "トラエモン",
+    "rank": "A-22",
+    "effect": "A beast on the verge of extinction, it has a habit of stuffing things in its 4-D pocket. You never know what kind of treasures it could have picked up.",
+    "effect_JP": "絶滅寸前の猛獣。腹の袋にモノをつめ込む習性があり、超貴重なアイテムが複数入っているケースも少なくない。 ",
+    "effect_EN": "An endangered species. It has the trait of stuffing things in its belly pocket. Multiple Ultra-Valuable items could be found inside.",
+    "obtain": "In-Game Quest",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/f/fd/Toraemon_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "023",
+    "name": "Tome of a Thousand Tales",
+    "name_JP": "アドリブブック",
+    "rank": "B-30",
+    "effect": "A book that shows you a different story each time you open it. If you want to stay on the same story when you put it down, use the special included bookmark.",
+    "effect_JP": "毎回違った物語を楽しめる本。読書を中断する場合、付属のしおりをはさんでおかないと全然違う話に変わってしまうので要注意。",
+    "effect_EN": "A book where you can enjoy a different story every time. Watch out if you want to interrupt the reading because it will open a new story if you don't use the bookmark provided!",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/2/24/Tome_of_a_Thousand_Tales_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "024",
+    "name": "Hypothetical T.V.",
+    "name_JP": "もしもテレビ",
+    "rank": "A-20",
+    "effect": "Input a hypothetical situation with the included remote, and this TV will show you a 30-hour documentary of the possibilities. You are also able to record.",
+    "effect_JP": "付属のリモコンに「もしも～なら」という文章を入力すると、その結果を１～30時間のドキュメンタリー形式の番組にして放映する。録画も可能。",
+    "effect_EN": "If you write a sentence (if...) in the included remote, a broadcast of a documentary in the format 1–30 hours is the result. Can also be recorded",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/ab/Hypothetical_T.V._%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "025",
+    "name": "Risky Dice",
+    "name_JP": "リスキーダイス",
+    "rank": "B-30",
+    "effect": "A twenty-sided die with one skull face and 19 star faces. Great things happen when you roll a star, but rolling the skull will be bad enough to cancel out all the previous great events.",
+    "effect_JP": "20面体のサイコロ。１面が大凶で19面が大吉。大吉が出ればとてもいい事が起きる。ただし大凶が出るとそれまでに出た大吉分がチャラになるほどの不幸が起こる。",
+    "effect_EN": "An icosahedron dice. 1 surface is 'Very Bad Luck'. 19 surfaces are 'Very Good Luck'. Very good things happens when \"Daikichi\" pays. Everything \"Daikichi\" pays will add to great misfortune when \"Daikyō\" pays!",
+    "obtain": "In-Game Quest",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/1/1c/Risky_Dice_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "026",
+    "name": "Night Shift Dwarves",
+    "name_JP": "７人の働く小人",
+    "rank": "A-20",
+    "effect": "They can do any work you can do, and they will work as long as you are asleep. They cannot do anything beyond your abilities.",
+    "effect_JP": "主人が寝ている間だけ、代わりに働いてくれる小人。ただし主人の能力を超えるほどの要求には応じない。",
+    "effect_EN": "Only while the master is sleeping, the dwarves work instead. However, it does not respond to abilities more than the master.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/78/Night_Shift_Dwarves_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "027",
+    "name": "Book of V.I.P. Passes",
+    "name_JP": "顔パス回数券",
+    "rank": "B-25",
+    "effect": "You can go anywhere with these passes. Book of 1000.",
+    "effect_JP": "どんな場所でもこの券を渡せば入ることが出来る。1000枚入り。",
+    "effect_EN": "It is possible to enter a place by passing over a ticket. 1000 pieces.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/06/Book_of_V.I.P_Passes_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "028",
+    "name": "Capricious Remote",
+    "name_JP": "顔パス回数券",
+    "rank": "B-27",
+    "effect": "A remote control to manipulate ten emotions someone feels toward someone else, on an intensity scale of 1-10. (You cannot control how people feel toward you.)",
+    "effect_JP": "他人が他人へいだく10種の感情を10段階の強弱で操作できる。（他人が自分へ抱いている感情は操作できない） ",
+    "effect_EN": "You can operate an intensity of 10 specific feelings of others towards other. (cannot be used to change feelings towards you)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/8/8b/Capricious_Remote_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "029",
+    "name": "Pre-Order Vouchers",
+    "name_JP": "強制予約券",
+    "rank": "A-20",
+    "effect": "Write the name of any commercially available product on a voucher and you'll be guaranteed to get it regardless of its scarcity (You still have to pay). A book of 1000.",
+    "effect_JP": "どんな商品でもこの券に商品名を書くと必ず手に入る。ただし市販されているものでないと効果はない。もちろん代金は支払わなければならない。1000枚入り。",
+    "effect_EN": "Come to hand whenever you write a product of any brand name on this ticket. It is not affected by the commercial availability. You have to pay the price of course! 1000 pieces.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/2/2c/Pre-Order_Vouchers_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "030",
+    "name": "Favor Cushion",
+    "name_JP": "コネクッション",
+    "rank": "B-21",
+    "effect": "Seat someone on this cushion and he will do one thing for you, so long as it is within his capabilities.",
+    "effect_JP": "このクッションに誰かを座らせれば、その人は１回だけあなたのお願いを聞いてくれる。座った人の能力を超えてのお願いは無理。 ",
+    "effect_EN": "If you ask someone to sit on this cushion, they will listen to your plead only once. Cannot do anything that is beyond the capabilities of the person sitting.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/c3/Favor_Cushion_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "031",
+    "name": "Double Postcard to the Dead",
+    "name_JP": "死者への往復葉書",
+    "rank": "S-13",
+    "effect": "Address and mail this return postage-paid postcard to a deceased person, and you will get a reply the next day. A book of 1000.",
+    "effect_JP": "亡くなった人の名前を書いて往信葉書に手紙をしたためておくと、次の日には返信葉書に返事が書かれている。1000枚セット。 ",
+    "effect_EN": "If you leave a message and send a postcard to a dead person, a reply is written on the card the next day. 1000 pieces.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/8/89/Double_Postcard_to_the_Dead_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "032",
+    "name": "Parrot Candy",
+    "name_JP": "ウグイスキャンディ",
+    "rank": "B-30",
+    "effect": "This candy allows for whoever consumes it, to perfectly mimic any voice they can think of. The effects last until the next time something is eaten.",
+    "effect_JP": "この飴をなめると、次に何かを飲食するまでの間、どんな声でも自在に出すことが出来るようになる。１袋50粒入り、10袋セット。 ",
+    "effect_EN": "It is possible to eat the candy and, until consuming anything, freely speak in any voice. 50 Tablets 1 bag, 10 bags set.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/7c/Parrot_Candy_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "033",
+    "name": "Hormone Cookies",
+    "name_JP": "ホルモンクッキー",
+    "rank": "S-13",
+    "effect": "After eating this candy, your sex will temporarily change for 24 hours. A set of 10 boxes; 20 cookies per box.",
+    "effect_JP": "このクッキーを食べると24時間の制限付きで性別が変わる。１箱20枚入り。10箱セット。 ",
+    "effect_EN": "Eat this cookie to change sex, restricted to 24-hours. 20 per box. 10 box set.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/7c/Hormone_Cookies_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "034",
+    "name": "Universal Survey",
+    "name_JP": "なんでもアンケート",
+    "rank": "B-30",
+    "effect": "Write a set of questions about yourself, and whoever you give it to, will answer all of the questions honestly. (This is reusable)",
+    "effect_JP": "この用紙にあなたに関する様々な質問を書いて人に渡すと、渡された人は全ての質問に正直に答えてくれる。何度でも使える。 ",
+    "effect_EN": "If you pass to a person the paper you have written various questions about yourself on, who you passed too will have answered them all honestly to all questions. Can be used many times.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/d7/Universal_Survey_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "035",
+    "name": "Chameleon Cat",
+    "name_JP": "カメレオンキャット",
+    "rank": "S-6",
+    "effect": "An endangered species. Once tamed, it can transform into any animal. However, its mass remains constant, so it will be a tiny elephant or a large hamster, for example.",
+    "effect_JP": "絶滅寸前の珍獣。飼いならせば様々な動物に変身してくれる。ただし体積を変化させることは出来ないので、小さな象や大きなハムスターになってしまうが・・・。",
+    "effect_EN": "A rare, endangered animal. It can turn into various animals once tamed. However, since it is not able to alter its volume, it stays the same size, so it will be a small elephant or a big hamster.",
+    "obtain": "(Unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/af/Chameleon_Cat_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "036",
+    "name": "Recycling Room",
+    "name_JP": "リサイクルルーム",
+    "rank": "S-10",
+    "effect": "Put something broken in this room and it will be repaired as good as new 24 hours later. The door must not be opened until time is up.",
+    "effect_JP": "この部屋に壊れた物を入れておくと、24時間後には修理され、新品同様になっている。ただし絶対に時間が来るまで扉を開けてはならない。 ",
+    "effect_EN": "If you put what you broke in this room, 24-hours later it will be good as new. However, you should not open the door until the full time.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/7e/Recycling_Room_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "037",
+    "name": "Fledgling Athlete",
+    "name_JP": "超一流スポーツ選手の卵",
+    "rank": "B-30",
+    "effect": "Warm this magic egg in your hand for three hours a day for one to ten years, and you will become a top athlete when it hatches. The stronger your desire during incubation, the sooner it will hatch.",
+    "effect_JP": "手の中で毎日３時間温めることで、１～10年後に現実となって孵る卵。温める時に願う気持ちが強い程、早く孵化する。 ",
+    "effect_EN": "By keeping warm in your hands for 3 hours every day, the egg hatches to become reality in 1-10 years. If the feeling of hope is strong enough while it's warm, it may hatch faster.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/e/e3/Fledgling_Athlete_%28G.I_card%29.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "038",
+    "name": "Fledgling Artist",
+    "name_JP": "超一流アーティストの卵",
+    "rank": "B-30",
+    "effect": "Warm this magic egg in your hand for three hours a day for one to ten years, and you will become a top artist when it hatches. The stronger your desire during incubation, the sooner it will hatch.",
+    "effect_JP": "手の中で毎日３時間温めることで、１～10年後に現実となって孵る卵。温める時に願う気持ちが強い程、早く孵化する。",
+    "effect_EN": "By keeping warm in your hands for 3 hours every day, the egg hatches to become reality in 1-10 years. If the feeling of hope is strong enough while it's warm, it may hatch faster.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/f/f9/Fledgling_Artist_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "039",
+    "name": "Fledgling Politician",
+    "name_JP": "大物政治家の卵",
+    "rank": "B-30",
+    "effect": "Warm this magic egg in your hand for three hours a day for one to ten years, and you will become a renowned politician when it hatches. The stronger your desire during incubation, the sooner it will hatch.",
+    "effect_JP": "手の中で毎日３時間温めることで、１～10年後に現実となって孵る卵。温める時に願う気持ちが強い程、早く孵化する。",
+    "effect_EN": "By keeping warm in your hands for three hours every day, the egg hatches to become reality in one to ten years. If the feeling of hope is strong enough while it's warm, it may hatch faster.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/9/93/Fledgling_Politician_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "040",
+    "name": "Fledgling Musician",
+    "name_JP": "超一流ミュージシャンの卵",
+    "rank": "B-30",
+    "effect": "Warm this magic egg in your hand for three hours a day for one to ten years, and you will become a top musician when it hatches. The stronger your desire during incubation, the sooner it will hatch.",
+    "effect_JP": "手の中で毎日３時間温めることで、１～10年後に現実となって孵る卵。温める時に願う気持ちが強い程、早く孵化する。",
+    "effect_EN": "By keeping warm in your hands for 3 hours every day, the egg hatches to become reality in 1-10 years. If the feeling of hope is strong enough while it's warm, it may hatch faster.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/4/4a/Fledgling_Musician_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "041",
+    "name": "Fledgling Pilot",
+    "name_JP": "超一流パイロットの卵",
+    "rank": "B-30",
+    "effect": "Warm this magic egg in your hand for three hours a day for one to ten years, and you will become a professional pilot when it hatches. The stronger your desire during incubation, the sooner it will hatch.",
+    "effect_JP": "手の中で毎日３時間温めることで、１～10年後に現実となって孵る卵。温める時に願う気持ちが強い程、早く孵化する。 ",
+    "effect_EN": "By keeping warm in your hands for 3 hours every day, the egg hatches to become reality in 1-10 years. If the feeling of hope is strong enough while it's warm, it may hatch faster.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/af/Fledgling_Pilot_%28G.I_card%29_41.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "042",
+    "name": "Fledgling Novelist",
+    "name_JP": "超一流作家の卵",
+    "rank": "B-30",
+    "effect": "Warm this magic egg in your hand for three hours a day for one to ten years, and you will become a superb writer when it hatches. The stronger your desire during incubation, the sooner it will hatch.",
+    "effect_JP": "手の中で毎日３時間温めることで、１～10年後に現実となって孵る卵。温める時に願う気持ちが強い程、早く孵化する。",
+    "effect_EN": "By keeping warm in your hands for 3 hours every day, the egg hatches to become reality in 1-10 years. If the feeling of hope is strong enough while it's warm, it may hatch faster.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/7d/Fledgling_Novelist_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "043",
+    "name": "Fledgling Gambler",
+    "name_JP": "大ギャンブラーの卵",
+    "rank": "B-30",
+    "effect": "Warm this magic egg in your hand for three hours a day for one to ten years, and you will become a top gambler when it hatches. The stronger your desire during incubation, the sooner it will hatch.",
+    "effect_JP": "手の中で毎日３時間温めることで、１～10年後に現実となって孵る卵。温める時に願う気持ちが強い程、早く孵化する。",
+    "effect_EN": "By keeping warm in your hands for 3 hours every day, the egg hatches to become reality in 1-10 years. If the feeling of hope is strong enough while it's warm, it may hatch faster.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/8/89/Fledgling_Gambler_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "044",
+    "name": "Fledgling Actor",
+    "name_JP": "大俳優の卵",
+    "rank": "B-30",
+    "effect": "Warm this magic egg in your hand for three hours a day for one to ten years, and you will become a top actor when it hatches. The stronger your desire during incubation, the sooner it will hatch.",
+    "effect_JP": "手の中で毎日３時間温めることで、１～10年後に現実となって孵る卵。温める時に願う気持ちが強い程、早く孵化する。",
+    "effect_EN": "By keeping warm in your hands for 3 hours every day, the egg hatches to become reality in 1-10 years. If the feeling of hope is strong enough while it's warm, it may hatch faster.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/b/b0/Fledgling_Actor_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "045",
+    "name": "Fledgling CEO",
+    "name_JP": "大社長の卵",
+    "rank": "B-30",
+    "effect": "Warm this magic egg in your hand for three hours a day for between one and ten years, and you will become a top CEO when it hatches. The stronger your desire during incubation, the sooner it will hatch.",
+    "effect_JP": "手の中で毎日３時間温めることで、１～10年後に現実となって孵る卵。温める時に願う気持ちが強い程、早く孵化する。",
+    "effect_EN": "By keeping warm in your hands for 3 hours every day, the egg hatches to become reality in 1 day-10 years. If the feeling of hope is strong enough while it's warm, it may hatch faster.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/f/f2/Fledgling_CEO_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "046",
+    "name": "Gold Dust Girl",
+    "name_JP": "金(きん)粉(ぷん)少(しょう)女(じょ)",
+    "rank": "A-13",
+    "effect": "A girl who sheds gold dust from her body--500g of gold can be harvested from her daily bath. Very shy, she rarely leaves the house.",
+    "effect_JP": "全身から金粉をふき出す少女。１日１回の入浴で約５００ｇの金が取れる。非常に内気でずっと家から出ない。",
+    "effect_EN": "A girl that rubs gold dust off her whole body. It is worth 500g a day if taken from her bath after bathing. Does not leave the house very much and is quite shy.",
+    "obtain": "To obtain this card, the player must find the secret room where the <a href=\"/wiki/Gold_Dust_Girl\" title=\"Gold Dust Girl\">Gold Dust Girl</a> resides, hidden past numerous traps.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/7d/Gold_Dust_Girl_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "047",
+    "name": "Sleeping Girl",
+    "name_JP": "睡眠少女",
+    "rank": "A-11",
+    "effect": "A girl who sleeps in your stead. You can be active for 24 hours without sleeping while she sleeps for you.",
+    "effect_JP": "あなたの代わりに眠ってくれる少女。これであなたは眠ることなく24時間行動可能となる。",
+    "effect_EN": "A girl who sleeps on your behalf. You will be able to stay active for 24 hours during this.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/6/67/Sleeping_Girl_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "048",
+    "name": "Aromatherapy Girl",
+    "name_JP": "発香少女",
+    "rank": "A-15",
+    "effect": "A girl who emits the most comfortable aroma for you. While she's by your side, you will be free of stress.",
+    "effect_JP": "あなたにとって最も心地よい香りを出す少女。そばにいるだけで、ストレスが解消され元気になる。",
+    "effect_EN": "A girl that gives off pleasant smells. Just being by your side helps to eliminate stress and is quite healthy.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/0c/Aromatherapy_Girl_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "049",
+    "name": "Miniature Mermaid",
+    "name_JP": "手乗り人魚",
+    "rank": "A-23",
+    "effect": "A mermaid small enough to fit in your hand. A comfortable living environment puts her in a good mood, and she will sing with her beautiful voice.",
+    "effect_JP": "その名の通り、手に乗るほどの大きさの人魚。棲み心地が良い場所だと機嫌が良くなり、とても美しい声で歌うことがある。",
+    "effect_EN": "As the name suggests, a mermaid about the size of a hand and can fit on your palm. It will be in a good mood when placed in a comfortable environment, and will sing with a very beautiful voice.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/8/8e/Miniature_Mermaid_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "050",
+    "name": "Miniature Dino",
+    "name_JP": "手乗りザウルス",
+    "rank": "A-11",
+    "effect": "A dinosaur small enough to fit in your hand. This creature produces a different species of tiny dinosaur with each new generation.",
+    "effect_JP": "その名の通り、手に乗るほどの大きさの恐竜。非常に進化が早く、環境に合わせて世代ごとに姿を変えていく。",
+    "effect_EN": "As the name suggests, a dinosaur about the size of a hand and can fit on your palm. Its evolution is very fast, and will change its face with each new generation to suit the environment.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/76/Miniature_Dino_%28G.I_card%29_50.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "051",
+    "name": "Miniature Dragon",
+    "name_JP": "手乗りドラゴン",
+    "rank": "S-10",
+    "effect": "A dragon small enough to fit in your hand. It will obey your commands, and will eventually learn to talk if raised with love.",
+    "effect_JP": "その名の通り、手に乗るほどの大きさの竜。飼い主の言うことをよく聞く。愛情を込めて育てると言葉も話すようになる。",
+    "effect_EN": "As the name suggests, a dragon about the size of a hand and can fit on your palm.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/7f/Miniature_Dragon_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "052",
+    "name": "Pearl Locusts",
+    "name_JP": "真珠蝗",
+    "rank": "B-30",
+    "effect": "Each of these locusts has a pearl in its abdomen. An outbreak occurs once every dozen years or so.",
+    "effect_JP": "腹に真珠を持つ蝗。十数年に１度、大発生する。",
+    "effect_EN": "Locusts with a pearl belly. Once every 10 years, an outbreak will occur.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/af/Pearl_Locusts_GI_Card_52.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "053",
+    "name": "King White Stag Beetle",
+    "name_JP": "キングホワイトオオクワガタ",
+    "rank": "A-30",
+    "effect": "It uses special pheromones to lure other insects to build a huge colony. It leaves the colony once a day for an evening stroll.",
+    "effect_JP": "伝説の昆虫。特殊なフェロモンで他の昆虫を誘惑し働かせ、一大コロニーを作り上げる。唯一コロニーの外へ出るのは夕方の散歩。",
+    "effect_EN": "A legendary insect. It uses special pheromones to lure other insects to build a huge colony. It leaves the colony once a day for an evening stroll.",
+    "obtain": "Either climb or punch The Big Tree. If you punch hard enough, one might fall out.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/7e/King_Great_White_Beetle_%28G.I_card%29_%3Dscan%3D.png",
+    "link_name": "King Great White Beetle"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "054",
+    "name": "Millennium Butterfly",
+    "name_JP": "年アゲハ",
+    "rank": "A-25",
+    "effect": "A legendary insect named from the fact that the family of anyone who captures it will prosper for generations.",
+    "effect_JP": "伝説の昆虫。この蝶を捕まえることが出来た者は、その後、何代にも渡り繁栄することから、この名がついた。",
+    "effect_EN": "A Legendary Insect. Those who are able to catch the butterfly, the family name with thrive for many generations.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/b/b2/Millennium_Butterfly_%28G.I_card%29_54.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "055",
+    "name": "Revenge Shop",
+    "name_JP": "仕返し商店",
+    "rank": "A-20",
+    "effect": "Report your grudges to the manager and he will retaliate for you in proportion to your grievance. Pay extra to request a more severe retaliation.",
+    "effect_JP": "店主に日頃の恨みを告白すれば、その程度に応じて恨んでいる相手に応酬してくれる。金額を上乗せすることで、より重い仕返しも可能。",
+    "effect_EN": "Confessing your resentment daily to the shopkeeper, will retaliate to the person who caused it depending on the degree. By setting forth some money, the action will be more severe.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/05/Revenge_Shop_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "056",
+    "name": "Perfect Memory Studio",
+    "name_JP": "思い出写真館",
+    "rank": "B-25",
+    "effect": "Specify a time and date to get a picture of yourself in the past. You may also request a sequence of photographs.",
+    "effect_JP": "年月日と時間を言えば、その時の自分の姿を写真にしてくれる写真館。連続撮影も可能。",
+    "effect_EN": "Tell the time and date, and the photo studio will show you yourself at that time. Can be multiple photos.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/f/fd/Perfect_Memory_Studio_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "057",
+    "name": "Hideout Realtor",
+    "name_JP": "隠れ家不動産",
+    "rank": "A-11",
+    "effect": "The agent will build a secret room just for you at a place of your choosing. However, you must not tell anyone about it or bring anybody to it.",
+    "effect_JP": "好きな場所にあなただけの秘密の部屋を作ってくれる。入居条件は誰もその部屋に入れないこと、部屋のことをしゃべらないこと。",
+    "effect_EN": "Can make a secret room just for you wherever you like. The condition that you don't tell anyone about or bring anyone else into the room.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/72/Hideout_Realtor_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "058",
+    "name": "Secrets Video Rental",
+    "name_JP": "レンタル秘密ビデオ店",
+    "rank": "A-13",
+    "effect": "Rent videos of other peoples secrets. You must not show the video or discuss its contents with anyone.",
+    "effect_JP": "他人の秘密を見ることが出来るビデオ店。入会条件は借りたビデオを誰にも見せない、内容を話さないこと。",
+    "effect_EN": "A video store where you can see the secrets of others. It is not for anyone else to see the movies borrowed. Admission conditions are also not to speak of the contents.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/c2/Secrets_Video_Rental_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "059",
+    "name": "Instant Foreign Language School",
+    "name_JP": "即席外語スクール",
+    "rank": "A-20",
+    "effect": "Spend time studying a language at this school, and you will accrue time on a timer (included). While the timer is activated and counting down, you will be fluent.",
+    "effect_JP": "ここで勉強した時間が専用タイマーに加算される。このタイマーを押している間だけ、外国語が堪能になる。",
+    "effect_EN": "Time that you study here is added to the dedicated timer. Only whilst you hold down the timer, you will be fluent in this foreign language.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/01/Instant_Foreign_Language_School_%28G.I_card%29_59.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "060",
+    "name": "Long Lost Delivery",
+    "name_JP": "失し物宅配便",
+    "rank": "B-30",
+    "effect": "Call the number and describe the item you lost, and it will be delivered to you the next day. It must be lost for longer than a month.",
+    "effect_JP": "専用ダイヤルに電話して、なくした物の説明をすれば次の日にはそれを届けてくれる。なくしてから１か月以上経った物でないと、受け付けてもらえない。",
+    "effect_EN": "Your item can be delivered the next day if you dial the number, and describe your lost item. If item is lost or undelivered for less than one month, it's not accepted.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/9/9e/Long_Lost_Delivery_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "061",
+    "name": "Vending Check-Up",
+    "name_JP": "コインドック",
+    "rank": "A-20",
+    "effect": "A full-body medical scan for just 500 J. However, the only results are \"All Clear\" or \"Anomaly Detected,\" in which case it is recommended you see a doctor.",
+    "effect_JP": "500Jで体の全てを調べてくれる。ただし解答は「異常なし」か「異常あり」かの２通りだけ。「異常あり」の場合は病院へ。",
+    "effect_EN": "Use to examine your whole body for 500J. However, results are only two ways; \"Abnormality\" and \"No-Error\". Go to hospital is \"Abnormality\".",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/f/fb/Vending_Check_Up_Rule_GI_Card_61.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "062",
+    "name": "Club \"You Rule\"",
+    "name_JP": "クラブ王様",
+    "rank": "B-20",
+    "effect": "Everyone in the club will do your bidding while you are there. However, one hour in the club equals a day outside.",
+    "effect_JP": "この店の中にいる間は、店内の誰もがあなたの指令を聞いてくれる。 ただしこの店での１時間は店外の１日を意味する。",
+    "effect_EN": "Whilst in this store, everyone inside will listen and do as you command. However, every hour inside is a day outside.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/dd/Club_You_Rule_GI_Card_62.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "063",
+    "name": "Virtual Restaurant",
+    "name_JP": "バーチャルレストラン",
+    "rank": "B-30",
+    "effect": "You can order any food you want. You will feel full, but it is only an illusion. You will be given a multivitamin as you leave.",
+    "effect_JP": "頼めばどんな料理でも出してくれる。満腹感を得られるが、実際には食べた気になっているだけで何も腹に入っていない。最後に栄養剤をくれる。",
+    "effect_EN": "You can have any cooking you ask for. You obtain the feeling of fullness, but nothing is in your stomach and it only feels like you have. You are given nutrients at the end.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/5/57/Virtual_Restaurant_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "064",
+    "name": "Witch's Love Potion",
+    "name_JP": "魔女の媚薬",
+    "rank": "B-30",
+    "effect": "Kiss a pill and have your intended drink it, and he or she will fall in love with you. One pill lasts one week; one vial contains 500 pills.",
+    "effect_JP": "この薬に口づけして意中の相手に飲ませれば、その人はあなたの虜になる。粒の効き目は１週間。１ビン500粒入り。",
+    "effect_EN": "If you ask another party to ingest this pill when you've given it a kiss, that person becomes captivated for you. The effect lasts a week. 500 pills in 1 bottle.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/9/9f/Witch%27s_Love_Potion_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "065",
+    "name": "Witch's Rejuvenation Potion",
+    "name_JP": "魔女の若返り薬",
+    "rank": "S-10",
+    "effect": "Each pill makes you physically younger by one year. You will retain all knowledge and memories. Beware, as you will die if you take more than your age. One vial contains 100 pills.",
+    "effect_JP": "１粒飲めば１才若返る薬。若返るのは肉体のみで、知識、記憶などはそのまま残る。年以上の数の薬を飲むと死んでしまうので要注意。１ビン100粒入り。",
+    "effect_EN": "Medicine that rejuvenates you by one year. Only the body gets younger, so memories remain in-tact. So pay caution, taking more pills than your age will make you die. 100 pills in 1 bottle.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/03/Witch%27s_Rejuvenation_Potion_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "066",
+    "name": "Witch's Diet Pills",
+    "name_JP": "魔女の痩せ薬",
+    "rank": "B-28",
+    "effect": "Each pill makes you lose one kg. One vial contains 200 pills. Beware, as you will die if you take more than you weigh.",
+    "effect_JP": "１粒飲めば１kg体重が減る薬。１ビン200粒入り。体重以上の数の薬を飲むと死んでしまうので要注意。",
+    "effect_EN": "Medicine that reduces your weight by 1KG every tablet. 200 Tablets in a bottle. So pay caution, taking more pills than your weight will make you die.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/6/6d/Witch%27s_Diet_Pills_%28G.I_card%29_66.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "067",
+    "name": "Doyen's Growth Pills",
+    "name_JP": "長老の背伸び薬",
+    "rank": "B-30",
+    "effect": "Each pill makes you grow one cm taller. One vial contains 100 pills. Not recommended for people under 20 years of age.",
+    "effect_JP": "１粒飲めば１cm背が伸びる。１ビン100粒入り。20歳を過ぎてからの服用が望ましい。",
+    "effect_EN": "You will grow 1cm with each pill taken. 100 tablets per bottle. Taking from before 20 years is not recommended.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/2/2c/Doyen%27s_Growth_Pills_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "068",
+    "name": "Doyen's Virility Pills",
+    "name_JP": "長老の精力増強薬",
+    "rank": "A-20",
+    "effect": "A certain part of your anatomy will get very frisky. Both endurance and frequency are enhanced. One vial contains 500 pills.",
+    "effect_JP": "肉体の一部がものすごく元気になる薬。回数、持続力とも文句なし。１ビン500粒入り。",
+    "effect_EN": "This medicine, makes part of the body extremely energetic. Causing undisputed number of times and endurance. 500 tables in a bottle.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/00/Doyen%27s_Virility_Pills_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "069",
+    "name": "Doyen's Hair Restorer",
+    "name_JP": "長老の毛生え薬",
+    "rank": "B-30",
+    "effect": "Luxurious hair will grow wherever it is applied. Use gloves, or hair will grow on fingers and palms. One vial contains 200 ml (Enough to cover ten heads).",
+    "effect_JP": "塗った所がフサフサになる薬。塗る時は手袋を着用すること。でないと手の平や指先にも毛が生えてしまう。１ビン200ml（頭なら10人分）。",
+    "effect_EN": "Area where you allied the medicine, will grow bushy. The gloves should be worn when using the drug, otherwise your hands and fingers will be affected. (10 head servings) 1 Bottle, 200ml.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/76/Doyen%27s_Hair_Restorer_%28G.I_card%29_69.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "070",
+    "name": "Mad Scientist's Steroids",
+    "name_JP": "マッド博士の筋肉増強剤",
+    "rank": "A-16",
+    "effect": "Get all the muscles you want without exercise. You must drink a liter a day for a week, and it tastes horrible. A seven-box set, with ten one-L bottles per box.",
+    "effect_JP": "飲むとイメージ通りの筋肉を得ることができる。１日１L１週間飲み続ければならないが、おそろしく不味い。１ビン10本入りの箱、７箱セット。",
+    "effect_EN": "It is possible to obtain muscles of your dreams when you swallow this potion. Drink 1L a day for a week, but it tastes very unpleasant. Box holds 10 bottles. 7 Box Set.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/00/Mad_Scientist%27s_Steroids_%28G.I_card%29_70.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "071",
+    "name": "Mad Scientist's Pheromones",
+    "name_JP": "マッド博士のフェロモン剤",
+    "rank": "A-20",
+    "effect": "Spray on your body to attract the opposite sex. However, you cannot adjust the strength of its effect, so be careful as it may cause a proliferation of stalkers.",
+    "effect_JP": "体に吹き掛けると異性にとてもモテるようになる。ただし効き目をセーブできないので、ストーカーの大量発生など問題も多い。注意が必要。",
+    "effect_EN": "Become very popular to the opposite sex when you have sprayed this over your body. As the strength can't be altered, outbreaks of stalkers often. Care must be taken.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/1/13/Mad_Scientist%27s_Pheromones_%28G.I_card%29_71.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "072",
+    "name": "Mad Scientist's Plastic Surgery",
+    "name_JP": "マッド博士の整形マシーン",
+    "rank": "A-15",
+    "effect": "Scan a picture of the face you want and you will end up an exact likeness. Each surgery carries a 5% chance of failure, and a 1% chance the machine itself will break.",
+    "effect_JP": "なりたい顔の写真をインプットすればその通りに整形してくれる。何度でも手術可能だが、５％の確率で手術が失敗し、１％の確率でマシーンそのものが壊れる。",
+    "effect_EN": "You can shape your body when you input a picture of a face you want to be. Surgery is as many times as you want, but each use carries 5% failure rate. The machine itself will break with 1% chance.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/4/4e/Mad_Scientist%27s_Plastic_Surgery_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "073",
+    "name": "Night Jade",
+    "name_JP": "闇のヒスイ",
+    "rank": "A-15",
+    "effect": "A jewel \"blessed\" by the Devil. When danger is about to befall its owner, it will deflect it to someone else.",
+    "effect_JP": "悪魔の加護を受けた宝石。持ち主に危機がふりかかりそうになると、他人にその厄災を渡してしまう。",
+    "effect_EN": "Jewellery that has received the blessings of the devil. When crisis is about to befall its owner, it is randomly pass the disaster to others.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/8/8f/Night_Jade_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "074",
+    "name": "Sage's Aquamarine",
+    "name_JP": "賢者のアクアマリン",
+    "rank": "A-11",
+    "effect": "Its owner will have many intelligent friends and keep those friendships for their entire lives.",
+    "effect_JP": "所有している者は、一生を通して付き合うことができる、知性豊かな友人を何人も得るだろう。",
+    "effect_EN": "The owner, will be able to get on through life, with friends rich in intelligence.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/2/21/Sage%27s_Aquamarine_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "075",
+    "name": "Wild Luck Alexandrite",
+    "name_JP": "奇(き)運(うん)アレキサンドライト",
+    "rank": "A-20",
+    "effect": "Brings forth a <a href=\"/wiki/Wild_Luck_Alexandrite\" title=\"Wild Luck Alexandrite\">Wild Luck Alexandrite</a> ring; its owner will get to have once-in-a-lifetime experiences, though you cannot choose whether they're for better or for worse...",
+    "effect_JP": "所有している者は他の者が決して味わえない貴重な体験をすることが出来る。 幸運か不運かは選ぶことが出来ないが・・・。",
+    "effect_EN": "The owner can gain valuable experiences, that others can't. Although you can't choose good luck or bad luck.",
+    "obtain": "Help the <a href=\"/wiki/Sick_Villagers_(G.I_card)\" title=\"Sick Villagers (G.I card)\">Sick Bandit Villagers</a> get better.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/0b/Wild_Luck_Alexandrite_GI_Card_75.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "076",
+    "name": "Roaming Ruby",
+    "name_JP": "さまようルビー",
+    "rank": "B-30",
+    "effect": "The owner of this ruby will gain immense wealth, but will never be able to remain in the same place for more than a week.",
+    "effect_JP": "このルビーの持ち主は巨万の富を得るかわりに定住を許されない。一週間と同じ地に留まることはないだろう。",
+    "effect_EN": "Owner of this ruby is not allowed to settle in one place, in order for great wealth. Can't remain in the same place for a week.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/f/f8/Roaming_Ruby_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "077",
+    "name": "Beauty Magnet Emerald",
+    "name_JP": "美を呼ぶエメラルド",
+    "rank": "S-10",
+    "effect": "Specialists offering beauty services will flock to its owner, who will shine with heretofore unrecognized beauty.",
+    "effect_JP": "持ち主の周りには美の奉仕者が吸いよせられるように集まってくる。あなた自身も輝き、見違えるほど魅力的になれるだろう。",
+    "effect_EN": "Bring together care-givers of beauty to the owners side like a magnet. You will shine and become very attractive, but also beyond recognition.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/2/2c/Beauty_Magnet_Emerald_GI_Card_77.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "078",
+    "name": "Lonely Sapphire",
+    "name_JP": "孤独なサファイヤ",
+    "rank": "B-30",
+    "effect": "The owner of this sapphire will acquire vast wealth, but in exchange will spend a lifetime alone, forsaken by friends, family, and significant others",
+    "effect_JP": "このサファイヤの持ち主は巨万の富を得るかわりに一生を１人で過ごす。友人、恋人、家族すらすぐに持ち主の元を離れていくだろう。",
+    "effect_EN": "The owner of this sapphire will spend a life-time very wealthy. Friends, Lover and Family will immediately move away from the owner.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/df/Lonely_Sapphire_GI_Card_78.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "079",
+    "name": "Rainbow Diamond",
+    "name_JP": "レインボーダイヤ",
+    "rank": "A-20",
+    "effect": "A diamond that shines in a rainbow of colors. Propose with this diamond and she is guaranteed to say \"yes.\"",
+    "effect_JP": "七色に光り輝くダイヤ。このダイヤを渡してプロポーズすれば100％成功する。手元にダイヤがある限り、２人が離れることはないだろう。",
+    "effect_EN": "Diamond sparkling in seven colors. 100% successful if you propose with this diamond. As longs as the ring is in hand, never will there be a second person.",
+    "obtain": "This card can be won as a prize for winning on a slot-machine in the gambling city of <a href=\"/wiki/Dorias\" title=\"Dorias\">Dorias</a>.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/8/88/Rainbow_Diamond_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "080",
+    "name": "Levitation Stone",
+    "name_JP": "浮遊石",
+    "rank": "S-7",
+    "effect": "A stone about one carat in size that levitates. It can levitate one person, and receives energy from sunlight.",
+    "effect_JP": "その名の通り、宙に浮く石。１カラットほどの大きさの石で、人間１人浮かすことができる。太陽の光を当てないと浮力を得られない。",
+    "effect_EN": "As the name implies, a stone that floats on its own. The stone is about 1 karrot, and can float one person at a time. Buoyancy can't be maintained if not in the light of the sun.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/e/ef/Levitation_Stone_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "081",
+    "name": "Blue Planet",
+    "name_JP": "ブループラネット",
+    "rank": "SS-5",
+    "effect": "A unique blue jewel. Its composition does not correspond to any known mineral, so it was given this name to mean \"a gift from space.\"",
+    "effect_JP": "唯一無二の青で輝く宝石。成分構成上、どの鉱物にも属さないので、 宇宙からの贈り物という意味を込めてこの名がついた。",
+    "effect_EN": "A jewel shining in a true blue. The structural composition is not of anything found on the earth, so the name was given as \"A Gift from the Universe\".",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/6/6b/Blue_Planet_%28G.I_card%29.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "082",
+    "name": "Staff of Judgment",
+    "name_JP": "天罰のつえ",
+    "rank": "A-15",
+    "effect": "Raise this staff in the air while calling out the name of someone you want to punish, and calamity will befall the one of you who has committed more bad deeds, the target or yourself.",
+    "effect_JP": "罰を与えたい人の名前を唱えながらこのつえを天にかざすと、貴方か相手か今までより多くの悪業をなした方に強い災いが降りかかる。",
+    "effect_EN": "When holding this staff to the heavens and chanting the name of a person you want to punish, strong evil will befall the person who has the most bad karma.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/dd/Staff_of_Judgment_%28G.I_card%29_82.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "083",
+    "name": "Sword of Truth",
+    "name_JP": "真(しん)実(じつ)の剣(つるぎ)",
+    "rank": "B-22",
+    "effect": "Splits in two anything and anyone deceitful. In trials, it's a criminal's worst nightmare. The sword will shatter when used to cut something true, but will regenerate if stored in its scabbard for one day.",
+    "effect_JP": "偽りのものを一刀両断にする剣。裁判ににも使われ、犯罪者をふるえあがらせた。真実を切ると刃がくだけちるが、鞘におさめておくと１日で再生する。",
+    "effect_EN": "The sword cuts things into two pieces that lie. It is also used in trials against criminals. The blade shatters if it is not a lie, but will be repaired in a day when in its sheath.",
+    "obtain": "This card can be won in the monthly Rock-Paper-Scissors match held in the city of <a href=\"/wiki/Antokiba\" title=\"Antokiba\">Antokiba</a>.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/0f/Sword_of_Truth_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "084",
+    "name": "Paladin's Necklace",
+    "name_JP": "聖(せい)騎(き)士(し)の首(くび)飾(かざ)り",
+    "rank": "D-60",
+    "effect": "A player wearing this will reflect curses cast upon him, and be able to undo curses placed on cards he touches.",
+    "effect_JP": "これを身につけたプレイヤーは呪いをはね返すことができる上、触れたカードの呪いも解くことができる。",
+    "effect_EN": "The player wearing this necklace will repel curses cast on them. It will also undo curses on cards upon touching them.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/f/f7/Paladin%27s_Necklace_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "085",
+    "name": "Sacrifice Armor",
+    "name_JP": "身代わりの鎧",
+    "rank": "S-8",
+    "effect": "Renders ineffective any attack by a weapon reverted from a card. Beware, as it will randomly break sometime within the first 100 attacks.",
+    "effect_JP": "カード化を解除した武器による攻撃を全て無効化してくれる鎧。 ただし攻撃の耐用回数１～100回のランダムで、突然壊れるから注意。",
+    "effect_EN": "Amour that will disable all attacks by weapons useless. Note however, the armor will randomly break within 1-100 attacks.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/9/9d/Sacrifice_Armor_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "086",
+    "name": "Quiver of Frustration",
+    "name_JP": "挫折の弓",
+    "rank": "A-11",
+    "effect": "You will be able to cast as many \"Leaves\" as you have arrows. It comes with 10 arrows, and one will be used each time you cast \"Leave.\"",
+    "effect_JP": "装備すると残っている弓の数だけ「離脱」を唱えることができる。 弓は10本入り。「離脱」を唱える度に１本減っていく。",
+    "effect_EN": "It's possible to recite the \"<a href=\"/wiki/Leave_(G.I_card)\" title=\"Leave (G.I card)\">Leave</a>\" with each arrow that remains equipped. One vanishing each time you cast a \"Leave\". Bow with 10 Pieces.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/b/bd/Quiver_of_Frustration_%28G.I_card%29_86.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "087",
+    "name": "Shield of Faith",
+    "name_JP": "信念の楯",
+    "rank": "S-15",
+    "effect": "The spells \"Relegate,\" \"Return,\" \"Drift,\" and \"Collision\" will be rendered ineffective within a radius of 20 m of the player armed with this shield.",
+    "effect_JP": "これを装備したプレイヤーの半径２０ｍは「左遷」「初心」「漂流」「衝突」のスペルが無効になる。",
+    "effect_EN": "The Spells \"<a href=\"/wiki/Relegate_(G.I_card)\" title=\"Relegate (G.I card)\">Relegate</a>\", \"<a href=\"/wiki/Return_(G.I_card)\" title=\"Return (G.I card)\">Return</a>\", \"<a href=\"/wiki/Drift_(G.I_card)\" title=\"Drift (G.I card)\">Drift</a>\", and \"<a href=\"/wiki/Collision_(G.I_card)\" title=\"Collision (G.I card)\">Collision</a>\" are in-affective within a 20m radius of a player equipped with this card.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/72/Shield_of_Faith_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "088",
+    "name": "Eternal Hammer",
+    "name_JP": "不死の大金槌",
+    "rank": "A-15",
+    "effect": "Anyone hit with this hammer will be afflicted with one random attack spell, and cannot defend him or herself with a defensive spell. However, it will not work on someone using \"Fortress\" or Paladin's Necklace.",
+    "effect_JP": "この金槌で殴られた者は、ランダムで攻撃呪文のいずれかの効果をうける。これを防御呪文で防ぐことはできない。ただし「堅牢」「聖騎士の首飾り」の使用者には無効。",
+    "effect_EN": "Anyone beaten with this hammer, is hit with a random spell effect. It can not be defended against unless with <a href=\"/wiki/Fortress_(G.I_card)\" title=\"Fortress (G.I card)\">Fortress</a>\" or <a href=\"/wiki/Paladin%27s_Necklace\" title=\"Paladin's Necklace\">Paladin's Necklace</a>.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/b/b7/Eternal_Hammer_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "089",
+    "name": "Tax Collector's Gauntlet",
+    "name_JP": "税務長の籠手",
+    "rank": "A-20",
+    "effect": "Grants you the ability to cast \"Levy.\" However, it will destroy one random specified slot card from your binder every time. (You cannot cast it if your specified slots are empty.)",
+    "effect_JP": "装備している間「徴収」を使えるようになる籠手。ただし１回唱えるごとに、装備プレイヤーの指定ポケット内のカードをランダムに1枚破壊される。（指定ポケット内にカードがないと使えない）",
+    "effect_EN": "The gauntlet allows the player to cast <a href=\"/wiki/Levy_(G.I_card)\" title=\"Levy (G.I card)\">Levy</a>. However, each time you cast it, a designated slot card will be destroyed at random. (cannot be used if the player has no designated slot cards).",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/6/6b/Tax_Collector%27s_Gauntlet_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "090",
+    "name": "Memory Helmet",
+    "name_JP": "記憶の兜",
+    "rank": "A-20",
+    "effect": "You will never forget things you see or hear while wearing this helmet. Unfortunately, it's extremely large and heavy.",
+    "effect_JP": "これをかぶっている時に見聞きしたことは決して忘れない。非常に重く大きいのがタマにキズ。",
+    "effect_EN": "You will never forget anything you see or hear when wearing this helmet. But it is very large and heavy.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/df/Memory_Helmet_%28G.I_card%29_90.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "091",
+    "name": "Plastic King",
+    "name_JP": "プラキング",
+    "rank": "A-20",
+    "effect": "Recombine the parts of this 1:1 scale model kit to build any kind of vehicle. Fully functional, fuel not included.",
+    "effect_JP": "組み合わせ次第でどんな乗り物でも作ることができるプラモデルキット。もちろん１分の１スケールで運転もできる。ただし燃料は別売り。",
+    "effect_EN": "A model kit that can be made into any kind of vehicle. It runs perfectly. Fuel however, is sold separately.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/c3/Plastic_King_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "092",
+    "name": "Swap Ticket",
+    "name_JP": "影武者切符",
+    "rank": "S-7",
+    "effect": "Rip the ticket and give it to someone you want to switch with, and you can live his/her life for 24 hours. Book of 1,000.",
+    "effect_JP": "この切符を切って代わりたい人に渡すと、24時間その人の代わりを務めることができる。1000枚入り。",
+    "effect_EN": "If you rip this ticket in half and pass half to a person, you will swap bodies and live as that person for 24 hours. 1000 pieces.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/07/Swap_Ticket_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "093",
+    "name": "Book of Life",
+    "name_JP": "人生図鑑",
+    "rank": "B-28",
+    "effect": "An encyclopedia of everyone who's been in your life since your birth, with records of conversations and memorable incidents. It may end up being tens of thousands of pages long.",
+    "effect_JP": "生まれてからこれまで自分が関わってきた人々を全て収録している図鑑。登場人物とのエピソードや会話録など思い出満載。最終的に数十万頁におよぶことも珍しくない。",
+    "effect_EN": "An Encyclopedia that's recorded all the people who have been involved in your life since birth. Full conversations and memories. Will be hundreds of thousands of pages long, most of which are irrelevant.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/b/b7/Book_of_Life_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "094",
+    "name": "Bandit's Blade",
+    "name_JP": "盗賊の剣",
+    "rank": "S-10",
+    "effect": "A successful attack with this weapon will cast \"<a href=\"/wiki/Mug_(G.I_card)\" title=\"Mug (G.I card)\">Mug</a>\", \"<a href=\"/wiki/Pickpocket_(G.I_card)\" title=\"Pickpocket (G.I card)\">Pickpocket</a>\", or \"<a href=\"/wiki/Thief_(G.I_card)\" title=\"Thief (G.I card)\">Thief</a>\" on the target. Not effective on someone using \"<a href=\"/wiki/Fortress_(G.I_card)\" title=\"Fortress (G.I card)\">Fortress</a>\" or \"<a href=\"/wiki/Paladin%27s_Necklace\" title=\"Paladin's Necklace\">Paladin's Necklace</a>\".",
+    "effect_JP": "この剣で攻撃が成功すると、攻撃した相手にランダムで「強奪」「掏摸」「窃盗」のいずれかの効果を与えることができる。ただし「堅牢」「聖騎士の首飾り」の使用者には無効。",
+    "effect_EN": "An attack successful with this sword, will randomly cast \"<a href=\"/wiki/Mug_(G.I_card)\" title=\"Mug (G.I card)\">Mug</a>\", \"<a href=\"/wiki/Pickpocket_(G.I_card)\" title=\"Pickpocket (G.I card)\">Pickpocket</a>\", or \"<a href=\"/wiki/Thief_(G.I_card)\" title=\"Thief (G.I card)\">Thief</a>\" on the victim. However, not valid against \"<a href=\"/wiki/Fortress_(G.I_card)\" title=\"Fortress (G.I card)\">Fortress</a>\" or <a href=\"/wiki/Paladin%27s_Necklace\" title=\"Paladin's Necklace\">Paladin's Necklace</a>.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/ca/Bandit%27s_Blade_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "095",
+    "name": "Secret Cape",
+    "name_JP": "秘密のマント",
+    "rank": "A-20",
+    "effect": "You will be under the effect of \"Blackout Curtain\" while wearing this cape.",
+    "effect_JP": "身につけていると永続的に「暗幕」の効果が得られる。",
+    "effect_EN": "The effect of <a href=\"/wiki/Blackout_Curtain_(G.I_card)\" title=\"Blackout Curtain (G.I card)\">Blackout Curtain</a> is in effect whilst wearing this cape.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/1/19/Secret_Cape_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "096",
+    "name": "Clairvoyant Snake",
+    "name_JP": "千里眼の蛇",
+    "rank": "A-12",
+    "effect": "Feed it a card Rank C or above, and it will spit up a \"<a href=\"/wiki/Clairvoyance_(G.I_card)\" title=\"Clairvoyance (G.I card)\">Clairvoyance</a>\".",
+    "effect_JP": "ランクＣ以上のカードを１枚食べさせると、代わりに「念視」のカードを吐き出す蛇。",
+    "effect_EN": "If you feed it a C-Rank card or higher, it will spit out a \"<a href=\"/wiki/Clairvoyance_(G.I_card)\" title=\"Clairvoyance (G.I card)\">Clairvoyance</a>\" instead.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/de/Clairvoyant_Snake_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "097",
+    "name": "3-D Camera",
+    "name_JP": "3Dカメラ",
+    "rank": "A-20",
+    "effect": "Pictures taken with this will be developed as 3-D objects, with all textures reproduced. Make enlargements as needed.",
+    "effect_JP": "撮影したものを立体のまま現像できるカメラ。サイズも調節可能で、質感もそのまま再現できる。",
+    "effect_EN": "A camera that develops actual solid things of the pictures captured. Size is also adjustable, and textures are also reproduced.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/df/3-D_Camera_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "098",
+    "name": "Silver Dog",
+    "name_JP": "シルバードッグ",
+    "rank": "S-8",
+    "effect": "An endangered species with silver fur. Mix five grams of gold into its food every day and it will excrete one kilogram of solid silver feces.",
+    "effect_JP": "絶滅寸前の珍獣。銀色の毛を有する。しかも糞が銀でできている。１日５gの金をドッグフードに混ぜて与えると、１kgの銀糞を出す。",
+    "effect_EN": "A rare endangered animal. It has hair of silver, and it's poo is made of silver. If you give it dog food mixed with 5g of gold a day, it gives poo of 1Kg silver.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/7e/Silver_Dog_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Designated Slot Card",
+    "number": "099",
+    "name": "Panda Maid",
+    "name_JP": "メイドパンダ",
+    "rank": "S-6",
+    "effect": "An endangered species. Very neat and loves to cook, and each has a hobby such as sewing or gardening. They are excellent at taking care of human children.",
+    "effect_JP": "絶滅寸前の珍獣。大変きれい好きで、料理が趣味。個体によっては洋裁やガーデニングもたしなむ。何よりも人間の子供の面倒を見るのが得意。",
+    "effect_EN": "A rare endangered animal. It's very tidy and loves cooking as a hobby. Some individuals love gardening and dressmaking too. It's good at taking card of human children more than anything.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/2/2f/Panda_Maid_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "100",
+    "name": "Map of the Island",
+    "name_JP": "島の地図",
+    "rank": "G-400",
+    "effect": "Gives the player an empty map that automatically fills in as they explore.",
+    "effect_JP": "島の形だけが示されている地図。実際に行ったり、情報を仕入れることで、中身が自動的に埋まっていく魔法の地図。",
+    "effect_EN": "Only the form of the island is shown. By moving and stocking information, contents of the map is gradually filled in by magic.",
+    "obtain": "Purchase from an in-game shop. Commonly found at <a href=\"/wiki/Masadora\" title=\"Masadora\">Masadora</a>.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/3/32/Map_%27empty%27_%28G.I_card%29_%3Dscan%3D.png",
+    "link_name": "Map of the Island 'empty'"
+  },
+  {
+    "type": "Spell Card",
+    "number": "1001",
+    "name": "Peek",
+    "name_JP": "盗視",
+    "rank": "G-200",
+    "effect": "View contents of target player's (previously met) free slots.",
+    "effect_JP": "対象プレイヤー１名のフリーポケットを全て見る。（ゲーム内で出会ったことのあるプレイヤーに限る）",
+    "effect_EN": "You can view all the \"Free Slots\" of 1 other named player. (You have previously met.)",
+    "obtain": "In the Spell Card Shop in <a href=\"/wiki/Masadora\" title=\"Masadora\">Masadora</a>.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/2/24/Steal_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1002",
+    "name": "Fluoroscopy",
+    "name_JP": "透視",
+    "rank": "F-150",
+    "effect": "View contents of target player's (previously met) designated slots.",
+    "effect_JP": "対象プレイヤー１名の指定ポケットページを全て見る。（ゲーム内で出会ったことのあるプレイヤーに限る）",
+    "effect_EN": "Allows you to see all restricted slot cards of the target. (Only that you've previously met.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/b/be/Fluroscopy_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1003",
+    "name": "Defensive Wall",
+    "name_JP": "防壁",
+    "rank": "G-400",
+    "effect": "Protects you from an attack spell once.",
+    "effect_JP": "他プレイヤーからの攻撃呪文を１度だけ防ぐ。",
+    "effect_EN": "Prevent a one-time attack spell from another player.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/c5/Defensive_Wall_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range",
+      "Defensive Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1004",
+    "name": "Reflect",
+    "name_JP": "反射",
+    "rank": "E-120",
+    "effect": "Reflects an attack spell from a player (previously met).",
+    "effect_JP": "他のプレイヤーからの攻撃呪文をはね返し、効果を相手プレイヤーに返す。",
+    "effect_EN": "Repels the attack from another player and returns the affect to the opponent.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/8/89/Reflection_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Defensive Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1005",
+    "name": "Magnetic Force",
+    "name_JP": "磁力",
+    "rank": "C-50",
+    "effect": "Allows one person to fly to the location of the target player.",
+    "effect_JP": "指定した他のプレイヤー(ゲーム内で出会ったことのあるプレイヤーに限る)のいる場所へ飛ぶ。",
+    "effect_EN": "Fly to the place of another player you specify. (That you've previously met in the game.)",
+    "obtain": "(Unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/cc/Magnetic_Force_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1006",
+    "name": "Pickpocket",
+    "name_JP": "掏摸",
+    "rank": "F-170",
+    "effect": "Steals a random card from target player's free pocket.",
+    "effect_JP": "他プレイヤー１名のフリーポケットのカードをランダムに一枚奪う。",
+    "effect_EN": "Allows to take away a random card from a named player's free slot cards.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/e/e6/Pick_Pocket_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Attack Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1007",
+    "name": "Thief",
+    "name_JP": "窃盗",
+    "rank": "C-50",
+    "effect": "Steals a random card from target player's designated pocket.",
+    "effect_JP": "他プレイヤー１名の指定ポケットのカードをランダムに一枚奪う。",
+    "effect_EN": "Can steal a random card from the Specific Pocket Cards from another named player.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/0b/Thief_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Attack Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1008",
+    "name": "Trade",
+    "name_JP": "交換",
+    "rank": "E-100",
+    "effect": "Swaps a card from the caster's own with a target player's card randomly.",
+    "effect_JP": "他のプレイヤー1名のカードと自分のカード1枚ずつランダムに入れ換える。",
+    "effect_EN": "1 named player's card and 1 of your own, will randomly exchange places.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/a4/Trade_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Attack Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1009",
+    "name": "Return",
+    "name_JP": "再来",
+    "rank": "G-380",
+    "effect": "Allows caster to fly back to a previously visited city.",
+    "effect_JP": "指定した街（行ったことのある街に限る）へ飛ぶ。",
+    "effect_EN": "Fly to a specified town (limited to a city previously went to).",
+    "obtain": "Can be purchased at the Spell Card Shop in <a href=\"/wiki/Masadora\" title=\"Masadora\">Masadora</a>.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/4/45/Return_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "101",
+    "name": "Map of the Island",
+    "name_JP": "島の地図",
+    "rank": "D-70",
+    "effect": "A detailed map of the island, with all towns and markers already shown.",
+    "effect_JP": "街や地名などが細かく記載されている地図。特産情報やおすすめスポット、裏道マップなどお買い得情報、満載。",
+    "effect_EN": "A map described in detail about place names or towns. Recommended spot deals and special information, such as the 'back road' paths also. Full.",
+    "obtain": "Can be purchased from <a href=\"/wiki/Masadora\" title=\"Masadora\">Masadora</a>. (For 650,000 <span style=\"white-space:nowrap;\"><a href=\"/wiki/Currencies_in_Hunter_%C3%97_Hunter#Jenny\" title=\"Currencies in Hunter × Hunter#Jenny\"><img alt=\"Jenny Symbol 2011.svg\" src=\"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D\" decoding=\"async\" width=\"10\" height=\"15\" data-image-name=\"Jenny Symbol 2011.svg\" data-image-key=\"Jenny_Symbol_2011.svg\" data-src=\"https://static.wikia.nocookie.net/hunterxhunter/images/4/42/Jenny_Symbol_2011.svg/revision/latest/scale-to-width-down/10?cb=20191111075333\" class=\"lazyload\" /></a></span>)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/dc/Map_%27detail%27_%28G.I_card%29.png",
+    "link_name": "Map of the Island 'detailed'"
+  },
+  {
+    "type": "Spell Card",
+    "number": "1010",
+    "name": "Mimic",
+    "name_JP": "擬態",
+    "rank": "A-20",
+    "effect": "Transform a card into a copy of a target card that the caster already owns (it fails if target card's transformation limits is already exceeded).",
+    "effect_JP": "持ちカード1枚を別の持ちカードに変身させる。",
+    "effect_EN": "Makes 1 held card transform into a different held card.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/c2/Transform_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1011",
+    "name": "Clone",
+    "name_JP": "複製",
+    "rank": "D-70",
+    "effect": "Change into one random card from target player's designated slots (if the opponent has no imposed slot cards or the card limit was at MAX, the transformation fails and \"Clone\" disappears).",
+    "effect_JP": "対象プレイヤー1名の指定ポケットカードからランダムに1枚選び、そのカードに変身する。",
+    "effect_EN": "A randomly selected card from 1 target player's designated slot cards, this card will transform into it.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/af/Clone_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1012",
+    "name": "Relegate",
+    "name_JP": "左遷",
+    "rank": "F-140",
+    "effect": "Make the target player fly somewhere on the island.",
+    "effect_JP": "対象プレイヤー1名を島のどこかへ飛ばす。",
+    "effect_EN": "Make 1 named target player fly somewhere on the island.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/cd/Railguide_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1013",
+    "name": "Origin",
+    "name_JP": "初心",
+    "rank": "D-65",
+    "effect": "Make the target player fly to the <a href=\"/wiki/Greed_Island_Starting_Point\" title=\"Greed Island Starting Point\">Starting Point</a>.",
+    "effect_JP": "対象プレイヤー１名をスタート地点へ飛ばす。",
+    "effect_EN": "Select 1 named player to fly back to the Starting Point.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/71/Departure_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1014",
+    "name": "Leave",
+    "name_JP": "離脱",
+    "rank": "B-30",
+    "effect": "Makes the target player leave the island.",
+    "effect_JP": "対象プレイヤー1名を島の外へ飛ばす。",
+    "effect_EN": "Make 1 target player fly outside of the island.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/0f/Leap_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1015",
+    "name": "Clairvoyance",
+    "name_JP": "念視",
+    "rank": "D-70",
+    "effect": "See all card data of the target player.",
+    "effect_JP": "対象プレイヤー１名のカードデータを全て見る。",
+    "effect_EN": "You can see all card data of 1 target player.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/03/Sightvision_Rule_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1016",
+    "name": "Drift",
+    "name_JP": "漂流",
+    "rank": "F-200",
+    "effect": "Go to a random un-visited town. If all towns have been visited, player stays at the same place and the card disappears.",
+    "effect_JP": "行ったことのない街へ飛ぶ。（全ての街に行ったことがある場合、その場から動かずカードは破壊される。）",
+    "effect_EN": "Fly to an unvisited town. (In the situation where all towns have been too, you do not move and the card is destroyed.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/8/8a/Drift_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Defensive Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1017",
+    "name": "Collision",
+    "name_JP": "衝突",
+    "rank": "F-200",
+    "effect": "Fly to the locations of a random player the caster has not met (if all other players have been met, players stay at the same place and the card disappears).",
+    "effect_JP": "会ったことのないプレイヤーのいる場所へ飛ぶ。",
+    "effect_EN": "Fly to the location of a 'haven't met yet' player.",
+    "obtain": "Can be purchased at the Spell Card Shop in <a href=\"/wiki/Masadora\" title=\"Masadora\">Masadora</a>.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/3/3c/Collision_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1018",
+    "name": "Levy",
+    "name_JP": "徴収",
+    "rank": "B-25",
+    "effect": "Take one random card from each player within a 20m radius.",
+    "effect_JP": "呪文を使用したプレイヤーの半径２０ｍ以内にいるプレイヤー全員から１枚ランダムにカードを奪う。",
+    "effect_EN": "Use of this spell will snatch away 1 random card from every player within a 20m radius.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/4/42/Levy_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1019",
+    "name": "Drawbridge",
+    "name_JP": "城門",
+    "rank": "F-200",
+    "effect": "Protect once against a short range regular spell from another player.",
+    "effect_JP": "他のプレイヤーからの近距離攻撃呪文を１度だけ防ぐ。",
+    "effect_EN": "Protects against a Short-Range Attack Spell from a player once.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/5/57/Castle_Gate_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Defensive Spell",
+      "Anti-Attack Spell",
+      "Versus Spell"
+    ]
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "102",
+    "name": "Voucher",
+    "name_JP": "引き換え券",
+    "rank": "SS-150",
+    "effect": "A special voucher which transforms into the card Angel Breath once one becomes available.",
+    "effect_JP": "「大天使の息吹」と交換することができる券。「大天使の息吹」のカード化限度枚数がMAXの時にのみ手に入れることができる。",
+    "effect_EN": "A ticket that can be exchanged with a \"<a href=\"/wiki/Breath_of_Archangel_(G.I_card)\" class=\"mw-redirect\" title=\"Breath of Archangel (G.I card)\">Breath of Archangel</a>\". This is only obtained when the maximum transform limit for <a href=\"/wiki/Breath_of_Archangel_(G.I_card)\" class=\"mw-redirect\" title=\"Breath of Archangel (G.I card)\">Breath of Archangel</a> has been reached.",
+    "obtain": "By trading all 40 game spell cards and the maximum transformation limit is full for <a href=\"/wiki/Angel%27s_Breath_(G.I_card)\" title=\"Angel's Breath (G.I card)\">Angel's Breath</a>",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/0f/Voucher_%28G.I_card%29.png"
+  },
+  {
+    "type": "Spell Card",
+    "number": "1020",
+    "name": "Fake",
+    "name_JP": "贋作",
+    "rank": "C-40",
+    "effect": "\"Fake\" transforms into one of the cards from No.001 to No.099. The resulting card can be inserted into an imposed slot but does not count towards a complete card set or the card copy limit, nor can it be converted into an object.",
+    "effect_JP": "「贋作」をNo.001から099のいずれか1枚のカードに変化させる。変身したカードは指定ポケットに入れることは出来るが、コンプリートカードの対象にはならないし、アイテム化も出来ない。カード化限界枚数にもカウントされない。",
+    "effect_EN": "\"Fake\" can be used to transform into any 1 card from No.001 to 099. The transformed card can be inserted to the specific pocket, but cannot be used as a complete card or itemized. The card is not counted on the \"card limit\".",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/e/ef/Fake_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1021",
+    "name": "Mug",
+    "name_JP": "強奪",
+    "rank": "B-30",
+    "effect": "Take one card at will from target player.",
+    "effect_JP": "他プレイヤー１名の持ちカードをどれでも好きに１枚奪う。",
+    "effect_EN": "Snatch any 1 card you like from 1 other named player.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/f/fc/Rob_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Attack Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1022",
+    "name": "Corruption",
+    "name_JP": "墜落",
+    "rank": "C-40",
+    "effect": "Transform one above-B ranked card from target player into a below-D card. The caster can choose the number of the new card. (After the transformation, the card counts towards the card number limit of the new card type. If the limit is already at MAX, or the target player has no above-B cards, the transformation fails and the “Corruption” card is destroyed). After the transformation, if the card is in an imposed slot with a wrong number, it auto-destroys.",
+    "effect_JP": "対象プレイヤー１名のランクＢ以上のカードから１枚選んで、ランクＤ以下の好きな番号のカードに変身させる。（カード化限界枚数がＭＡＸの場合と対象プレイヤーにＢ以上のカードがない場合、「墜落」は破壊される。）変化後番号違いの指定ポケットに入っているカードは破壊される。",
+    "effect_EN": "Select 1 B-Rank or higher card from 1 named target player, to transform into a D-Rank or lower card with a number you like. (in the situation where the card transformation limit is MAX and the target player has no above B-Rank card, \"Corruption\" will be destroyed.) The card with a different number to the designated slot after the change will be destroyed.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/e/e7/Corruption_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Attack Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1023",
+    "name": "Compromise",
+    "name_JP": "妥協",
+    "rank": "B-25",
+    "effect": "Choose and destroy one above-A ranked card from target player. That player then obtains a card of 3 ranks lower than the destroyed card and of the number of his choosing. If target player has no above-A card, “Compromise” changes into card form again and returns to the caster. (If the designated card of three ranks lower has attained the card copy limit, it cannot be obtained.)",
+    "effect_JP": "対象プレイヤー１名のランクＡ以上のカードから１枚選んで破壊する。破壊されたプレイヤーは、かわりに破壊されたカードの３ランク下の好きな番号のカードを得る。対象プレイヤーにＡ以上のカードがない場合、「妥協」は再びカード化しプレイヤーに戻る。（指定した３ランク下のカードの限界枚数がＭＡＸだったの場合カードはもらえない。）",
+    "effect_EN": "Pick 1 card not lower than A-Rank from 1 named target player to be destroyed. The destroyed card player is able to select any numbered card 3 ranks lower that they like. In the event the target player has no more A-Rank cards, \"Compromise\" is returned to the user once again. (In the event the card 3 ranks lower's transformation limit is MAX, you cannot receive it.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/c2/Compromise_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Attack Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1024",
+    "name": "Dispel",
+    "name_JP": "看破",
+    "rank": "D-80",
+    "effect": "Return all cards from target player transformed with “Fake”, “Clone”, or “Mimic” to original form. Destroy all cards that, as a result, find themselves in the wrong imposed slots. “Fake”, “Clone”, and “Mimic” have no effect on “Dispel”.",
+    "effect_JP": "対象プレイヤー１名の「贋作」「複製」「擬態」によって変化したカードを全て元に戻す。その結果、指定ポケットに入っている番号違いのカードは全て破壊される。「看破」は「贋作」「複製」「擬態」の対象にならない。",
+    "effect_EN": "All of the named target player's cards transformed with “Fake”, “Clone”, and “Mimic” are returned to their original state. As a result, all Designated Pocket cards with a different number are all destroyed. “Dispel” cannot be targeted by “Fake”, “Clone”, or “Mimic”.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/ce/Penetrate_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range Spell",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1025",
+    "name": "Blackout Curtain",
+    "name_JP": "暗冪",
+    "rank": "F-200",
+    "effect": "Use to protect oneself against the effects of \"Peek\" and \"Fluoroscopy\".",
+    "effect_JP": "このカードを使用すると他プレイヤーからの「窃盗」「透視」を１回防ぐことができる。（「暗幕」の効果が継続中に、もう１枚「暗幕」を使用しても、効果は２回分にはならない。）",
+    "effect_EN": "This card when used on a player, it is able to defend against an attack from “<a href=\"/wiki/Thief_(G.I_card)\" title=\"Thief (G.I card)\">Thief</a>” and “<a href=\"/wiki/Fluoroscopy_(G.I_card)\" title=\"Fluoroscopy (G.I card)\">Fluoroscopy</a>”. (“Blackout Curtain”'s effect continuation is used once, it will not help a 2 times.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/9/97/Blackout_Curtain_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range",
+      "Defensive Spell",
+      "Continuous"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1026",
+    "name": "Holy Water",
+    "name_JP": "聖水",
+    "rank": "A-20",
+    "effect": "Protects the player ten times from attack spells from other players. This card is immune to steal and destruction spells.",
+    "effect_JP": "このカードを使用したプレイヤーは、他プレイヤーからの攻撃呪文を１０回防ぐことができる。（「聖水」の効果が継続中に、もう１枚「聖水」を使用しても、防御回数は増えない。）このカードは呪文による奪取や破壊の対象にならない。",
+    "effect_EN": "When this card is used on a player, it is able to defend against 10 attack spells from another player. (While 1 “Holy Water” is in continuous effect, using another “Holy Water” will not increase the number of defense times.) This card can not be taken back or destroyed using spells.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/a0/Holy_Water_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range",
+      "Defensive Spell",
+      "Continuous",
+      "Versus Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1027",
+    "name": "Trace",
+    "name_JP": "追跡",
+    "rank": "E-90",
+    "effect": "It is always possible to track the current location of the target player. (Effect continues until the player leaves the game.)",
+    "effect_JP": "対象プレイヤー１名の現在位置を常に知ることができる。（対象プレイヤーがゲーム外に出るまで効果は継続する。）",
+    "effect_EN": "1 named target player's current position will always be known. (Effect is continuous unless the target player leaves the game.)",
+    "obtain": "Can be purchased at the Spell Card Shop in <a href=\"/wiki/Masadora\" title=\"Masadora\">Masadora</a>.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/d1/Trace_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range",
+      "Attack Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1028",
+    "name": "Rock Toss",
+    "name_JP": "投石",
+    "rank": "E-100",
+    "effect": "Destroy one random card in target player's free slots.",
+    "effect_JP": "他のプレイヤー１名のフリーポケットのカードをランダムに１枚選んで破壊する。（対象プレイヤーのフリーポケットにカードが１枚もなかった場合、「投石」は破壊される。）",
+    "effect_EN": "Select 1 random card to be destroyed, from 1 named player's free pocket cards. (In the situation where the target player has no free pocket cards, “Rock Toss” is destroyed.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/9/92/Stone_Throw_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range",
+      "Attack Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1029",
+    "name": "Bullet",
+    "name_JP": "凶弾",
+    "rank": "E-120",
+    "effect": "Destroy one random card in target player's imposed slots.",
+    "effect_JP": "他のプレイヤー１名の指定ポケットのカードをランダムに１枚選んで破壊する。（対象プレイヤーの指定ポケットにカードが１枚もなかった場合、「凶弾」は破壊される。）",
+    "effect_EN": "1 named player's specific pocket card will be chosen at random to be destroyed. (In the situation that the target player has no specific pocket cards, “Bullet” gets destroyed.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/f/f9/Shot_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range",
+      "Attack Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1030",
+    "name": "Guidepost",
+    "name_JP": "道標",
+    "rank": "E-120",
+    "effect": "Give away locations of the item/card of a chosen number (not available to No. 000).",
+    "effect_JP": "指定した番号のアイテムがある場所を知ることができる。（Ｎｏ．０００を除く）",
+    "effect_EN": "An item of specific number's location is able to be known. (Except No.000.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/00/Guidepost_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1031",
+    "name": "Analysis",
+    "name_JP": "解析",
+    "rank": "G-400",
+    "effect": "Show explanation on card of the chosen number (not available to No. 000).",
+    "effect_JP": "指定した番号のアイテムカードの説明を見ることができる。（Ｎｏ．０００を除く）",
+    "effect_EN": "A specific numbered item cards' explanation is able to be seen. (Except No.000)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/5/59/Analysis_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1032",
+    "name": "Lottery",
+    "name_JP": "宝籤",
+    "rank": "G-350",
+    "effect": "Transform into a random item card.",
+    "effect_JP": "ランダムに１枚何かのアイテムカードに変身する。",
+    "effect_EN": "1 Item Card will transform into something else at random.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/a8/Lottery_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1033",
+    "name": "Cling",
+    "name_JP": "密着",
+    "rank": "C-50",
+    "effect": "Complete data of one player's restricted slots will be available at all times. (Effect lasts until player leaves the game.)",
+    "effect_JP": "対象プレイヤー１名の指定ポケットの全データを常に知ることができる。（対象プレイヤーがゲーム外に出るまで効果は継続する。）",
+    "effect_EN": "Complete data of one player's restricted slots will be available at all times. (Effect lasts until player leaves the game.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/dc/Adhesion_Rule_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range",
+      "Attack Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1034",
+    "name": "Purify",
+    "name_JP": "浄化",
+    "rank": "D-55",
+    "effect": "Dispel effect of transformation spell and return card to original form. (If, after transformation, the card limit is exceeded, the card changes to item form and cannot be converted again. In the case of a spell card, it disappears unless the spell is used immediately.)",
+    "effect_JP": "攻撃呪文による変身を無効化し、元に戻す。（元に戻したカードが限界枚数ＭＡＸだった場合、アイテムとして戻り、その後カード化は出来ない。呪文カードが限界枚数ＭＡＸでアイテムとして戻った場合、その呪文が使える状況になければ破壊される。）",
+    "effect_EN": "Attack spells due to transformations and changed into with no effect, are reverted to its original. (In the situation where the reverted card's transformation limit is MAX, the item when restored, cannot go back. In the situation where a Spell Card's transformation limit is MAX, that spell is destroyed unless used in its circumstances.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/5/5c/Purify_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1035",
+    "name": "Fortress",
+    "name_JP": "堅牢",
+    "rank": "S-10",
+    "effect": "Cards inserted in slots on target page are permanently protected against stealing and destruction spells as long as they remain in the slots (free slot pages cannot be chosen).",
+    "effect_JP": "指定したページのポケット入っているカードは、ポケットに入っている限り永続的に呪文による奪取・破壊の対象にならない。（指定できるページは１から１１までのいずれかに限り、フリーポケットのページは選べない。）",
+    "effect_EN": "Designated pocket pages that are occupied, as longs as the pockets remain occupied cannot be the target of spells effecting being taken/destroyed. (You can specify a page for protection from 1 to 11. Free Pocket pages cannot be chosen.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/cd/Prison_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range",
+      "Defensive Spell",
+      "Continuous",
+      "Anti-Attack Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1036",
+    "name": "Eye of God",
+    "name_JP": "神眼",
+    "rank": "S-10",
+    "effect": "Caster obtains the effects of \"List\" and \"Analysis\" permanently on all cards from No. 000 to 099. (Effect lasts until target player leaves the game.)",
+    "effect_JP": "使用したプレイヤーはＮｏ．００１から０９９までの全てのカードについて、「解析」と「名簿」の効果をいつでも得ることができる。（使用したプレイヤーがゲーム外に出るまで効果は継続する。）",
+    "effect_EN": "Are able to see an active player's No.001 to No.099 cards with the effects of “<a href=\"/wiki/Analysis_(G.I_card)\" title=\"Analysis (G.I card)\">Analysis</a>” and “<a href=\"/wiki/List_(G.I_card)\" title=\"List (G.I card)\">List</a>” at any time. (Continues until the active player leaves the game.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/e/e4/God_Eye_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range",
+      "Continuous Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1037",
+    "name": "Recycle",
+    "name_JP": "再生",
+    "rank": "F-170",
+    "effect": "Allows an item converted from a card to be changed into card form once more. (Limited to cards of rank below C. If the applicable card limit is already at MAX, “Recycle” disappears without converting the target item.)",
+    "effect_JP": "カード化を解除されたアイテムを、もう１度カード化することができる。（ランクＣ以下のアイテムに限る。対象アイテムのカード化限度枚数がＭＡＸだった場合、再カード化は出来ず、「再生」は破壊される。）",
+    "effect_EN": "A card that has released into an item, you are able to change it to a card 1 more time. (Restricted to Rank C and below items. In the case where the target item card's transformation limit is MAX, 're-card' is not possible, \"recycle\" is destroyed.)",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/6/61/Recycle_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Short Range",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1038",
+    "name": "List",
+    "name_JP": "名簿",
+    "rank": "G-350",
+    "effect": "Inform on number of people in possession of target card, as well as the total number of copies.",
+    "effect_JP": "対象アイテムを１種指定し、現在そのアイテムカードを所有している人数とカードの合計枚数を知ることができる。",
+    "effect_EN": "Specify 1 target item, and you are able to know that current card's sum number of ownership and the specific people.",
+    "obtain": "(unknown)",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/0/09/List_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1039",
+    "name": "Accompany",
+    "name_JP": "同行",
+    "rank": "F-130",
+    "effect": "Fly all players within a radius of 20 m around the caster—including the caster—to the location of target city (limited to cities previously visited) or target player (limited to players previously met inside the game).",
+    "effect_JP": "呪文を使用したプレイヤーを含め、その半径２０ｍ以内にいるプレイヤー全てを指定した街（行ったことのある街に限る）か指定したプレイヤー（ゲーム内で出会ったことのあるプレイヤーに限る）のいる場所に飛ばす。",
+    "effect_EN": "Transports the caster to a place they have previously been at before (location). As it also transports the caster to previously met players as well. This card also works on multiple people within 20 m of the caster.",
+    "obtain": "Can be purchased at the Spell Card Shop in <a href=\"/wiki/Masadora\" title=\"Masadora\">Masadora</a>.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/a5/Accompany_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Spell Card",
+    "number": "1040",
+    "name": "Contact",
+    "name_JP": "交信",
+    "rank": "F-200",
+    "effect": "Allows communication through the binders with target player (limited to players previously met inside the game. Maximum duration is 3 minutes; during this period, only the player initiating conversation with “Contact” can cut off communication).",
+    "effect_JP": "他プレイヤー１名（ゲーム内で出会ったことのあるプレイヤーに限る）と本を通じて会話することができる。（最大３分間、途中で交信を切ることができるのは「交信」を使用したプレイヤー側のみ。）",
+    "effect_EN": "1 named player (restricted to players come across within the game) through using the book you are able to converse with. (Maximum of 3 minute intervals, only the player using communication is able to cut “Contact” midway through.)",
+    "obtain": "Can be purchased at the Spell Card Shop in <a href=\"/wiki/Masadora\" title=\"Masadora\">Masadora</a>.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/b/b1/Contact_%28G.I_card%29_%3Dscan%3D.png",
+    "class": [
+      "Long Range",
+      "Regular Spell"
+    ]
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "110",
+    "name": "Ruler's Invitation",
+    "name_JP": "支配者からの招待",
+    "rank": "SS-1",
+    "effect": "A letter which extends a warm invitation to visit the game's capital city, <a href=\"/wiki/Limeiro\" title=\"Limeiro\">Limeiro</a>. A visit to this city's castle is also included.",
+    "effect_JP": "この島の支配者からの招待状。城の場所を示した地図とバッジが同封されており、それを持つ者のみが入城が許される。",
+    "effect_EN": "Invitation from the ruler of the island. Badge and Map showing the castle's location is enclosed. Only the barer of this badge can enter it.",
+    "obtain": "Given to the player who wins the 'End-of-Game' quiz.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/7/7c/110_Ruler%27s_Invitation_v2.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "1217",
+    "name": "Galgaida",
+    "name_JP": "ガルガイダー",
+    "rank": "F-185",
+    "effect": "Summons forth a Galgaida. This fish when cooked, tastes delicious.",
+    "effect_JP": "この島の３大珍味の１つ。外見から想像できないほど繊細な味がある。雌の卵には長寿の効果があると信じられている。煮ても焼いてもうまい。",
+    "effect_EN": "One of three delicacies of the island. It tastes unbelievably delicate despite its appearance. And is good either grilled or stewed. The eggs are believed to be a key to longevity.",
+    "obtain": "Eat a whole plate of spaghetti at the <i>Dopff au Moulin, Caveau de Riquewihr</i> restaurant in <a href=\"/wiki/Antokiba\" title=\"Antokiba\">Antokiba</a>.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/2/23/Galgaida_%28G.I_card%29.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "14170",
+    "name": "Gasoline",
+    "name_JP": "ガソリン",
+    "rank": "H-∞",
+    "effect": "Summons forth a vial containing gasoline. This flammable substance will catch fire easily.",
+    "effect_JP": "ガラスの入れ物に入っている燃料 揮発性があり よく燃える",
+    "effect_EN": "Fuel contained within a glass container. It is a volatile substance and will burn well.",
+    "obtain": "Buy or find a vial of gasoline.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/8/8b/Gasoline_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "163",
+    "name": "Sick Villagers",
+    "name_JP": "病気の村人",
+    "rank": "F-150",
+    "effect": "These villagers are very sick.",
+    "effect_JP": "島の風土病にかかった村人たち",
+    "effect_EN": "Villages suffering from the island's endemic.",
+    "obtain": "These villagers can be found in their village hidden within the mountain.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/6/6a/Sick_Villagers_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "21449",
+    "name": "Rock",
+    "name_JP": "石",
+    "rank": "H-∞",
+    "effect": "A simple rock. Quite hard and can be any size.",
+    "effect_JP": "道端にある、何のへんてつもない石。人に向かって投げれば、そこそこのダメージは与えられる。 ",
+    "effect_EN": "An ordinary rock found anywhere. It could cause some damage if thrown hard enough.",
+    "obtain": "Find a rock.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/a/a8/Rock_%28G.I_card%29.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "25008",
+    "name": "Large Rock",
+    "name_JP": "大きな岩",
+    "rank": "H-∞",
+    "effect": "Brings forth a simple big rock.",
+    "effect_JP": "大きな岩 押しつぶされると ただでは済まない",
+    "effect_EN": "A large rock. If one gets crushed underneath it they will not get away unscathed. ",
+    "obtain": "Find a big rock.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/ce/Large_Rock_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "263",
+    "name": "Healthy Villagers",
+    "name_JP": "元気な村人",
+    "rank": "C-50",
+    "effect": "These villagers are as healthy as can be!",
+    "effect_JP": "島の風土病から回復して元気になった村人たち　",
+    "effect_EN": "The villagers are healthy and recovered from the island's endemic desease.",
+    "obtain": "These villagers can be found in their village hidden within the mountain. However, the correct conditions must be met prior to gaining this card. An in-game event is triggered whereby the player must offer all their money and their clothes (as well as any other request the wish) to the villagers to gain their trust. Upon returning to these villagers with their trust, you are able to use any means of card restoration to gain this card. For example <a href=\"/wiki/Paladin%27s_Necklace\" title=\"Paladin's Necklace\">Paladin's Necklace</a>.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/3/3a/Healthy_Villagers_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "266",
+    "name": "Transport Ticket",
+    "name_JP": "通(つう)行(こう)チケット",
+    "rank": "B-150",
+    "effect": "Brings forth a ticket which allows the barer to use a safe passage out of the game.",
+    "effect_JP": "Ｇ・Ｉから出るときに必要な券。所長から金で買うか所長を倒すと手に入る。ちなみに無理難題をいくら聞いてもチケットはくれない。",
+    "effect_EN": "Good for one trip off of Greed Island. Obtained by bribing the Harbormaster or knocking him out. Otherwise he gives you infinite quests.",
+    "obtain": "Try bribing or assaulting the <a href=\"/wiki/Harbormaster\" title=\"Harbormaster\">Harbormaster</a> down at the docks.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/6/62/Passage_Ticket_%28G.I_card%29.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "572",
+    "name": "Giant Cyclops",
+    "name_JP": "１つ目(め)巨(きょ)人(じん)",
+    "rank": "G-333",
+    "effect": "Summons forth a <a href=\"/wiki/Cyclops\" title=\"Cyclops\">Giant Cyclops</a>. These one-eyed giants are the largest of all Cyclops. They travel in small groups and attack anything within their territory.",
+    "effect_JP": "巨人族の中で、もっとも巨大な種族。\n集団での行動を好み、縄張りに入りこんできた生物を襲う。知能は低く、弱点の目を攻撃されると、意外に脆い。",
+    "effect_EN": "The largest of the giants, they act in groups and attack anything that wanders into their territory. They are not very intelligent, and are incapacitated when hit in the eye. ",
+    "obtain": "By finding one and defeating on in battle.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/d8/Giant_Cyclops_%28G.I_card_1999%29.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "585",
+    "name": "Bubble Horse",
+    "name_JP": "バブルホース",
+    "rank": "C-50",
+    "effect": "Summons forth a <a href=\"/wiki/Bubble_Horse\" title=\"Bubble Horse\">Bubble Horse</a>. This hard-to-catch creature emits bubbles when threatened as a diversionary tactic. White bubbles will burst in contact with <a href=\"/wiki/Nen\" title=\"Nen\">aura</a>. Red ones will burst with everything else except aura.",
+    "effect_JP": "紅白のシャボン玉で外敵を惑わし身を守る。攻撃力はほとんどないが、音の大きさにはビックリするだろう。",
+    "effect_EN": "It confuses predators with red and white bubbles. They don't cause any harm, but the noise is startling.",
+    "obtain": "Catch a wild Bubble Horse.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/3/32/Bubble_Horse_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "598",
+    "name": "Chief of Wolf Pack",
+    "name_JP": "群(ぐん)狼(ろう)の長(おさ)",
+    "rank": "C-45",
+    "effect": "This wolf, chief of a pack of wolves that attacks travelers, is the most powerful rank-C monster and its minions respawn indefinitely until the leader is defeated.",
+    "effect_JP": "群れで旅人を襲う狼のリーダー。Ｃクラスで最強の体力と攻撃力を誇る。長を倒さないと部下の狼は際限なく出現する。",
+    "effect_EN": "Leader of a wolf pack that attack travelers. Ranked C, he boasts strong attacking abilities and physical strength. As long as he remains unbeaten, his subordinate wolves continue to reappear.",
+    "obtain": "Defeat a wild Chief Wolf.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/c/c3/Chief_of_Wolf_Pack_%28G.I_Card_Manga%29_%3Den%3D.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "607",
+    "name": "10,000J",
+    "name_JP": "１００００Ｊ(ジェニー)",
+    "rank": "H-∞",
+    "effect": "10,000 Jenny in card form.",
+    "effect_JP": "G・Iの最高額の紙幣。カード化を解除した場合の形状は国際通貨紙幣と全く同じ。(カード状でないとG・Iでは無価値である)",
+    "effect_EN": "The highest valued currency in Greed Island. When not in its card form, it looks just like a normal bill. (When not in its card form, it is useless on Greed Island).<sup id=\"cite_ref-chap129_1-2\" class=\"reference\"><a href=\"#cite_note-chap129-1\">[1]</a></sup>",
+    "obtain": "Trade in shop. Change it yourself.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/d/dd/10000J_%28G.I_Card_1999%29.png",
+    "link_name": "J10,000"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "673",
+    "name": "Hyper Puffball",
+    "name_JP": "マリモッチ",
+    "rank": "D-80",
+    "effect": "Summons forth a <a href=\"/wiki/Hyper_Puffball\" title=\"Hyper Puffball\">Hyper Puffball</a>. This little creature is a fast fellow. They are a really fast, hard to catch species.",
+    "effect_JP": "超高速で移動するボール状の生き物。固さはゴムボール程度で攻撃されてもダメージはないが、顔面に直撃の体当りをくらうと、かなりムカツく。",
+    "effect_EN": "A ball-shaped animal that moves very fast. Only as hard as a rubber ball, but a few smacks in the face are sure to put you in a bad mood.",
+    "obtain": "Catch one from the wild.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/3/3e/Hyper_Puffball_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "697",
+    "name": "Melanin Lizard",
+    "name_JP": "メラニントカゲ",
+    "rank": "E-100",
+    "effect": "Summons forth a <a href=\"/wiki/Melanin_Lizard\" title=\"Melanin Lizard\">Melanin Lizard</a>. A very large creature big enough to eat a cow whole.",
+    "effect_JP": "牛を丸飲みするほど巨大なトカゲ。押されるだけで気絶してしまう程、敏感なホクロが背中のどこかに１つあり、それを隠すために大小様々な斑点でカムフラージュしている。",
+    "effect_EN": "A lizard large enough to swallow a cow whole. It has one mole on its back so sensitive that it will pass out when pressed. Numerous other spots camouflage the mole.",
+    "obtain": "By finding one and defeating it in battle.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/b/b9/Melanin_Lizard_%28G.I_card%29_%3Dscan%3D.png"
+  },
+  {
+    "type": "Free Slot Card",
+    "number": "711",
+    "name": "Radio Rat",
+    "name_JP": "リモコンラット",
+    "rank": "H-800",
+    "effect": "Summons forth a <a href=\"/wiki/Radio_Rat\" title=\"Radio Rat\">Radio Rat</a>. These hard-to-catch creatures use <a href=\"/wiki/Nen\" title=\"Nen\">aura</a> to control a suit of armor. As a defensive measure, it uses this armor to mislead a target into thinking the armor is the enemy whilst the true creature can escape.",
+    "effect_JP": "念能力で物を操って身を守る操作系ネズミ。とても臆病で、いきなり他の生物と出会うだけで気絶してしまう。\n繁殖力旺盛で島中どこでも見かけることができる。",
+    "effect_EN": "A manipulator that uses <a href=\"/wiki/Nen\" title=\"Nen\">Nen</a> to distract predators. It's very timid, and passes out at the slightest surprise. As prolific breeders, they can be found all over the island.",
+    "obtain": "Catch one from the wild.",
+    "picURL": "https://static.wikia.nocookie.net/hunterxhunter/images/6/6e/Radio_Rat_%28G.I_card%29_%3Dscan%3D.png"
+  }
+]

@@ -1,9 +1,12 @@
+_site
+.sass-cache
+*.swp
+*.swo
+*.swn
+*.gem
 # Vim
 *~
 *.sw[p_]
-
-# IntelliJ IDEA
-*.idea
 
 # Sublime Text
 *.sublime-project
@@ -27,6 +30,12 @@ codekit-config.json
 # Jekyll generated files
 .jekyll-cache
 .jekyll-metadata
-.sass-cache
 _asset_bundler_cache
-_site
+codekit-config.json
+example/_site
+Gemfile.lock
+node_modules
+npm-debug.log*
+runserve
+tags
+vendor/bundle

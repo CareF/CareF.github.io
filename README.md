@@ -1,40 +1,32 @@
-# CareF's Minimal Mistakes Jekyll theme
+# CareF.Lm's notebook
 
-This branch is a deliberately small customization layer on top of
-[mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes).
-It contains reusable theme changes only; the blog posts, personal pages,
-identity, navigation, domain configuration, and deployment settings live on
-the `main` branch.
+This is the source for [blog.caref.xyz](https://blog.caref.xyz/).
 
-## CareF modifications
+## Branch structure
 
-- **Opt-in MathJax support:** pages and posts with `use_math: true` load
-  MathJax through `_includes/head/custom.html`.
-- **Math rendering configuration:** `_includes/head/mathsupport.html` enables
-  `$...$`, `\\(...\\)`, `$$...$$`, and `\\[...\\]` delimiters, escaped TeX
-  characters, and automatic AMS equation numbering.
+- `theme` is a minimal customization layer on the latest upstream Minimal
+  Mistakes theme.
+- `main` is built from `theme` and adds the posts, pages, images, author
+  profile, navigation, domain, and deployment configuration for this blog.
+- `master` remains the currently published branch until `main` has completed
+  validation and is selected as the GitHub Pages source.
 
-No upstream documentation, tests, examples, or build files are removed from
-this branch.
+## Updating the site
 
-## Updating from upstream
+After updating and validating `theme`, rebuild or rebase `main` on its new tip,
+resolve only blog-specific files, and run a production Jekyll build before
+changing the published branch.
 
-Keep the custom commits above the upstream history so updates remain easy to
-review:
+## Local build
 
 ```bash
-git fetch upstream master
-git switch theme
-git rebase upstream/master
+bundle install
+JEKYLL_ENV=production bundle exec jekyll build
 ```
-
-Resolve conflicts only in the files listed under **CareF modifications**, run
-the upstream test suite, and then rebuild the `main` branch on the updated
-`theme` tip.
 
 ---
 
-## Upstream project
+## Theme
 
 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) is a flexible
 two-column Jekyll theme for personal sites, blogs, and portfolios.
