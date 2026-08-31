@@ -18,7 +18,7 @@ author_profile: true
 
 ### 普林斯顿大学
 
-电气工程博士，导师为 Claire Gmachl 教授，研究方向为 GaAs 量子级联器件。
+电子与计算机工程博士，导师为 Claire Gmachl 教授，研究方向为 GaAs 量子级联器件。
 
 ### 清华大学
 
