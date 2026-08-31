@@ -1,4 +1,43 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+# CareF's Minimal Mistakes Jekyll theme
+
+This branch is a deliberately small customization layer on top of
+[mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes).
+It contains reusable theme changes only; the blog posts, personal pages,
+identity, navigation, domain configuration, and deployment settings live on
+the `main` branch.
+
+## CareF modifications
+
+- **Opt-in MathJax support:** pages and posts with `use_math: true` load
+  MathJax through `_includes/head/custom.html`.
+- **Math rendering configuration:** `_includes/head/mathsupport.html` enables
+  `$...$`, `\\(...\\)`, `$$...$$`, and `\\[...\\]` delimiters, escaped TeX
+  characters, and automatic AMS equation numbering.
+
+No upstream documentation, tests, examples, or build files are removed from
+this branch.
+
+## Updating from upstream
+
+Keep the custom commits above the upstream history so updates remain easy to
+review:
+
+```bash
+git fetch upstream master
+git switch theme
+git rebase upstream/master
+```
+
+Resolve conflicts only in the files listed under **CareF modifications**, run
+the upstream test suite, and then rebuild the `main` branch on the updated
+`theme` tip.
+
+---
+
+## Upstream project
+
+[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) is a flexible
+two-column Jekyll theme for personal sites, blogs, and portfolios.
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
