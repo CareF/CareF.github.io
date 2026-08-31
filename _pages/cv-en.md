@@ -37,7 +37,7 @@ Graduate.
 
 ## Professional experience
 
-### A University
+### X University
 
 **Associate Professor · Semiconductor Lasers**
 
